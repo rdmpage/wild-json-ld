@@ -8,7 +8,11 @@ Based on TaxonName DRAFT Profile:
 https://bioschemas.org/profiles/TaxonName/0.1-DRAFT/
 https://bioschemas.org/profiles/Taxon/0.6-RELEASE/
 
-Embedded in HTML using `<script type="application/ld+json"></script>` tags.
+Embedded in HTML using `<script type="application/ld+json"></script>` tags, e.g. https://www.catalogueoflife.org/data/taxon/5TVFG
+
+:warning: No `@id` for the taxon, so the JSON-LD below is not explicitly connected to https://www.catalogueoflife.org/data/taxon/5TVFG
+
+[col.json](col.json)
 
 ```json
 {
