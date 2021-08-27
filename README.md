@@ -493,11 +493,11 @@ SciGraph uses JSON-LD as the canonical representation of their data. It can be r
         },
 ```
 
-RDF has no built-in notion of order, so this is achieved using `rdfs:lists`. See http://www.snee.com/bobdc.blog/2014/04/rdf-lists-and-sparql.html and https://stackoverflow.com/questions/17523804/is-it-possible-to-get-the-position-of-an-element-in-an-rdf-collection-in-sparql/17530689#17530689 for more discussion. 
+RDF has no built-in notion of order, so this is achieved using `rdfs:lists`. See http://www.snee.com/bobdc.blog/2014/04/rdf-lists-and-sparql.html and https://stackoverflow.com/questions/17523804/is-it-possible-to-get-the-position-of-an-element-in-an-rdf-collection-in-sparql/17530689#17530689 for more discussion. If you look at the ntriples version of the SciGraph RDF (e.g., [s00606-016-1316-4.nt](s00606-016-1316-4.nt)) you will see that the value for `schema:author` is a blank node (bnode), and that this bnode has two predicates, `rdf:first` and `rdf:rest`. One points to an author, the other points to another bnode. This pattern repeats until we encounter a value of `rdf:nil` for `rdf:rest`.
 
 ![alt text](list.png)
 
-
+So to store an ordered list of authors we create a [singly-linked list[(https://en.wikipedia.org/wiki/Linked_list#Singly_linked_list) in RDF.
 
 [s00606-016-1316-4.json](s00606-016-1316-4.json)
 

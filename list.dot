@@ -4,6 +4,8 @@ digraph G {
 
 	node [label="author"] author;
 	
+	node [label="",shape=circle] r0;
+	
 	node [label="first author"shape=ellipse] f1;
 	node [label="",shape=circle] r1;
 
@@ -11,13 +13,15 @@ digraph G {
 	node [label="",shape=circle] r2;
 
 	node [label="third author"shape=ellipse] f3;
-	node [label="rdf:null"] r3;
+	node [label="rdf:nil"] r3;
 	
 	article -> author;
 	
-	author -> f1 [label="rdf:first"];
-	author -> r1 [label="rdf:rest"];
-
+	author -> r0 [label="rdf:first"];
+	
+	r0 -> f1 [label="rdf:first"];
+	r0 -> r1 [label="rdf:rest"];
+	
 	r1 -> f2 [label="rdf:first"];
 	r1 -> r2 [label="rdf:rest"];
 
