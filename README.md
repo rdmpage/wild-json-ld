@@ -1,6 +1,8 @@
 # JSON-LD in the wild
 
-Real world JSON-LD examples we can use for inspiration. She of these examples may no longer be available, or have changed.
+Real world JSON-LD examples we can use for inspiration. Some of these examples may no longer be available, or have changed. The JSON displayed here may be truncated to keep the page readable, click on the link to get the complete JSON document. Note that some of the JSON-LD is not valid RDF, much of it has probably never been used by RDF clients such as triple stores.
+
+I’ve highlight some interesting features, such as use of the `@reverse` keyword, and ordering items in a list.
 
 ## Catalogue of Life
 
@@ -86,11 +88,73 @@ Embedded in HTML using `<script type="application/ld+json"></script>` tags, e.g.
 
 ## Encyclopedia of Life (EOL)
 
-EOL used to support JSON-LD via their API (trait bank). They had JSON-LD for taxa, and for “collections”.
+An earlier version of EOL supported JSON-LD via their API (trait bank). They had JSON-LD for taxa, and for “collections” (user-created lists of species).
 
 :x: This JSON-LD is not valid, see https://github.com/EOL/deprecated_eol/issues/139
 
 [116394-unsorted.json](116394-unsorted.json)
+
+```json
+{
+  "name": "Birds, Sangster and Luksenburg",
+  "description": "Bird species described over period 1935-2009. This list comes from the dataset http://dx.doi.org/10.5061/dryad.m4g2n, associated with paper http://dx.doi.org/10.1093/sysbio/syu069",
+  "logo_url": "http://160.111.248.28/content/2015/04/25/21/54822_130_130.jpg",
+  "created": "2015-04-21T21:14:05Z",
+  "modified": "2015-04-26T01:36:19Z",
+  "total_items": 386,
+  "item_types": [{
+    "item_type": "TaxonConcept",
+    "item_count": 386
+  }, {
+    "item_type": "Text",
+    "item_count": 0
+  }, {
+    "item_type": "Video",
+    "item_count": 0
+  }, {
+    "item_type": "Image",
+    "item_count": 0
+  }, {
+    "item_type": "Sound",
+    "item_count": 0
+  }, {
+    "item_type": "Community",
+    "item_count": 0
+  }, {
+    "item_type": "User",
+    "item_count": 0
+  }, {
+    "item_type": "Collection",
+    "item_count": 0
+  }],
+  "collection_items": [{
+        "name": "Synallaxis beverlyae",
+        "object_type": "TaxonConcept",
+        "object_id": 10692652,
+        "title": null,
+        "created": "2015-04-22T17:22:06Z",
+        "updated": "2015-04-22T17:22:06Z",
+        "annotation": null,
+        "sort_field": null,
+        "references": [],
+        "richness_score": 31.0803
+      }, {
+        "name": "Scepomycter rubehoensis Bowie, Fjeldsa & Kiure, 2009",
+        "object_type": "TaxonConcept",
+        "object_id": 10692649,
+        "title": null,
+        "created": "2015-04-22T17:21:52Z",
+        "updated": "2015-04-22T17:21:52Z",
+        "annotation": null,
+        "sort_field": null,
+        "references": [],
+        "richness_score": 13.6252
+      }
+…
+]
+}
+```
+
 [10692652-taxon-traits.json](10692652-taxon-traits.json)
 
 ```json
@@ -194,186 +258,7 @@ EOL used to support JSON-LD via their API (trait bank). They had JSON-LD for tax
         "dwc:measurementValue": "http://purl.obolibrary.org/obo/ENVO_00002009",
         "dwc:scientificName": "Synallaxis beverlyae Hilty and Ascanio, 2009"
       },
-      {
-        "@id": "http://eol.org/pages/10692652/data#data_point_38830282",
-        "eol:traitUri": "http://eol.org/resources/737/measurements/052e1f75ae81ba93fe1efa0f89ee05a0",
-        "@type": "dwc:MeasurementOrFact",
-        "predicate": "conservation status",
-        "dwc:measurementType": "http://rs.tdwg.org/ontology/voc/SPMInfoItems#ConservationStatus",
-        "value": "near threatened",
-        "eol:dataPointId": 38830282,
-        "dc:source": "http://eol.org/resources/737",
-        "dwc:measurementValue": "http://eol.org/schema/terms/nearThreatened",
-        "dwc:scientificName": "Synallaxis beverlyae Hilty and Ascanio, 2009",
-        "eolterms:Reviewer": "Butchart, S. & Symes, A.",
-        "eolterms:Assessor": "BirdLife International",
-        "eolterms:Version": "3.1",
-        "dwc:measurementRemarks": "Older designation \"Lower Risk/near threatened (LR/nt)\" indicates this species has not been reevaluated since 2000",
-        "dwc:measurementDeterminedDate": "2012"
-      },
-      {
-        "@id": "http://eol.org/pages/10692652/data#data_point_11749503",
-        "eol:traitUri": "http://eol.org/resources/708/measurements/e6a76d8356a3c76680b5e1cb2235de29",
-        "@type": "dwc:MeasurementOrFact",
-        "predicate": "habitat",
-        "dwc:measurementType": "http://rs.tdwg.org/dwc/terms/habitat",
-        "value": "scrubland",
-        "eol:dataPointId": 11749503,
-        "dc:source": "http://eol.org/pages/10692652/details#wikipedia",
-        "dwc:measurementMethod": "text mining",
-        "dwc:measurementValue": "http://purl.obolibrary.org/obo/ENVO_00000300",
-        "dwc:scientificName": "Synallaxis beverlyae",
-        "dc:contributor": "<a href=\"http://environments-eol.blogspot.com/2013/03/welcome-to-environments-eol-few-words.html\">Environments-EOL</a>",
-        "dwc:measurementRemarks": "source text: \"scrub\""
-      },
-      {
-        "@id": "http://eol.org/pages/10692652/data#data_point_11749504",
-        "eol:traitUri": "http://eol.org/resources/708/measurements/201ecee567b595ba41421794d5893fec",
-        "@type": "dwc:MeasurementOrFact",
-        "predicate": "habitat",
-        "dwc:measurementType": "http://rs.tdwg.org/dwc/terms/habitat",
-        "value": "river island",
-        "eol:dataPointId": 11749504,
-        "dc:source": "http://eol.org/pages/10692652/details#wikipedia",
-        "dwc:measurementMethod": "text mining",
-        "dwc:measurementValue": "http://purl.obolibrary.org/obo/ENVO_00000423",
-        "dwc:scientificName": "Synallaxis beverlyae",
-        "dc:contributor": "<a href=\"http://environments-eol.blogspot.com/2013/03/welcome-to-environments-eol-few-words.html\">Environments-EOL</a>",
-        "dwc:measurementRemarks": "source text: \"river island\""
-      },
-      {
-        "@id": "http://eol.org/pages/10692652/data#data_point_11749505",
-        "eol:traitUri": "http://eol.org/resources/708/measurements/61fb0d77cda3935667846f1a03361d2b",
-        "@type": "dwc:MeasurementOrFact",
-        "predicate": "habitat",
-        "dwc:measurementType": "http://rs.tdwg.org/dwc/terms/habitat",
-        "value": "fresh water",
-        "eol:dataPointId": 11749505,
-        "dc:source": "http://eol.org/pages/10692652/details#habitat",
-        "dwc:measurementMethod": "text mining",
-        "dwc:measurementValue": "http://purl.obolibrary.org/obo/ENVO_00002011",
-        "dwc:scientificName": "Synallaxis beverlyae",
-        "dc:contributor": "<a href=\"http://environments-eol.blogspot.com/2013/03/welcome-to-environments-eol-few-words.html\">Environments-EOL</a>",
-        "dwc:measurementRemarks": "source text: \"freshwater\""
-      },
-      {
-        "@id": "http://eol.org/pages/10692652/data#data_point_11749506",
-        "eol:traitUri": "http://eol.org/resources/708/measurements/646d3b69cfa290d514bc8221df880d08",
-        "@type": "dwc:MeasurementOrFact",
-        "predicate": "habitat",
-        "dwc:measurementType": "http://rs.tdwg.org/dwc/terms/habitat",
-        "value": "terrestrial biome",
-        "eol:dataPointId": 11749506,
-        "dc:source": "http://eol.org/pages/10692652/details#habitat",
-        "dwc:measurementMethod": "text mining",
-        "dwc:measurementValue": "http://purl.obolibrary.org/obo/ENVO_00000446",
-        "dwc:scientificName": "Synallaxis beverlyae",
-        "dc:contributor": "<a href=\"http://environments-eol.blogspot.com/2013/03/welcome-to-environments-eol-few-words.html\">Environments-EOL</a>",
-        "dwc:measurementRemarks": "source text: \"terrestrial\""
-      },
-      {
-        "@id": "http://eol.org/pages/10692652/data#data_point_11749507",
-        "eol:traitUri": "http://eol.org/resources/708/measurements/80d4bf0e130bf26c5097cf87a395b1b2",
-        "@type": "dwc:MeasurementOrFact",
-        "predicate": "habitat",
-        "dwc:measurementType": "http://rs.tdwg.org/dwc/terms/habitat",
-        "value": "scrubland",
-        "eol:dataPointId": 11749507,
-        "dc:source": "http://eol.org/pages/10692652/details#habitat",
-        "dwc:measurementMethod": "text mining",
-        "dwc:measurementValue": "http://purl.obolibrary.org/obo/ENVO_00000300",
-        "dwc:scientificName": "Synallaxis beverlyae",
-        "dc:contributor": "<a href=\"http://environments-eol.blogspot.com/2013/03/welcome-to-environments-eol-few-words.html\">Environments-EOL</a>",
-        "dwc:measurementRemarks": "source text: \"shrubs\""
-      },
-      {
-        "@id": "http://eol.org/pages/10692652/data#data_point_11749509",
-        "eol:traitUri": "http://eol.org/resources/708/measurements/89ccc6312bf2b6b63d50e0b0e883bed6",
-        "@type": "dwc:MeasurementOrFact",
-        "predicate": "habitat",
-        "dwc:measurementType": "http://rs.tdwg.org/dwc/terms/habitat",
-        "value": "island",
-        "eol:dataPointId": 11749509,
-        "dc:source": "http://eol.org/pages/10692652/details#distribution",
-        "dwc:measurementMethod": "text mining",
-        "dwc:measurementValue": "http://purl.obolibrary.org/obo/ENVO_00000098",
-        "dwc:scientificName": "Synallaxis beverlyae",
-        "dc:contributor": "<a href=\"http://environments-eol.blogspot.com/2013/03/welcome-to-environments-eol-few-words.html\">Environments-EOL</a>",
-        "dwc:measurementRemarks": "source text: \"islands\""
-      },
-      {
-        "@id": "http://eol.org/pages/10692652/data#data_point_11749510",
-        "eol:traitUri": "http://eol.org/resources/708/measurements/24386281fd237292f34992504cbddc29",
-        "@type": "dwc:MeasurementOrFact",
-        "predicate": "habitat",
-        "dwc:measurementType": "http://rs.tdwg.org/dwc/terms/habitat",
-        "value": "island",
-        "eol:dataPointId": 11749510,
-        "dc:source": "http://eol.org/pages/10692652/details#distribution",
-        "dwc:measurementMethod": "text mining",
-        "dwc:measurementValue": "http://purl.obolibrary.org/obo/ENVO_00000098",
-        "dwc:scientificName": "Synallaxis beverlyae",
-        "dc:contributor": "<a href=\"http://environments-eol.blogspot.com/2013/03/welcome-to-environments-eol-few-words.html\">Environments-EOL</a>",
-        "dwc:measurementRemarks": "source text: \"island\""
-      },
-      {
-        "@id": "http://eol.org/pages/10692652/data#data_point_11749511",
-        "eol:traitUri": "http://eol.org/resources/708/measurements/bfa4484d7208b68fe331ab589abc332b",
-        "@type": "dwc:MeasurementOrFact",
-        "predicate": "habitat",
-        "dwc:measurementType": "http://rs.tdwg.org/dwc/terms/habitat",
-        "value": "river",
-        "eol:dataPointId": 11749511,
-        "dc:source": "http://eol.org/pages/10692652/details#distribution",
-        "dwc:measurementMethod": "text mining",
-        "dwc:measurementValue": "http://purl.obolibrary.org/obo/ENVO_00000022",
-        "dwc:scientificName": "Synallaxis beverlyae",
-        "dc:contributor": "<a href=\"http://environments-eol.blogspot.com/2013/03/welcome-to-environments-eol-few-words.html\">Environments-EOL</a>",
-        "dwc:measurementRemarks": "source text: \"river\""
-      },
-      {
-        "@id": "http://eol.org/pages/10692652/data#data_point_20808112",
-        "eol:traitUri": "http://eol.org/resources/708/measurements/f615621a67a40bfc6223a731309a65de",
-        "@type": "dwc:MeasurementOrFact",
-        "predicate": "habitat",
-        "dwc:measurementType": "http://rs.tdwg.org/dwc/terms/habitat",
-        "value": "river island",
-        "eol:dataPointId": 20808112,
-        "dc:source": "http://eol.org/pages/10692652/details#habitat",
-        "dwc:measurementMethod": "text mining",
-        "dwc:measurementValue": "http://purl.obolibrary.org/obo/ENVO_00000423",
-        "dwc:scientificName": "Synallaxis beverlyae",
-        "dc:contributor": "<a href=\"http://environments-eol.blogspot.com/2013/03/welcome-to-environments-eol-few-words.html\">Environments-EOL</a>",
-        "dwc:measurementRemarks": "source text: \"river islands\""
-      },
-      {
-        "@id": "http://eol.org/pages/10692652/data#data_point_20808113",
-        "eol:traitUri": "http://eol.org/resources/708/measurements/6965be271aba58db1e23a40437c3ebc2",
-        "@type": "dwc:MeasurementOrFact",
-        "predicate": "habitat",
-        "dwc:measurementType": "http://rs.tdwg.org/dwc/terms/habitat",
-        "value": "channel",
-        "eol:dataPointId": 20808113,
-        "dc:source": "http://eol.org/pages/10692652/details#wikipedia",
-        "dwc:measurementMethod": "text mining",
-        "dwc:measurementValue": "http://purl.obolibrary.org/obo/ENVO_00000395",
-        "dwc:scientificName": "Synallaxis beverlyae",
-        "dc:contributor": "<a href=\"http://environments-eol.blogspot.com/2013/03/welcome-to-environments-eol-few-words.html\">Environments-EOL</a>",
-        "dwc:measurementRemarks": "source text: \"channel\""
-      },
-      {
-        "@id": "http://eol.org/pages/10692652/data#data_point_39814364",
-        "eol:traitUri": "http://eol.org/resources/527/measurements/9ef025789cecd0b42eb55539d58c6987",
-        "@type": "dwc:MeasurementOrFact",
-        "predicate": "extinction status",
-        "dwc:measurementType": "http://eol.org/schema/terms/ExtinctionStatus",
-        "value": "extant",
-        "eol:dataPointId": 39814364,
-        "dwc:measurementValue": "http://eol.org/schema/terms/extant",
-        "dwc:scientificName": "Synallaxis beverlyae",
-        "dc:contributor": "The Cornell Lab of Ornithology: Clements Checklist",
-        "source": "http://eol.org/resources/527"
-      }
+…
     ]
   }
 }
@@ -385,7 +270,7 @@ ORCID supports JSON-LD via content negotiation, e.g.
 
 ```curl -L -H 'Accept: application/ld+json' https://orcid.org/0000-0002-2168-0514```
 
-:warning: Note the use of `@reverse` to associate person with publications. There is no notion or order of authorship, and any other authors are not listed (even if they have ORCID’s).
+:warning: Note the use of `@reverse` to associate person with publications. There is no notion of order of authorship, and any other authors are not listed (even if they have ORCID’s).
 
 [orcid](orcid.json)
 
@@ -439,15 +324,351 @@ ORCID supports JSON-LD via content negotiation, e.g.
 }
 ```
 
+## Oxford University Press (OUP)
+
+OUP embeds JSON-LD in their web pages, e.g. https://academic.oup.com/botlinnean/article/183/3/373/3092408
+
+:warning: Note the horrible image URLs that include timestamps and other ephemeral parameters.
+::warning: Note the nested `schema:isPartOf` relationships to model a `ScholarlyArticle` within a `PublicationIssue` within a `Periodical`.
+
+[oup.json](oup.json)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://academic.oup.com/botlinnean/article/183/3/373/3092408",
+  "name": "Systematics of Libinhania, a new endemic genus of Gnaphalieae (Asteraceae) from the Socotra archipelago (Yemen), inferred from plastid, low-copy nuclear and nuclear ribosomal DNA loci",
+  "datePublished": "2017-03-29",
+  "isPartOf": {
+    "@id": "https://academic.oup.com/botlinnean/botlinnean/issue/183/3",
+    "@type": "PublicationIssue",
+    "issueNumber": "3",
+    "datePublished": "2017-03-01",
+    "isPartOf": {
+      "@id": "https://academic.oup.com/botlinnean/botlinnean",
+      "@type": "Periodical",
+      "name": "Botanical Journal of the Linnean Society",
+      "issn": ["1095-8339"]
+    }
+  },
+  "url": "https://dx.doi.org/10.1093/botlinnean/bow013",
+  "keywords": ["allopolyploidy", "ancestral state reconstruction", "Compositae", "Helichrysum", "morphology", "phylogenetics", "reticulate evolution", "taxonomy"],
+  "inLanguage": "en",
+  "copyrightHolder": "The Linnean Society of London",
+  "copyrightYear": "2021",
+  "publisher": "Oxford University Press",
+  "sameAs": "https://academic.oup.com/botlinnean/article/183/3/373/3092408",
+  "author": [{
+    "name": "Kilian, Norbert",
+    "affiliation": "1  Botanic Garden and Botanical Museum Berlin, Freie Universität Berlin ,  Königin-Luise-Str. 6–8, 14195 Berlin ,  Germany",
+    "@type": "Person"
+  }, {
+    "name": "Galbany-Casals, Mercè",
+    "affiliation": "2  Departament de Biologia Animal, Biologia Vegetal i Ecologia, Facultat de Biociències, Universitat Autònoma de Barcelona ,  08193 Bellaterra ,  Spain",
+    "@type": "Person"
+  }, {
+    "name": "Sommerer, Ronny",
+    "affiliation": "1  Botanic Garden and Botanical Museum Berlin, Freie Universität Berlin ,  Königin-Luise-Str. 6–8, 14195 Berlin ,  Germany",
+    "@type": "Person"
+  }, {
+    "name": "Oberprieler, Christoph",
+    "affiliation": "3  Evolutionary and Systematic Botany, Institute of Plant Sciences, University of Regensburg, Universitätsstr .  31, 93053 Regensburg ,  Germany",
+    "@type": "Person"
+  }, {
+    "name": "Smissen, Rob",
+    "affiliation": "4  Allan Herbarium, Landcare Research ,  P.O. Box 69040, Lincoln 7640 ,  New Zealand",
+    "@type": "Person"
+  }, {
+    "name": "Miller, Antony",
+    "affiliation": "5  Centre for Middle Eastern Plants, Royal Botanic Garden Edinburgh ,  20A Inverleith Row, Edinburgh EH3 5LR ,  UK",
+    "@type": "Person"
+  }, {
+    "name": "Rabe, Katharina",
+    "affiliation": "1  Botanic Garden and Botanical Museum Berlin, Freie Universität Berlin ,  Königin-Luise-Str. 6–8, 14195 Berlin ,  Germany",
+    "@type": "Person"
+  }],
+  "description": "Abstract. The Socotra archipelago off the Horn of Africa shelters morphologically diverse endemic species of Asteraceae tribe Gnaphalieae, eight species placed ",
+  "pageStart": "373",
+  "pageEnd": "412",
+  "thumbnailURL": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/botlinnean/Issue/183/3/2/m_cover.jpeg?Expires=1693078539&Signature=yTEaF50jlovutk2hTbTPGXMMOXwNdLPjSu4~cVx4jgX1HJKM2mJbFnInOILp08pNsbCtM9d-dJliWX4oP94FcFYIOauK7Aa5soOcgU5eihKPFTvSIgGGYyIiz-IWPlvWyF6ZOQv4T884bGPujueT2pybcXHqBiEqLVFpF3SYbJxDbGnPyxGFsk23vhfmbdxup4Y5AV~meKeumSYFzNetiZeOXp1xLSYzFb3SeUWNlr~jpzl32xheIekDxtTueD1dBKdd2Lh69p8UUD2rm-g6UGaprmZsXuimn30ZFDXS5Duf6QoXUFfb0PLPEn5D4502L-7to5FOzsy4w7SUdIkr3Q__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+  "headline": "Systematics of Libinhania, a new endemic genus of Gnaphalieae (Asteraceae) from the Socotra archipelago (Yemen), inferred from plastid, low-copy nuclear and nuclear ribosomal DNA loci",
+  "image": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/botlinnean/Issue/183/3/2/m_cover.jpeg?Expires=1693078539&Signature=yTEaF50jlovutk2hTbTPGXMMOXwNdLPjSu4~cVx4jgX1HJKM2mJbFnInOILp08pNsbCtM9d-dJliWX4oP94FcFYIOauK7Aa5soOcgU5eihKPFTvSIgGGYyIiz-IWPlvWyF6ZOQv4T884bGPujueT2pybcXHqBiEqLVFpF3SYbJxDbGnPyxGFsk23vhfmbdxup4Y5AV~meKeumSYFzNetiZeOXp1xLSYzFb3SeUWNlr~jpzl32xheIekDxtTueD1dBKdd2Lh69p8UUD2rm-g6UGaprmZsXuimn30ZFDXS5Duf6QoXUFfb0PLPEn5D4502L-7to5FOzsy4w7SUdIkr3Q__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+}
+```
 
 ## ResearchGate
 
-At one point ResearchGate embedded schema.org in their web pages, but they seemed to have stopped doing this?
+At one point ResearchGate embedded [schema.org](http://schema.org) in their web pages, but they seemed to have stopped doing this(?).
+
+:warning: Note the lack of `@id`, and using `schema:mainEntityOfPage` (with a relative URL) to link person and web page.
+
+[researchgate.json](researchgate.json)
+
+```json
+{
+  "@context": "http://schema.org/",
+  "@type": "Person",
+  "mainEntityOfPage": "scientific-contributions/2054435998_Mark_Hughes",
+  "name": "Mark Hughes",
+  "image": "https://c5.rgstatic.net/m/420791293341780/images/template/default/author/author_default_l.jpg",
+  "url": "https://www.researchgate.net/scientific-contributions/2054435998_Mark_Hughes",
+  "affiliation": {
+    "@type": "Organization",
+    "name": "Royal Botanic Garden Edinburgh",
+    "url": "https://www.researchgate.net/institution/Royal_Botanic_Garden_Edinburgh"
+  }
+}
+```
+
+[researchgate one paper](researchgate one paper.json)
+
+```json
+{
+    "@context": "https://schema.org/",
+    "@type": "ScholarlyArticle",
+    "datePublished": "2019-07-01",
+    "headline": "Zingiber perenense, a new species in Zingiber section Cryptanthium (Zingiberaceae) from Nagaland, India",
+    "mainEntityOfPage": "https://www.researchgate.net/publication/334171947_Zingiber_perenense_a_new_species_in_Zingiber_section_Cryptanthium_Zingiberaceae_from_Nagaland_India",
+    "author": [{
+      "@context": "https://schema.org/",
+      "@type": "Person",
+      "name": "Nripemo Odyuo",
+      "url": "https://www.researchgate.net/profile/Nripemo_Odyuo",
+      "image": "https://i1.rgstatic.net/ii/profile.image/657589205495810-1533792892690_Q64/Nripemo_Odyuo.jpg",
+      "memberOf": {
+        "@context": "https://schema.org/",
+        "@type": "Organization",
+        "name": "Botanical Survey fo India"
+      }
+    }, {
+      "@context": "https://schema.org/",
+      "@type": "Person",
+      "name": "Dilip Kr. Roy",
+      "url": "https://www.researchgate.net/profile/Dilip_Kr_Roy",
+      "image": "https://i1.rgstatic.net/ii/profile.image/303916372168705-1449470717804_Q64/Dilip_Kr_Roy.jpg",
+      "memberOf": {
+        "@context": "https://schema.org/",
+        "@type": "Organization",
+        "name": "Botanical Survey of India, Shillong"
+      }
+    }, {
+      "@context": "https://schema.org/",
+      "@type": "Person",
+      "name": "Chalbasson Lyngwa",
+      "url": "https://www.researchgate.net/scientific-contributions/2159356546_Chalbasson_Lyngwa",
+      "image": "https://c5.rgstatic.net/m/435982309481010/images/template/default/author/author_default_m.jpg"
+    }, {
+      "@context": "https://schema.org/",
+      "@type": "Person",
+      "name": "A. A. Mao",
+      "url": "https://www.researchgate.net/profile/A_Mao",
+      "image": "https://i1.rgstatic.net/ii/profile.image/526099911909377-1502443401216_Q64/A_Mao.jpg",
+      "memberOf": {
+        "@context": "https://schema.org/",
+        "@type": "Organization",
+        "name": "Botanical Survey of India, Shillong"
+      }
+    }]
+}
+```
+
+
 
 ## SciGraph
 
+SciGraph uses JSON-LD as the canonical representation of their data. It can be retrieved by content-negotiation.
+
 ```curl -L http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4.json```
+
+
+:warning: Unlike, say, OUP, SciGraph doesn’t nest `schema:isPartOf` relations when linking an article to the issue, volume, and periodical.
+
+:warning: The SciGraph JSON-LD treats authors as an ordered list, which you can see from their context:
+
+```json
+        "author": {
+            "@id": "schema:author",
+            "@container": "@list"
+        },
+```
+
+RDF has no built-in notion of order, so this is achieved using `pdf:list`.
+
+
+[s00606-016-1316-4.json](s00606-016-1316-4.json)
+
+```json
+{
+    "about": [
+        {
+            "id": "http://purl.org/au-research/vocabulary/anzsrc-for/2008/0604", 
+            "inDefinedTermSet": "http://purl.org/au-research/vocabulary/anzsrc-for/2008/", 
+            "name": "Genetics", 
+            "type": "DefinedTerm"
+        }, 
+        {
+            "id": "http://purl.org/au-research/vocabulary/anzsrc-for/2008/06", 
+            "inDefinedTermSet": "http://purl.org/au-research/vocabulary/anzsrc-for/2008/", 
+            "name": "Biological Sciences", 
+            "type": "DefinedTerm"
+        }
+    ], 
+    "author": [
+        {
+            "affiliation": {
+                "name": [
+                    "Instituto de Bot\u00e1nica Darwinion-CONICET, Labard\u00e9n 200, CC 22, B1642HYD, San Isidro, Buenos Aires, Argentina"
+                ], 
+                "type": "Organization"
+            }, 
+            "familyName": "Urtubey", 
+            "givenName": "Estrella", 
+            "id": "sg:person.013337044763.79", 
+            "sameAs": [
+                "https://app.dimensions.ai/discover/publication?and_facet_researcher=ur.013337044763.79"
+            ], 
+            "type": "Person"
+        }, 
+        {
+            "affiliation": {
+                "name": [
+                    "Instituto de Bot\u00e1nica Darwinion-CONICET, Labard\u00e9n 200, CC 22, B1642HYD, San Isidro, Buenos Aires, Argentina"
+                ], 
+                "type": "Organization"
+            }, 
+            "familyName": "L\u00f3pez", 
+            "givenName": "Alicia", 
+            "id": "sg:person.013135326054.83", 
+            "sameAs": [
+                "https://app.dimensions.ai/discover/publication?and_facet_researcher=ur.013135326054.83"
+            ], 
+            "type": "Person"
+        }
+…
+    ], 
+    "citation": [
+        {
+            "id": "https://doi.org/10.1080/0028825x.1971.10430174", 
+            "sameAs": [
+                "https://app.dimensions.ai/details/publication/pub.1000414033"
+            ], 
+            "type": "CreativeWork"
+        }, 
+        {
+            "id": "https://doi.org/10.1006/mpev.1998.0545", 
+            "sameAs": [
+                "https://app.dimensions.ai/details/publication/pub.1003208658"
+            ], 
+            "type": "CreativeWork"
+        },
+…
+    ], 
+    "datePublished": "2016-10", 
+    "datePublishedReg": "2016-10-01", 
+    "description": "Gamochaeta (tribe Gnaphalieae, Asteraceae) is composed of ca. 60 species primarily distributed in tropical and subtropical America. Within the tribe Gnaphalieae, the genus is characterized by capitula arranged in spikes or head-like clusters, few hermaphroditic central florets, truncate style branches with apical sweeping trichomes, pappus bristles connate at the base into a ring falling as a unit, and achenes with globose twin trichomes. Previous molecular phylogenetic studies have suggested the paraphyly of the genus, but have not provided a basis for redefining generic limits due to incomplete taxon sampling. To address this problem, DNA sequences from the plastid (trnL-F) and nuclear (ETS and ITS) genomes were analyzed from a broad taxon sample representing the full range of morphological variation known in the genus. Our results affirm that Gamochaeta is paraphyletic as presently circumscribed. Two clades can be recognized: one clade that includes the majority of the species currently assigned to Gamochaeta and a second clade that includes Gamochaetopsis, Stuckertiella and seven species of Gamochaeta. We present here a new circumscription of Gamochaeta, including two new combinations, Gamochaeta alpina and Gamochaeta peregrina, and the resurrection of Gamochaeta capitata. Our results also show Omalotheca supina, O. norvegica and O. sylvatica, which were placed by some authors in Gamochaeta or in Gnaphalium, form a monophyletic group distantly related to both genera.", 
+    "genre": "research_article", 
+    "id": "sg:pub.10.1007/s00606-016-1316-4", 
+    "inLanguage": [
+        "en"
+    ], 
+    "isAccessibleForFree": false, 
+    "isPartOf": [
+        {
+            "id": "sg:journal.1022987", 
+            "issn": [
+                "0378-2697", 
+                "1615-6110"
+            ], 
+            "name": "Plant Systematics and Evolution", 
+            "type": "Periodical"
+        }, 
+        {
+            "issueNumber": "8", 
+            "type": "PublicationIssue"
+        }, 
+        {
+            "type": "PublicationVolume", 
+            "volumeNumber": "302"
+        }
+    ], 
+    "name": "New circumscription of the genus Gamochaeta (Asteraceae, Gnaphalieae) inferred from nuclear and plastid DNA sequences", 
+    "pagination": "1047-1066", 
+    "productId": [
+        {
+            "name": "readcube_id", 
+            "type": "PropertyValue", 
+            "value": [
+                "1bdedc001df21e60afc6b69f89aecf8ac60c883f090314c80ea478255e8ce695"
+            ]
+        }, 
+        {
+            "name": "doi", 
+            "type": "PropertyValue", 
+            "value": [
+                "10.1007/s00606-016-1316-4"
+            ]
+        }, 
+        {
+            "name": "dimensions_id", 
+            "type": "PropertyValue", 
+            "value": [
+                "pub.1005850085"
+            ]
+        }
+    ], 
+    "sameAs": [
+        "https://doi.org/10.1007/s00606-016-1316-4", 
+        "https://app.dimensions.ai/details/publication/pub.1005850085"
+    ], 
+    "sdDataset": "articles", 
+    "sdDatePublished": "2019-04-11T12:21", 
+    "sdLicense": "https://scigraph.springernature.com/explorer/license/", 
+    "sdPublisher": {
+        "name": "Springer Nature - SN SciGraph project", 
+        "type": "Organization"
+    }, 
+    "sdSource": "s3://com-uberresearch-data-dimensions-target-20181106-alternative/cleanup/v134/2549eaecd7973599484d7c17b260dba0a4ecb94b/merge/v9/a6c9fde33151104705d4d7ff012ea9563521a3ce/jats-lookup/v90/0000000362_0000000362/records_87079_00000000.jsonl", 
+    "type": "ScholarlyArticle", 
+    "url": "https://link.springer.com/10.1007%2Fs00606-016-1316-4"
+}
+```
+
 
 ## Zenodo
 
 ```curl -H 'Accept: application/ld+json' https://zenodo.org/api/records/3538376```
+
+```json
+{
+  "description": "<p>A new species of <i>Gymnanthemum</i> (Compositae, Vernonieae) from South Africa is described. It can be distinguished from other species in the genus by the five-flowered capitula and widely obtuse leaf blades.</p>",
+  "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+  "creator": [{
+      "affiliation": "Smithsonian Institution, Washington, DC, United States of America",
+      "@type": "Person",
+      "name": "Robinson, Harold"
+    },
+    {
+      "affiliation": "Smithsonian Institution, Washington DC, United States of America",
+      "@type": "Person",
+      "name": "Funk, Vicki"
+    }
+  ],
+  "headline": "Gymnanthemum koekemoerae (Compositae, Vernonieae), a new species from South Africa",
+  "image": "https://zenodo.org/static/img/logos/zenodo-gradient-round.svg",
+  "datePublished": "2014-04-30",
+  "url": "https://zenodo.org/record/576210",
+  "keywords": [
+    "Asteraceae",
+    "Compositae",
+    "Gymnanthemum",
+    "South Africa",
+    "Vernonieae"
+  ],
+  "@context": "https://schema.org/",
+  "identifier": "https://doi.org/10.3897/phytokeys.36.7386",
+  "@id": "https://doi.org/10.3897/phytokeys.36.7386",
+  "@type": "ScholarlyArticle",
+  "name": "Gymnanthemum koekemoerae (Compositae, Vernonieae), a new species from South Africa"
+}
+```
