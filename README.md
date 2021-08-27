@@ -421,7 +421,7 @@ At one point ResearchGate embedded [schema.org](http://schema.org) in their web 
 }
 ```
 
-[researchgate one paper](researchgate one paper.json)
+[researchgate-one-paper](researchgate-one-paper.json)
 
 ```json
 {
@@ -493,7 +493,10 @@ SciGraph uses JSON-LD as the canonical representation of their data. It can be r
         },
 ```
 
-RDF has no built-in notion of order, so this is achieved using `pdf:list`.
+RDF has no built-in notion of order, so this is achieved using `rdfs:lists`. See http://www.snee.com/bobdc.blog/2014/04/rdf-lists-and-sparql.html and https://stackoverflow.com/questions/17523804/is-it-possible-to-get-the-position-of-an-element-in-an-rdf-collection-in-sparql/17530689#17530689 for more discussion. 
+
+![alt text](list.png)
+
 
 
 [s00606-016-1316-4.json](s00606-016-1316-4.json)
@@ -637,7 +640,11 @@ RDF has no built-in notion of order, so this is achieved using `pdf:list`.
 
 ## Zenodo
 
+Zenodo supports JSON by content negotiation.
+
 ```curl -H 'Accept: application/ld+json' https://zenodo.org/api/records/3538376```
+
+:warning: Note that if the Zenodo item has a non-Zenodo DOI then `@id` uses that DOI, hence the statements below are linked to the CrossRef DOI for the article.
 
 ```json
 {

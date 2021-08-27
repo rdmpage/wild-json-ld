@@ -1,0 +1,248 @@
+_:N18d8f95ca15748cc81ae4a53afe877b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://scigraph.springernature.com/person.01271556460.25> .
+_:Nb8b6c9a11836406e91b31892e78c52c4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Nc2e9d9d6d6ef4ff6b166b64171be187b .
+<https://doi.org/10.1080/0028825x.1971.10430174> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/inLanguage> "en" .
+<http://scigraph.springernature.com/person.01271556460.25> <http://schema.org/givenName> "Carlos M." .
+_:N867c83d455a6432dbd25f0e458cba209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://scigraph.springernature.com/person.011302163161.01> .
+<http://scigraph.springernature.com/person.013734440661.02> <http://schema.org/familyName> "Chemisquy" .
+<http://scigraph.springernature.com/person.012502715203.80> <http://schema.org/givenName> "Mac H." .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <https://doi.org/10.1017/s0960428610000065> .
+<https://doi.org/10.5962/bhl.part.16708> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://www.grid.ac/institutes/grid.267193.8> <http://schema.org/name> "Department of Biological Sciences, University of Southern Mississippi, 118 College Drive #5018, 39406-0001, Hattiesburg, Mississippi, USA" .
+<https://doi.org/10.5962/bhl.part.5796> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:N825cc562190849b9ad75705b696d11e2 <http://schema.org/value> "10.1007/s00606-016-1316-4" .
+<http://scigraph.springernature.com/person.011615732027.19> <http://schema.org/givenName> "Luciana" .
+<http://scigraph.springernature.com/person.01210522061.16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://scigraph.springernature.com/person.013734440661.02> <http://schema.org/sameAs> <https://app.dimensions.ai/discover/publication?and_facet_researcher=ur.013734440661.02> .
+<https://doi.org/10.5962/bhl.part.16708> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1073564942> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/sdDatePublished> "2019-04-11T12:21" .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <http://scigraph.springernature.com/pub.10.1007/s00606-014-1147-0> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <https://doi.org/10.1080/03610927808827599> .
+<https://www.grid.ac/institutes/grid.412376.5> <http://schema.org/alternateName> "Universidade Federal do Pampa" .
+<https://doi.org/10.5962/bhl.part.5796> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1073570433> .
+<http://scigraph.springernature.com/person.010026223056.37> <http://schema.org/familyName> "Freire" .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <https://doi.org/10.2307/1221122> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <https://doi.org/10.1111/j.1096-0031.1989.tb00573.x> .
+<https://doi.org/10.1111/j.1095-8339.1991.tb02290.x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://scigraph.springernature.com/person.012502715203.80> <http://schema.org/sameAs> <https://app.dimensions.ai/discover/publication?and_facet_researcher=ur.012502715203.80> .
+_:Nb60c3a66d5cd44ad82dcbf496e69c121 <http://schema.org/name> "Instituto de Bot\u00E1nica Darwinion-CONICET, Labard\u00E9n 200, CC 22, B1642HYD, San Isidro, Buenos Aires, Argentina" .
+<http://scigraph.springernature.com/person.011302163161.01> <http://schema.org/sameAs> <https://app.dimensions.ai/discover/publication?and_facet_researcher=ur.011302163161.01> .
+_:Ne03bd79bd69c4421b258d5c83285a3e6 <http://schema.org/value> "1bdedc001df21e60afc6b69f89aecf8ac60c883f090314c80ea478255e8ce695" .
+<http://scigraph.springernature.com/person.010026223056.37> <http://schema.org/givenName> "Susana E." .
+_:Nb1ba7dc8c4cb427587f21aa8df0d44c5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <http://scigraph.springernature.com/pub.10.1007/bf00037152> .
+_:Nbb7fda70d4bf4fe3802c5f64258f5075 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://scigraph.springernature.com/person.013734440661.02> .
+<http://purl.org/au-research/vocabulary/anzsrc-for/2008/0604> <http://schema.org/name> "Genetics" .
+<https://doi.org/10.1080/03610927808827599> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1058332000> .
+<https://doi.org/10.1080/0028825x.1970.10429122> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1034754287> .
+<http://scigraph.springernature.com/person.011615732027.19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <https://doi.org/10.1080/0028825x.1970.10429122> .
+_:N1af045b0682244e896eb35a7ca516318 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Nb8b6c9a11836406e91b31892e78c52c4 .
+_:N76049b6d407942f2b9cf7e8596899410 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Nf5f29d1ad6d747058936e786a7a2fb8c .
+<http://scigraph.springernature.com/person.014706336271.27> <http://schema.org/sameAs> <https://app.dimensions.ai/discover/publication?and_facet_researcher=ur.014706336271.27> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/productId> _:N825cc562190849b9ad75705b696d11e2 .
+<https://www.grid.ac/institutes/grid.425591.e> <http://schema.org/alternateName> "Swedish Museum of Natural History" .
+_:N1c6e5b206a084fdaa50a5b42990777fb <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://scigraph.springernature.com/person.014706336271.27> <http://schema.org/givenName> "N\u00E9stor D." .
+_:Ndd5c0eb7e01b4127a2a448df724d72d6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+<http://scigraph.springernature.com/pub.10.1007/bf00037152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <https://doi.org/10.1111/j.1095-8339.1991.tb02290.x> .
+<http://purl.org/au-research/vocabulary/anzsrc-for/2008/0604> <http://schema.org/inDefinedTermSet> <http://purl.org/au-research/vocabulary/anzsrc-for/2008/> .
+<http://scigraph.springernature.com/person.013135326054.83> <http://schema.org/givenName> "Alicia" .
+<http://scigraph.springernature.com/person.013135326054.83> <http://schema.org/familyName> "L\u00F3pez" .
+<https://doi.org/10.1080/0028825x.1971.10430174> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1000414033> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <https://doi.org/10.1111/j.1095-8339.1981.tb00958.x> .
+_:Nb60c3a66d5cd44ad82dcbf496e69c121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.grid.ac/institutes/grid.9499.d> <http://schema.org/name> "\u00C1rea de Bot\u00E1nica, Departamento de Ciencias Biol\u00F3gicas, Facultad de Ciencias Agrarias y Forestales, Universidad Nacional de La Plata, Avda. 60 entre 116 y 118, 1900, La Plata, Argentina" .
+<http://scigraph.springernature.com/person.014614215441.09> <http://schema.org/affiliation> _:Nbb17ca2b3e024dcaab66e9387a41d824 .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/sdLicense> "https://scigraph.springernature.com/explorer/license/" .
+_:N05236c2a96bb4fce80e4741ce4903786 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://scigraph.springernature.com/person.01210522061.16> .
+_:Ne03bd79bd69c4421b258d5c83285a3e6 <http://schema.org/name> "readcube_id" .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/genre> "research_article" .
+_:N62c1e1387c434cec8aa1f6379f2ee624 <http://schema.org/volumeNumber> "302" .
+<https://doi.org/10.1111/j.1096-0031.1989.tb00573.x> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1003290803> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <https://doi.org/10.1111/j.1096-0031.1996.tb00196.x> .
+<http://scigraph.springernature.com/person.014614215441.09> <http://schema.org/familyName> "Nesom" .
+<https://doi.org/10.3732/apps.1200236> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://scigraph.springernature.com/journal.1022987> <http://schema.org/name> "Plant Systematics and Evolution" .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <https://doi.org/10.1043/0363-6445-27.4.801> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/productId> _:Ndd5c0eb7e01b4127a2a448df724d72d6 .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/name> "New circumscription of the genus Gamochaeta (Asteraceae, Gnaphalieae) inferred from nuclear and plastid DNA sequences" .
+_:Nbb17ca2b3e024dcaab66e9387a41d824 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<http://scigraph.springernature.com/person.011302163161.01> <http://schema.org/affiliation> <https://www.grid.ac/institutes/grid.412376.5> .
+_:N825cc562190849b9ad75705b696d11e2 <http://schema.org/name> "doi" .
+<https://doi.org/10.3732/apps.1200236> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1071353814> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <https://doi.org/10.1371/journal.pbio.0040088> .
+<http://purl.org/au-research/vocabulary/anzsrc-for/2008/06> <http://schema.org/name> "Biological Sciences" .
+<http://scigraph.springernature.com/person.013337044763.79> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+_:N3377ec18d6cf46549eda04d4198f78c4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://scigraph.springernature.com/person.07602772201.37> .
+<https://www.grid.ac/institutes/grid.9499.d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<http://scigraph.springernature.com/person.07602772201.37> <http://schema.org/givenName> "Andr\u00E9s" .
+_:Nbb17ca2b3e024dcaab66e9387a41d824 <http://schema.org/name> "2925 Hartwood Drive, 76109, Fort Worth, TX, USA" .
+<https://doi.org/10.5902/2358198014040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1006/mpev.1998.0545> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1003208658> .
+_:Nb1ba7dc8c4cb427587f21aa8df0d44c5 <http://schema.org/name> "Instituto de Bot\u00E1nica Darwinion-CONICET, Labard\u00E9n 200, CC 22, B1642HYD, San Isidro, Buenos Aires, Argentina" .
+<http://scigraph.springernature.com/person.012502715203.80> <http://schema.org/affiliation> <https://www.grid.ac/institutes/grid.267193.8> .
+<https://www.grid.ac/institutes/grid.412376.5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<http://scigraph.springernature.com/pub.10.1038/nmeth.2109> <http://schema.org/sameAs> <https://doi.org/10.1038/nmeth.2109> .
+<http://scigraph.springernature.com/person.013135326054.83> <http://schema.org/sameAs> <https://app.dimensions.ai/discover/publication?and_facet_researcher=ur.013135326054.83> .
+<http://scigraph.springernature.com/person.07602772201.37> <http://schema.org/familyName> "Moreira-Mu\u00F1oz" .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <https://doi.org/10.1080/0028825x.1971.10430174> .
+<https://doi.org/10.1111/j.1096-0031.2008.00217.x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://scigraph.springernature.com/person.012502715203.80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://purl.org/au-research/vocabulary/anzsrc-for/2008/06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DefinedTerm> .
+<https://doi.org/10.1111/j.1096-0031.2008.00217.x> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1048321372> .
+<http://scigraph.springernature.com/person.01210522061.16> <http://schema.org/affiliation> <https://www.grid.ac/institutes/grid.425591.e> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/isPartOf> _:N0fbe0e50ccd94496852f392dc3b3f4ed .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1005850085> .
+<http://scigraph.springernature.com/journal.1022987> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://scigraph.springernature.com/person.07602772201.37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/datePublishedReg> "2016-10-01" .
+<https://www.grid.ac/institutes/grid.267193.8> <http://schema.org/alternateName> "University of Southern Mississippi" .
+<http://scigraph.springernature.com/pub.10.1007/s00606-014-1147-0> <http://schema.org/sameAs> <https://doi.org/10.1007/s00606-014-1147-0> .
+<http://scigraph.springernature.com/person.01271556460.25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://doi.org/10.2307/2412407> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1069920846> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/sdPublisher> _:N03cd8ee3751341859c3f06e9be84b7cb .
+_:N03cd8ee3751341859c3f06e9be84b7cb <http://schema.org/name> "Springer Nature - SN SciGraph project" .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<https://doi.org/10.1093/biomet/76.2.297> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1059419926> .
+_:Ndd5c0eb7e01b4127a2a448df724d72d6 <http://schema.org/value> "pub.1005850085" .
+_:Nd7bacb1747ed4204b282894cb774e878 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/datePublished> "2016-10" .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://scigraph.springernature.com/ontologies/core/sdDataset> "articles" .
+<http://scigraph.springernature.com/person.013135326054.83> <http://schema.org/affiliation> _:Nb60c3a66d5cd44ad82dcbf496e69c121 .
+<https://doi.org/10.1111/j.1095-8339.1981.tb00958.x> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1044127447> .
+<http://scigraph.springernature.com/person.010026223056.37> <http://schema.org/affiliation> _:Nd7bacb1747ed4204b282894cb774e878 .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/about> <http://purl.org/au-research/vocabulary/anzsrc-for/2008/0604> .
+<http://scigraph.springernature.com/person.011615732027.19> <http://schema.org/affiliation> _:Nf4503e0fea1c405c9a3fd6c0e96dffdf .
+<http://scigraph.springernature.com/person.014706336271.27> <http://schema.org/familyName> "Bay\u00F3n" .
+<https://doi.org/10.1111/j.1096-0031.1989.tb00573.x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1093/molbev/mss075> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1013930907> .
+<http://scigraph.springernature.com/person.01210522061.16> <http://schema.org/givenName> "Arne A." .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <https://doi.org/10.1006/mpev.1998.0545> .
+<https://doi.org/10.1017/s0960428610000065> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1054053227> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <https://doi.org/10.3732/apps.1200236> .
+_:Nbb7fda70d4bf4fe3802c5f64258f5075 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N05236c2a96bb4fce80e4741ce4903786 .
+<https://doi.org/10.1093/molbev/mss075> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/url> "https://link.springer.com/10.1007%2Fs00606-016-1316-4" .
+_:N76049b6d407942f2b9cf7e8596899410 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://scigraph.springernature.com/person.013337044763.79> .
+<http://scigraph.springernature.com/person.07602772201.37> <http://schema.org/affiliation> <https://www.grid.ac/institutes/grid.8170.e> .
+_:N18d8f95ca15748cc81ae4a53afe877b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N2fad4d1215a940d4b424b1a29f7bdb5e .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/description> "Gamochaeta (tribe Gnaphalieae, Asteraceae) is composed of ca. 60 species primarily distributed in tropical and subtropical America. Within the tribe Gnaphalieae, the genus is characterized by capitula arranged in spikes or head-like clusters, few hermaphroditic central florets, truncate style branches with apical sweeping trichomes, pappus bristles connate at the base into a ring falling as a unit, and achenes with globose twin trichomes. Previous molecular phylogenetic studies have suggested the paraphyly of the genus, but have not provided a basis for redefining generic limits due to incomplete taxon sampling. To address this problem, DNA sequences from the plastid (trnL-F) and nuclear (ETS and ITS) genomes were analyzed from a broad taxon sample representing the full range of morphological variation known in the genus. Our results affirm that Gamochaeta is paraphyletic as presently circumscribed. Two clades can be recognized: one clade that includes the majority of the species currently assigned to Gamochaeta and a second clade that includes Gamochaetopsis, Stuckertiella and seven species of Gamochaeta. We present here a new circumscription of Gamochaeta, including two new combinations, Gamochaeta alpina and Gamochaeta peregrina, and the resurrection of Gamochaeta capitata. Our results also show Omalotheca supina, O. norvegica and O. sylvatica, which were placed by some authors in Gamochaeta or in Gnaphalium, form a monophyletic group distantly related to both genera." .
+_:N2fad4d1215a940d4b424b1a29f7bdb5e <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://scigraph.springernature.com/person.014706336271.27> .
+_:Nd7bacb1747ed4204b282894cb774e878 <http://schema.org/name> "Instituto de Bot\u00E1nica Darwinion-CONICET, Labard\u00E9n 200, CC 22, B1642HYD, San Isidro, Buenos Aires, Argentina" .
+_:N03cd8ee3751341859c3f06e9be84b7cb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://doi.org/10.1111/j.1096-0031.1996.tb00196.x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <https://doi.org/10.1016/b978-0-12-372180-8.50042-1> .
+<http://scigraph.springernature.com/person.010026223056.37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://www.grid.ac/institutes/grid.8170.e> <http://schema.org/alternateName> "Pontificial Catholic University of Valparaiso" .
+<http://scigraph.springernature.com/person.01271556460.25> <http://schema.org/affiliation> <https://www.grid.ac/institutes/grid.5380.e> .
+_:Nf5f29d1ad6d747058936e786a7a2fb8c <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://scigraph.springernature.com/person.013135326054.83> .
+<https://www.grid.ac/institutes/grid.267193.8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.grid.ac/institutes/grid.5380.e> <http://schema.org/name> "Departamento de Bot\u00E1nica, Facultad de Ciencias Naturales y Oceanogr\u00E1ficas, Universidad de Concepci\u00F3n, Casilla 160-C, Concepci\u00F3n, Chile" .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <https://doi.org/10.2307/2412407> .
+_:N519e5f1daafe498abe908686c9a2c5df <http://schema.org/name> "Centro Regional de Investigaciones Cient\u00EDficas y Transferencia Tecnol\u00F3gica de La Rioja (CRILAR)-Provincia de La Rioja, UNLaR, UNCa, SEGEMAR, CONICET, Entre R\u00EDos y Mendoza s.n., 5301, Anillaco, La Rioja, Argentina" .
+<http://scigraph.springernature.com/pub.10.1038/nmeth.2109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1111/j.1095-8339.1981.tb00958.x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/author> _:N76049b6d407942f2b9cf7e8596899410 .
+_:N3377ec18d6cf46549eda04d4198f78c4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N1af045b0682244e896eb35a7ca516318 .
+<http://scigraph.springernature.com/journal.1022987> <http://schema.org/issn> "0378-2697" .
+_:Nc2e9d9d6d6ef4ff6b166b64171be187b <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N1c6e5b206a084fdaa50a5b42990777fb .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <https://doi.org/10.5962/bhl.part.16708> .
+<https://doi.org/10.1371/journal.pbio.0040088> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1037373684> .
+<https://doi.org/10.1111/j.1096-0031.1996.tb00196.x> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1011143219> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <https://doi.org/10.1093/biomet/76.2.297> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <https://doi.org/10.5962/bhl.part.5796> .
+_:Nf4503e0fea1c405c9a3fd6c0e96dffdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+_:Ndd5c0eb7e01b4127a2a448df724d72d6 <http://schema.org/name> "dimensions_id" .
+_:N1af045b0682244e896eb35a7ca516318 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://scigraph.springernature.com/person.014614215441.09> .
+_:N05236c2a96bb4fce80e4741ce4903786 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N18d8f95ca15748cc81ae4a53afe877b8 .
+_:Nf4503e0fea1c405c9a3fd6c0e96dffdf <http://schema.org/name> "Instituto de Bot\u00E1nica Darwinion-CONICET, Labard\u00E9n 200, CC 22, B1642HYD, San Isidro, Buenos Aires, Argentina" .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <https://doi.org/10.1093/molbev/mss075> .
+<http://scigraph.springernature.com/person.013734440661.02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://scigraph.springernature.com/person.01210522061.16> <http://schema.org/sameAs> <https://app.dimensions.ai/discover/publication?and_facet_researcher=ur.01210522061.16> .
+<https://doi.org/10.1080/0028825x.1970.10429122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1043/0363-6445-27.4.801> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1029006070> .
+<https://www.grid.ac/institutes/grid.8170.e> <http://schema.org/name> "Instituto de Geograf\u00EDa, Pontificia Universidad Cat\u00F3lica de Valparaiso, Brasil 2241, Valparaiso, Chile" .
+<https://www.grid.ac/institutes/grid.425591.e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.grid.ac/institutes/grid.9499.d> <http://schema.org/alternateName> "National University of La Plata" .
+<http://scigraph.springernature.com/person.014614215441.09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/isAccessibleForFree> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://doi.org/10.1080/03610927808827599> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:N867c83d455a6432dbd25f0e458cba209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N3377ec18d6cf46549eda04d4198f78c4 .
+_:N1c6e5b206a084fdaa50a5b42990777fb <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://scigraph.springernature.com/person.010026223056.37> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <https://doi.org/10.5902/2358198014040> .
+<https://doi.org/10.1073/pnas.0601928103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-014-1147-0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:N0fbe0e50ccd94496852f392dc3b3f4ed <http://schema.org/issueNumber> "8" .
+<http://scigraph.springernature.com/person.014614215441.09> <http://schema.org/givenName> "Guy L." .
+<http://scigraph.springernature.com/person.013135326054.83> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://doi.org/10.1016/b978-0-12-372180-8.50042-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/sameAs> <https://doi.org/10.1007/s00606-016-1316-4> .
+<http://scigraph.springernature.com/person.013734440661.02> <http://schema.org/givenName> "Mar\u00EDa A." .
+<http://scigraph.springernature.com/pub.10.1007/bf00037152> <http://schema.org/sameAs> <https://doi.org/10.1007/bf00037152> .
+_:N519e5f1daafe498abe908686c9a2c5df <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-014-1147-0> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1030890419> .
+<http://scigraph.springernature.com/person.010026223056.37> <http://schema.org/sameAs> <https://app.dimensions.ai/discover/publication?and_facet_researcher=ur.010026223056.37> .
+<http://scigraph.springernature.com/person.014706336271.27> <http://schema.org/affiliation> <https://www.grid.ac/institutes/grid.9499.d> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/about> <http://purl.org/au-research/vocabulary/anzsrc-for/2008/06> .
+<https://www.grid.ac/institutes/grid.412376.5> <http://schema.org/name> "Curso de Licenciatura em Ci\u00EAncias da Natureza, Universidade Federal do Pampa, CEP 96400-110, Dom Pedrito, RS, Brazil" .
+<http://purl.org/au-research/vocabulary/anzsrc-for/2008/06> <http://schema.org/inDefinedTermSet> <http://purl.org/au-research/vocabulary/anzsrc-for/2008/> .
+<http://purl.org/au-research/vocabulary/anzsrc-for/2008/0604> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DefinedTerm> .
+<http://scigraph.springernature.com/person.011615732027.19> <http://schema.org/sameAs> <https://app.dimensions.ai/discover/publication?and_facet_researcher=ur.011615732027.19> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <http://scigraph.springernature.com/pub.10.1038/nmeth.2109> .
+<https://www.grid.ac/institutes/grid.5380.e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<http://scigraph.springernature.com/person.01210522061.16> <http://schema.org/familyName> "Anderberg" .
+<http://scigraph.springernature.com/pub.10.1186/1471-2148-7-214> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1010584451> .
+<https://doi.org/10.2307/1221122> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1069401363> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://scigraph.springernature.com/ontologies/core/license> <http://scigraph.springernature.com/explorer/license/> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/isPartOf> <http://scigraph.springernature.com/journal.1022987> .
+<http://scigraph.springernature.com/person.01271556460.25> <http://schema.org/familyName> "Baeza" .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <https://doi.org/10.1111/j.1096-0031.2008.00217.x> .
+<http://scigraph.springernature.com/person.011302163161.01> <http://schema.org/givenName> "Leonardo P." .
+<https://doi.org/10.5902/2358198014040> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1073504376> .
+_:N825cc562190849b9ad75705b696d11e2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:Ne03bd79bd69c4421b258d5c83285a3e6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:N62c1e1387c434cec8aa1f6379f2ee624 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PublicationVolume> .
+_:N2fad4d1215a940d4b424b1a29f7bdb5e <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N867c83d455a6432dbd25f0e458cba209 .
+<https://doi.org/10.1017/s0960428610000065> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1371/journal.pbio.0040088> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/isPartOf> _:N62c1e1387c434cec8aa1f6379f2ee624 .
+<http://scigraph.springernature.com/pub.10.1186/1471-2148-7-214> <http://schema.org/sameAs> <https://doi.org/10.1186/1471-2148-7-214> .
+<https://doi.org/10.1043/0363-6445-27.4.801> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://scigraph.springernature.com/person.014614215441.09> <http://schema.org/sameAs> <https://app.dimensions.ai/discover/publication?and_facet_researcher=ur.014614215441.09> .
+<http://scigraph.springernature.com/person.013337044763.79> <http://schema.org/affiliation> _:Nb1ba7dc8c4cb427587f21aa8df0d44c5 .
+<https://doi.org/10.1006/mpev.1998.0545> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://scigraph.springernature.com/person.011302163161.01> <http://schema.org/familyName> "Deble" .
+<https://www.grid.ac/institutes/grid.5380.e> <http://schema.org/alternateName> "University of Concepci\u00F3n" .
+<https://doi.org/10.1073/pnas.0601928103> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1048591599> .
+<http://scigraph.springernature.com/person.013337044763.79> <http://schema.org/sameAs> <https://app.dimensions.ai/discover/publication?and_facet_researcher=ur.013337044763.79> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/pagination> "1047-1066" .
+_:Nb8b6c9a11836406e91b31892e78c52c4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://scigraph.springernature.com/person.012502715203.80> .
+<https://doi.org/10.1016/b978-0-12-372180-8.50042-1> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1004812051> .
+<http://scigraph.springernature.com/person.01271556460.25> <http://schema.org/sameAs> <https://app.dimensions.ai/discover/publication?and_facet_researcher=ur.01271556460.25> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <https://doi.org/10.1073/pnas.0601928103> .
+<http://scigraph.springernature.com/person.012502715203.80> <http://schema.org/familyName> "Alford" .
+<http://scigraph.springernature.com/person.07602772201.37> <http://schema.org/sameAs> <https://app.dimensions.ai/discover/publication?and_facet_researcher=ur.07602772201.37> .
+<https://www.grid.ac/institutes/grid.8170.e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<http://scigraph.springernature.com/person.014706336271.27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/productId> _:Ne03bd79bd69c4421b258d5c83285a3e6 .
+<http://scigraph.springernature.com/pub.10.1038/nmeth.2109> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1007540814> .
+_:N0fbe0e50ccd94496852f392dc3b3f4ed <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PublicationIssue> .
+<http://scigraph.springernature.com/person.013337044763.79> <http://schema.org/givenName> "Estrella" .
+<http://scigraph.springernature.com/pub.10.1186/1471-2148-7-214> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1111/j.1095-8339.1991.tb02290.x> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1047427319> .
+<http://scigraph.springernature.com/person.011615732027.19> <http://schema.org/familyName> "Salom\u00F3n" .
+<https://doi.org/10.1093/biomet/76.2.297> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://scigraph.springernature.com/person.011302163161.01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://scigraph.springernature.com/person.013734440661.02> <http://schema.org/affiliation> _:N519e5f1daafe498abe908686c9a2c5df .
+_:Nc2e9d9d6d6ef4ff6b166b64171be187b <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://scigraph.springernature.com/person.011615732027.19> .
+<http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4> <http://schema.org/citation> <http://scigraph.springernature.com/pub.10.1186/1471-2148-7-214> .
+<http://scigraph.springernature.com/journal.1022987> <http://schema.org/issn> "1615-6110" .
+<http://scigraph.springernature.com/person.013337044763.79> <http://schema.org/familyName> "Urtubey" .
+<https://doi.org/10.2307/2412407> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://www.grid.ac/institutes/grid.425591.e> <http://schema.org/name> "Department of Botany, Swedish Museum of Natural History, P. O. Box 50007, 104 05, Stockholm, Sweden" .
+<http://scigraph.springernature.com/pub.10.1007/bf00037152> <http://schema.org/sameAs> <https://app.dimensions.ai/details/publication/pub.1004569744> .
+_:Nf5f29d1ad6d747058936e786a7a2fb8c <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Nbb7fda70d4bf4fe3802c5f64258f5075 .
+<https://doi.org/10.2307/1221122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+

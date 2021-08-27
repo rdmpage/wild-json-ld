@@ -1,0 +1,26 @@
+digraph G {
+    
+    node [label="article"] article;
+
+	node [label="author"] author;
+	
+	node [label="first author"shape=ellipse] f1;
+	node [label="",shape=circle] r1;
+
+	node [label="second author",shape=ellipse] f2;
+	node [label="",shape=circle] r2;
+
+	node [label="third author"shape=ellipse] f3;
+	node [label="rdf:null"] r3;
+	
+	article -> author;
+	
+	author -> f1 [label="rdf:first"];
+	author -> r1 [label="rdf:rest"];
+
+	r1 -> f2 [label="rdf:first"];
+	r1 -> r2 [label="rdf:rest"];
+
+	r2 -> f3 [label="rdf:first"];
+	r2 -> r3 [label="rdf:rest"];
+}
