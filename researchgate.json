@@ -1,0 +1,13 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Person",
+  "mainEntityOfPage": "scientific-contributions/2054435998_Mark_Hughes",
+  "name": "Mark Hughes",
+  "image": "https://c5.rgstatic.net/m/420791293341780/images/template/default/author/author_default_l.jpg",
+  "url": "https://www.researchgate.net/scientific-contributions/2054435998_Mark_Hughes",
+  "affiliation": {
+    "@type": "Organization",
+    "name": "Royal Botanic Garden Edinburgh",
+    "url": "https://www.researchgate.net/institution/Royal_Botanic_Garden_Edinburgh"
+  }
+}

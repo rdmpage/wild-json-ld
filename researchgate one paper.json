@@ -1,0 +1,47 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "ScholarlyArticle",
+    "datePublished": "2019-07-01",
+    "headline": "Zingiber perenense, a new species in Zingiber section Cryptanthium (Zingiberaceae) from Nagaland, India",
+    "mainEntityOfPage": "https://www.researchgate.net/publication/334171947_Zingiber_perenense_a_new_species_in_Zingiber_section_Cryptanthium_Zingiberaceae_from_Nagaland_India",
+    "author": [{
+      "@context": "https://schema.org/",
+      "@type": "Person",
+      "name": "Nripemo Odyuo",
+      "url": "https://www.researchgate.net/profile/Nripemo_Odyuo",
+      "image": "https://i1.rgstatic.net/ii/profile.image/657589205495810-1533792892690_Q64/Nripemo_Odyuo.jpg",
+      "memberOf": {
+        "@context": "https://schema.org/",
+        "@type": "Organization",
+        "name": "Botanical Survey fo India"
+      }
+    }, {
+      "@context": "https://schema.org/",
+      "@type": "Person",
+      "name": "Dilip Kr. Roy",
+      "url": "https://www.researchgate.net/profile/Dilip_Kr_Roy",
+      "image": "https://i1.rgstatic.net/ii/profile.image/303916372168705-1449470717804_Q64/Dilip_Kr_Roy.jpg",
+      "memberOf": {
+        "@context": "https://schema.org/",
+        "@type": "Organization",
+        "name": "Botanical Survey of India, Shillong"
+      }
+    }, {
+      "@context": "https://schema.org/",
+      "@type": "Person",
+      "name": "Chalbasson Lyngwa",
+      "url": "https://www.researchgate.net/scientific-contributions/2159356546_Chalbasson_Lyngwa",
+      "image": "https://c5.rgstatic.net/m/435982309481010/images/template/default/author/author_default_m.jpg"
+    }, {
+      "@context": "https://schema.org/",
+      "@type": "Person",
+      "name": "A. A. Mao",
+      "url": "https://www.researchgate.net/profile/A_Mao",
+      "image": "https://i1.rgstatic.net/ii/profile.image/526099911909377-1502443401216_Q64/A_Mao.jpg",
+      "memberOf": {
+        "@context": "https://schema.org/",
+        "@type": "Organization",
+        "name": "Botanical Survey of India, Shillong"
+      }
+    }]
+}

@@ -1,0 +1,469 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "@id": "https://orcid.org/0000-0002-2168-0514",
+  "mainEntityOfPage": "https://orcid.org/0000-0002-2168-0514",
+  "givenName": "Mark",
+  "familyName": "Hughes",
+  "affiliation": {
+    "@type": "Organization",
+    "name": "Royal Botanic Garden Edinburgh",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "RINGGOLD",
+      "value": "41803"
+    }
+  },
+  "@reverse": {
+    "creator": [{
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1017/s0960428619000283",
+        "name": "BEGONIA MAGUNIANA (BEGONIACEAE, BEGONIA SECT. OLIGANDRAE), A NEW SPECIES FROM NEW GUINEA",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.1017/s0960428619000283"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.11646/phytotaxa.407.1.11",
+        "name": "A revision of Begonia sect. Petermannia on Sumatra, Indonesia",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.11646/phytotaxa.407.1.11"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.11646/phytotaxa.407.1.4",
+        "name": "Two new species of Begonia (Begoniaceae) from Borneo",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.11646/phytotaxa.407.1.4"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1017/s0960428619000052",
+        "name": "AN UPDATED CHECKLIST AND A NEW SPECIES OF BEGONIA (B. RHEOPHYTICA) FROM MYANMAR",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.1017/s0960428619000052"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1371/journal.pone.0194877",
+        "name": "Chloroplast and nuclear DNA exchanges among Begonia sect. Baryandra species (Begoniaceae) from Palawan Island, Philippines, and descriptions of five new species.",
+        "identifier": [{
+            "@type": "PropertyValue",
+            "propertyID": "doi",
+            "value": "10.1371/journal.pone.0194877"
+          },
+          {
+            "@type": "PropertyValue",
+            "propertyID": "pmc",
+            "value": "PMC5931476"
+          },
+          {
+            "@type": "PropertyValue",
+            "propertyID": "pmid",
+            "value": "29718922"
+          }
+        ],
+        "sameAs": [
+          "https://europepmc.org/articles/PMC5931476",
+          "https://www.ncbi.nlm.nih.gov/pubmed/29718922"
+        ]
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1017/s0960428618000136",
+        "name": "TWO NEW SPECIES OF BEGONIA FROM SUMATRA",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.1017/s0960428618000136"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1017/s096042861800001x",
+        "name": "A REVISION OF BEGONIA SECT. SYMBEGONIA ON NEW GUINEA",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.1017/s096042861800001x"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.5852/ejt.2018.396",
+        "name": "A revision and one new species of Begonia L. (Begoniaceae, Cucurbitales) in Northeast India",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.5852/ejt.2018.396"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1002/tax.606013",
+        "name": "Pliocene intercontinental dispersal from Africa to Southeast Asia highlighted by the new species Begonia afromigrata (Begoniaceae)",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.1002/tax.606013"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.11646/phytotaxa.381.1.16",
+        "name": "Taxonomic notes on the Philippine endemic Begonia colorata (Begoniaceae, section Petermannia)",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.11646/phytotaxa.381.1.16"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1186/s40529-017-0182-x",
+        "name": "Three new species of Begonia sect. Baryandra from Panay Island, Philippines.",
+        "identifier": [{
+            "@type": "PropertyValue",
+            "propertyID": "pmid",
+            "value": "28664395"
+          },
+          {
+            "@type": "PropertyValue",
+            "propertyID": "doi",
+            "value": "10.1186/s40529-017-0182-x"
+          },
+          {
+            "@type": "PropertyValue",
+            "propertyID": "pmc",
+            "value": "PMC5491425"
+          }
+        ],
+        "sameAs": [
+          "https://www.ncbi.nlm.nih.gov/pubmed/28664395",
+          "https://europepmc.org/articles/PMC5491425"
+        ]
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.3767/000651917x695083",
+        "name": "A new species of Begonia section Parvibegonia (Begoniaceae) from Thailand and Myanmar",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.3767/000651917x695083"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1017/s0960428617000075",
+        "name": "TAXONOMY OF BEGONIA ALBOMACULATA AND DESCRIPTION OF TWO NEW SPECIES ENDEMIC TO PERU",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.1017/s0960428617000075"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1017/s0960428617000051",
+        "name": "FOUR NEW SPECIES OF BEGONIA (BEGONIACEAE) FROM THAILAND",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.1017/s0960428617000051"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.3850/s2382581216000077",
+        "name": "A new species and a new record in Begonia sect. Platycentrum (Begoniaceae) from Thailand",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.3850/s2382581216000077"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.5852/ejt.2015.119",
+        "name": "Begonia yapenensis (sect. Symbegonia, Begoniaceae), a new species from Papua, Indonesia",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.5852/ejt.2015.119"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.11646/phytotaxa.197.1.4",
+        "name": "A new section (Begonia sect. Oligandrae sect. nov.) and a new species (Begonia pentandra sp. nov.) in Begoniaceae from New Guinea",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.11646/phytotaxa.197.1.4"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.5852/ejt.2015.167",
+        "name": "Further discoveries in the ever-expanding genus Begonia (Begoniaceae): fifteen new species from Sumatra",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.5852/ejt.2015.167"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1186/s40529-015-0099-1",
+        "name": "Three New Species of Begonia Endemic to the Puerto Princesa Subterranean River National Park, Palawan",
+        "identifier": [{
+            "@type": "PropertyValue",
+            "propertyID": "other-id",
+            "value": "al:1817406x-201507-201507290029-201507290029-c1-14"
+          },
+          {
+            "@type": "PropertyValue",
+            "propertyID": "doi",
+            "value": "10.1186/s40529-015-0099-1"
+          }
+        ],
+        "sameAs": "http://www.airitilibrary.com/Publication/alDetailedMesh?DocID=1817406X-201507-201507290029-201507290029-c1-14"
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.5852/ejt.2013.56",
+        "name": "Memecylon pseudomegacarpum M.Hughes (Melastomataceae), a new species of tree from Peninsular Malaysia",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.5852/ejt.2013.56"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1186/1999-3110-54-38",
+        "name": "Recircumscription of Begonia sect. Baryandra (Begoniaceae): evidence from molecular data",
+        "identifier": [{
+            "@type": "PropertyValue",
+            "propertyID": "other-id",
+            "value": "al:1817406x-201309-201401170003-201401170003-70-74"
+          },
+          {
+            "@type": "PropertyValue",
+            "propertyID": "doi",
+            "value": "10.1186/1999-3110-54-38"
+          }
+        ],
+        "sameAs": "http://www.airitilibrary.com/Publication/alDetailedMesh?DocID=1817406X-201309-201401170003-201401170003-70-74"
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.11646/phytotaxa.66.1.2",
+        "name": "A new species and new combinations of Memecylon in Thailand and Peninsular Malaysia",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.11646/phytotaxa.66.1.2"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1017/s0960428612000078",
+        "name": "A NEW SPECIES OF BEGONIA (BEGONIACEAE) FROM PENINSULAR THAILAND",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.1017/s0960428612000078"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.3329/bjpt.v19i2.13134",
+        "name": "Pollen morphology of Begonia L. (Begoniaceae) in Nepal",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.3329/bjpt.v19i2.13134"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1111/j.1365-2699.2011.02596.x",
+        "name": "West to east dispersal and subsequent rapid diversification of the mega-diverse genus Begonia (Begoniaceae) in the Malesian archipelago",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.1111/j.1365-2699.2011.02596.x"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1017/s0960428611000072",
+        "name": "NINE NEW SPECIES OF BEGONIA (BEGONIACEAE) FROM SOUTH AND WEST SULAWESI, INDONESIA",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.1017/s0960428611000072"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Begonia blancii (sect. Diploclinium, Begoniaceae), A New Species Endemic to the Philippine Island of Palawan",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "other-id",
+          "value": "al:1817406x-201104-201106150032-201106150032-203-209"
+        },
+        "sameAs": "http://www.airitilibrary.com/Publication/alDetailedMesh?DocID=1817406X-201104-201106150032-201106150032-203-209"
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1017/s0960428609005307",
+        "name": "BEGONIA SECTION PETERMANNIA (BEGONIACEAE) ON PALAWAN (PHILIPPINES), INCLUDING TWO NEW SPECIES",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.1017/s0960428609005307"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1017/s0960428609005484",
+        "name": "TWO NEW SPECIES OF BEGONIA (BEGONIACEAE) FROM SOUTH SULAWESI, INDONESIA",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.1017/s0960428609005484"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1017/s0960428609005320",
+        "name": "TWO NEW SPECIES OF BEGONIA (BEGONIACEAE) FROM CENTRAL SULAWESI, INDONESIA",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.1017/s0960428609005320"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1017/s096042860800509x",
+        "name": "BEGONIA VARIPELTATA(BEGONIACEAE): A NEW PELTATE SPECIES FROM SULAWESI, INDONESIA",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.1017/s096042860800509x"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1017/s0960428607000777",
+        "name": "BEGONIA CLADOTRICHA (BEGONIACEAE): A NEW SPECIES FROM LAOS",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.1017/s0960428607000777"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1017/s0960428606000588",
+        "name": "FOUR NEW SPECIES OF BEGONIA (BEGONIACEAE) FROM SULAWESI",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.1017/s0960428606000588"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1600/0363644054782297",
+        "name": "A Phylogeny of Begonia Using Nuclear Ribosomal Sequence Data and Morphological Characters",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.1600/0363644054782297"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1016/s0006-3207(02)00375-0",
+        "name": "Population genetic structure in the endemic Begonia of the Socotra archipelago",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.1016/s0006-3207(02)00375-0"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1017/s0960428602000082",
+        "name": "A NEW ENDEMIC SPECIES OF BEGONIA (BEGONIACEAE) FROM THE SOCOTRA ARCHIPELAGO",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.1017/s0960428602000082"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1046/j.1471-8286.2002.00201.x",
+        "name": "Isolation of polymorphic microsatellite markers for Begonia sutherlandii Hook. f.",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.1046/j.1471-8286.2002.00201.x"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.1046/j.1471-8286.2002.00185.x",
+        "name": "Polymorphic microsatellite markers for the Socotran endemic herb Begonia socotrana",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.1046/j.1471-8286.2002.00185.x"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://doi.org/10.3126/botor.v7i0.4386",
+        "name": "Distribution Patterns of Begonia species in the Nepal Himalaya",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.3126/botor.v7i0.4386"
+        }
+      }
+    ]
+  },
+  "url": [
+    "https://www.rbge.org.uk/about-us/organisational-structure/staff/tropical-diversity/dr-mark-hughes/",
+    "https://www.mendeley.com/profiles/mark-hughes/"
+  ],
+  "identifier": [{
+      "@type": "PropertyValue",
+      "propertyID": "Loop profile",
+      "value": "845425"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Loop profile",
+      "value": "826408"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://academic.oup.com/botlinnean/article/183/3/373/3092408",
+  "@type": "ScholarlyArticle",
+  "name": "Systematics of  Libinhania , a new endemic genus of Gnaphalieae (Asteraceae) from the Socotra archipelago (Yemen), inferred from plastid, low-copy nuclear and nuclear ribosomal DNA loci",
+  "datePublished": "2017-03-29",
+  "isPartOf": {
+    "@id": "https://academic.oup.com/botlinnean/botlinnean/issue/183/3",
+    "@type": "PublicationIssue",
+    "issueNumber": "3",
+    "datePublished": "2017-03-01",
+    "isPartOf": {
+      "@id": "https://academic.oup.com/botlinnean/botlinnean",
+      "@type": "Periodical",
+      "name": "Botanical Journal of the Linnean Society",
+      "issn": ["1095-8339"]
+    }
+  },
+  "url": "http://dx.doi.org/10.1093/botlinnean/bow013",
+  "keywords": ["allopolyploidy", "ancestral state reconstruction", "Compositae", "Helichrysum", "morphology", "phylogenetics", "reticulate evolution", "taxonomy"],
+  "inLanguage": "en",
+  "copyrightHolder": "The Linnean Society of London",
+  "copyrightYear": "2020",
+  "publisher": "Oxford University Press",
+  "sameAs": "https://academic.oup.com/botlinnean/article/183/3/373/3092408",
+  "author": [{
+    "name": "Kilian, Norbert",
+    "affiliation": "1  Botanic Garden and Botanical Museum Berlin, Freie Universität Berlin ,  Königin-Luise-Str. 6–8, 14195 Berlin ,  Germany",
+    "@type": "Person"
+  }, {
+    "name": "Galbany-Casals, Mercè",
+    "affiliation": "2  Departament de Biologia Animal, Biologia Vegetal i Ecologia, Facultat de Biociències, Universitat Autònoma de Barcelona ,  08193 Bellaterra ,  Spain",
+    "@type": "Person"
+  }, {
+    "name": "Sommerer, Ronny",
+    "affiliation": "1  Botanic Garden and Botanical Museum Berlin, Freie Universität Berlin ,  Königin-Luise-Str. 6–8, 14195 Berlin ,  Germany",
+    "@type": "Person"
+  }, {
+    "name": "Oberprieler, Christoph",
+    "affiliation": "3  Evolutionary and Systematic Botany, Institute of Plant Sciences, University of Regensburg, Universitätsstr .  31, 93053 Regensburg ,  Germany",
+    "@type": "Person"
+  }, {
+    "name": "Smissen, Rob",
+    "affiliation": "4  Allan Herbarium, Landcare Research ,  P.O. Box 69040, Lincoln 7640 ,  New Zealand",
+    "@type": "Person"
+  }, {
+    "name": "Miller, Antony",
+    "affiliation": "5  Centre for Middle Eastern Plants, Royal Botanic Garden Edinburgh ,  20A Inverleith Row, Edinburgh EH3 5LR ,  UK",
+    "@type": "Person"
+  }, {
+    "name": "Rabe, Katharina",
+    "affiliation": "1  Botanic Garden and Botanical Museum Berlin, Freie Universität Berlin ,  Königin-Luise-Str. 6–8, 14195 Berlin ,  Germany",
+    "@type": "Person"
+  }],
+  "description": "Abstract.  The Socotra archipelago off the Horn of Africa shelters morphologically diverse endemic species of Asteraceae tribe Gnaphalieae, eight species placed",
+  "pageStart": "373",
+  "pageEnd": "412",
+  "thumbnailURL": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/botlinnean/Issue/183/3/2/m_cover.png?Expires=1641739430&Signature=vUwrFIlcqiYGAU89TV4rsF7g7uaBaEHntSHsnv~zg5fgQPCvinJJNvGtEwu5DvajtErT0hZRc3BPEPqbTttdgLnLNb0jVve0xQo~38bOIUiHf05HaQFU2CCRuDYpxYiSqE5ZZ7c~pYUXQ2OjZlJWOaVy78iYRAww~OkbjcJY2vMmz~-RyH6CR3TmGqzSPg3TgVIrpfx7EfEhQVqHtPd7SdcPXf10G7p1GCoxTwVTtlaOn0aUpgXwgi1Vhis1~EU012at~mN0WP0j~laqOp5-kslq2ArEmuLO1Mkmtt7Nuvti4D3pJ~egqqmny-xYs9CGJGxg0AbK3oGLE~63wPH3bw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+  "headline": "Systematics of  Libinhania , a new endemic genus of Gnaphalieae (Asteraceae) from the Socotra archipelago (Yemen), inferred from plastid, low-copy nuclear and nuclear ribosomal DNA loci",
+  "image": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/botlinnean/Issue/183/3/2/m_cover.png?Expires=1641739430&Signature=vUwrFIlcqiYGAU89TV4rsF7g7uaBaEHntSHsnv~zg5fgQPCvinJJNvGtEwu5DvajtErT0hZRc3BPEPqbTttdgLnLNb0jVve0xQo~38bOIUiHf05HaQFU2CCRuDYpxYiSqE5ZZ7c~pYUXQ2OjZlJWOaVy78iYRAww~OkbjcJY2vMmz~-RyH6CR3TmGqzSPg3TgVIrpfx7EfEhQVqHtPd7SdcPXf10G7p1GCoxTwVTtlaOn0aUpgXwgi1Vhis1~EU012at~mN0WP0j~laqOp5-kslq2ArEmuLO1Mkmtt7Nuvti4D3pJ~egqqmny-xYs9CGJGxg0AbK3oGLE~63wPH3bw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+}

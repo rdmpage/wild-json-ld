@@ -1,0 +1,200 @@
+[{
+  "@context": "https://springernature.github.io/scigraph/jsonld/sgcontext.json",
+  "about": [{
+      "id": "http://purl.org/au-research/vocabulary/anzsrc-for/2008/0604",
+      "inDefinedTermSet": "http://purl.org/au-research/vocabulary/anzsrc-for/2008/",
+      "name": "Genetics",
+      "type": "DefinedTerm"
+    },
+    {
+      "id": "http://purl.org/au-research/vocabulary/anzsrc-for/2008/06",
+      "inDefinedTermSet": "http://purl.org/au-research/vocabulary/anzsrc-for/2008/",
+      "name": "Biological Sciences",
+      "type": "DefinedTerm"
+    }
+  ],
+  "author": [{
+      "affiliation": {
+        "alternateName": "University of the Philippines Manila",
+        "id": "https://www.grid.ac/institutes/grid.11159.3d",
+        "name": [
+          "Department of Biology, College of Arts and Sciences, University of the Philippines Manila, 1000, Padre Faura, Manila, Philippines"
+        ],
+        "type": "Organization"
+      },
+      "familyName": "Rubite",
+      "givenName": "Rosario Rivera",
+      "id": "sg:person.01273231777.47",
+      "sameAs": [
+        "https://app.dimensions.ai/discover/publication?and_facet_researcher=ur.01273231777.47"
+      ],
+      "type": "Person"
+    },
+    {
+      "affiliation": {
+        "alternateName": "Royal Botanic Garden Edinburgh",
+        "id": "https://www.grid.ac/institutes/grid.426106.7",
+        "name": [
+          "Royal Botanic Garden Edinburgh, 20a Inverleith Row, EH3 5LR, Edinburgh, UK"
+        ],
+        "type": "Organization"
+      },
+      "familyName": "Hughes",
+      "givenName": "Mark",
+      "id": "sg:person.01106761266.94",
+      "sameAs": [
+        "https://app.dimensions.ai/discover/publication?and_facet_researcher=ur.01106761266.94"
+      ],
+      "type": "Person"
+    },
+    {
+      "affiliation": {
+        "alternateName": "University of Santo Tomas",
+        "id": "https://www.grid.ac/institutes/grid.412775.2",
+        "name": [
+          "College of Science and Research Centre for the Natural and Applied Sciences, University of Santo Tomas, 1015, España, Manila, Philippines"
+        ],
+        "type": "Organization"
+      },
+      "familyName": "Alejandro",
+      "givenName": "Grecebio JD",
+      "id": "sg:person.012423313757.48",
+      "sameAs": [
+        "https://app.dimensions.ai/discover/publication?and_facet_researcher=ur.012423313757.48"
+      ],
+      "type": "Person"
+    },
+    {
+      "affiliation": {
+        "alternateName": "Academia Sinica",
+        "id": "https://www.grid.ac/institutes/grid.28665.3f",
+        "name": [
+          "Biodiversity Research Center, Academia Sinica, 115, Taipei, Taiwan"
+        ],
+        "type": "Organization"
+      },
+      "familyName": "Peng",
+      "givenName": "Ching-I",
+      "id": "sg:person.011207053457.16",
+      "sameAs": [
+        "https://app.dimensions.ai/discover/publication?and_facet_researcher=ur.011207053457.16"
+      ],
+      "type": "Person"
+    }
+  ],
+  "citation": [{
+      "id": "https://doi.org/10.1016/j.ympev.2011.05.006",
+      "sameAs": [
+        "https://app.dimensions.ai/details/publication/pub.1036079723"
+      ],
+      "type": "CreativeWork"
+    },
+    {
+      "id": "https://doi.org/10.1093/sysbio/sys029",
+      "sameAs": [
+        "https://app.dimensions.ai/details/publication/pub.1049138722"
+      ],
+      "type": "CreativeWork"
+    },
+    {
+      "id": "https://doi.org/10.1093/sysbio/syr074",
+      "sameAs": [
+        "https://app.dimensions.ai/details/publication/pub.1060048509"
+      ],
+      "type": "CreativeWork"
+    },
+    {
+      "id": "https://doi.org/10.1600/0363644054782297",
+      "sameAs": [
+        "https://app.dimensions.ai/details/publication/pub.1068114490"
+      ],
+      "type": "CreativeWork"
+    },
+    {
+      "id": "https://doi.org/10.1600/036364406777585784",
+      "sameAs": [
+        "https://app.dimensions.ai/details/publication/pub.1068114541"
+      ],
+      "type": "CreativeWork"
+    }
+  ],
+  "datePublished": "2013-12",
+  "datePublishedReg": "2013-12-01",
+  "description": "BACKGROUND: Begonia sect. Diploclinium is a 'dust-bin' section for species retaining pleisiomorphic characters and lacking novel synapomorphic characters used to delimit other Asian sections in Begonia. Part of this large and polymorphous section is transferred to Begonia sect. Baryandra in a move towards a more natural classification for the genus.\nRESULTS: Phylogenetic analysis of nuclear ribosomal ITS DNA sequences show a strongly supported monophyletic group containing Philippine and Bornean species previously in Begonia sect. Diploclinium, and the type of Begonia sect. Baryandra, B. oxysperma. This clade forms the basis for the now much-expanded Begonia sect. Baryandra, which as defined here contains 49 species and has its centre of diversity in the Philippines.\nCONCLUSIONS: A natural classification for a much expanded Begonia sect. Baryandra has been provided. This paper highlights the feasibility of moving towards a natural classification of Asian Begonia step by step as information comes to light through building upon previous framework phylogenies with denser sampling.",
+  "genre": "research_article",
+  "id": "sg:pub.10.1186/1999-3110-54-38",
+  "inLanguage": [
+    "en"
+  ],
+  "isAccessibleForFree": true,
+  "isPartOf": [{
+      "id": "sg:journal.1294884",
+      "issn": [
+        "1817-406X",
+        "1999-3110"
+      ],
+      "name": "Botanical Studies",
+      "type": "Periodical"
+    },
+    {
+      "issueNumber": "1",
+      "type": "PublicationIssue"
+    },
+    {
+      "type": "PublicationVolume",
+      "volumeNumber": "54"
+    }
+  ],
+  "name": "Recircumscription of Begonia sect. Baryandra (Begoniaceae): evidence from molecular data",
+  "pagination": "38",
+  "productId": [{
+      "name": "readcube_id",
+      "type": "PropertyValue",
+      "value": [
+        "3da2ac9251614dfcdf3790c9ecfc21f413c59957c8f8fe5dace58d382781268c"
+      ]
+    },
+    {
+      "name": "pubmed_id",
+      "type": "PropertyValue",
+      "value": [
+        "28510877"
+      ]
+    },
+    {
+      "name": "nlm_unique_id",
+      "type": "PropertyValue",
+      "value": [
+        "101321928"
+      ]
+    },
+    {
+      "name": "doi",
+      "type": "PropertyValue",
+      "value": [
+        "10.1186/1999-3110-54-38"
+      ]
+    },
+    {
+      "name": "dimensions_id",
+      "type": "PropertyValue",
+      "value": [
+        "pub.1012937410"
+      ]
+    }
+  ],
+  "sameAs": [
+    "https://doi.org/10.1186/1999-3110-54-38",
+    "https://app.dimensions.ai/details/publication/pub.1012937410"
+  ],
+  "sdDataset": "articles",
+  "sdDatePublished": "2019-04-10T23:24",
+  "sdLicense": "https://scigraph.springernature.com/explorer/license/",
+  "sdPublisher": {
+    "name": "Springer Nature - SN SciGraph project",
+    "type": "Organization"
+  },
+  "sdSource": "s3://com-uberresearch-data-dimensions-target-20181106-alternative/cleanup/v134/2549eaecd7973599484d7c17b260dba0a4ecb94b/merge/v9/a6c9fde33151104705d4d7ff012ea9563521a3ce/jats-lookup/v90/0000000001_0000000264/records_8693_00000511.jsonl",
+  "type": "ScholarlyArticle",
+  "url": "http://link.springer.com/10.1186%2F1999-3110-54-38"
+}]

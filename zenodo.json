@@ -1,0 +1,31 @@
+{
+  "description": "<p>A new species of <i>Gymnanthemum</i> (Compositae, Vernonieae) from South Africa is described. It can be distinguished from other species in the genus by the five-flowered capitula and widely obtuse leaf blades.</p>",
+  "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+  "creator": [{
+      "affiliation": "Smithsonian Institution, Washington, DC, United States of America",
+      "@type": "Person",
+      "name": "Robinson, Harold"
+    },
+    {
+      "affiliation": "Smithsonian Institution, Washington DC, United States of America",
+      "@type": "Person",
+      "name": "Funk, Vicki"
+    }
+  ],
+  "headline": "Gymnanthemum koekemoerae (Compositae, Vernonieae), a new species from South Africa",
+  "image": "https://zenodo.org/static/img/logos/zenodo-gradient-round.svg",
+  "datePublished": "2014-04-30",
+  "url": "https://zenodo.org/record/576210",
+  "keywords": [
+    "Asteraceae",
+    "Compositae",
+    "Gymnanthemum",
+    "South Africa",
+    "Vernonieae"
+  ],
+  "@context": "https://schema.org/",
+  "identifier": "https://doi.org/10.3897/phytokeys.36.7386",
+  "@id": "https://doi.org/10.3897/phytokeys.36.7386",
+  "@type": "ScholarlyArticle",
+  "name": "Gymnanthemum koekemoerae (Compositae, Vernonieae), a new species from South Africa"
+}
