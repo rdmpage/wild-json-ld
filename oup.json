@@ -1,8 +1,8 @@
 {
-  "@context": "http://schema.org",
-  "@id": "https://academic.oup.com/botlinnean/article/183/3/373/3092408",
+  "@context": "https://schema.org",
   "@type": "ScholarlyArticle",
-  "name": "Systematics of  Libinhania , a new endemic genus of Gnaphalieae (Asteraceae) from the Socotra archipelago (Yemen), inferred from plastid, low-copy nuclear and nuclear ribosomal DNA loci",
+  "@id": "https://academic.oup.com/botlinnean/article/183/3/373/3092408",
+  "name": "Systematics of Libinhania, a new endemic genus of Gnaphalieae (Asteraceae) from the Socotra archipelago (Yemen), inferred from plastid, low-copy nuclear and nuclear ribosomal DNA loci",
   "datePublished": "2017-03-29",
   "isPartOf": {
     "@id": "https://academic.oup.com/botlinnean/botlinnean/issue/183/3",
@@ -16,11 +16,11 @@
       "issn": ["1095-8339"]
     }
   },
-  "url": "http://dx.doi.org/10.1093/botlinnean/bow013",
+  "url": "https://dx.doi.org/10.1093/botlinnean/bow013",
   "keywords": ["allopolyploidy", "ancestral state reconstruction", "Compositae", "Helichrysum", "morphology", "phylogenetics", "reticulate evolution", "taxonomy"],
   "inLanguage": "en",
   "copyrightHolder": "The Linnean Society of London",
-  "copyrightYear": "2020",
+  "copyrightYear": "2021",
   "publisher": "Oxford University Press",
   "sameAs": "https://academic.oup.com/botlinnean/article/183/3/373/3092408",
   "author": [{
@@ -52,10 +52,10 @@
     "affiliation": "1  Botanic Garden and Botanical Museum Berlin, Freie Universität Berlin ,  Königin-Luise-Str. 6–8, 14195 Berlin ,  Germany",
     "@type": "Person"
   }],
-  "description": "Abstract.  The Socotra archipelago off the Horn of Africa shelters morphologically diverse endemic species of Asteraceae tribe Gnaphalieae, eight species placed",
+  "description": "Abstract. The Socotra archipelago off the Horn of Africa shelters morphologically diverse endemic species of Asteraceae tribe Gnaphalieae, eight species placed ",
   "pageStart": "373",
   "pageEnd": "412",
-  "thumbnailURL": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/botlinnean/Issue/183/3/2/m_cover.png?Expires=1641739430&Signature=vUwrFIlcqiYGAU89TV4rsF7g7uaBaEHntSHsnv~zg5fgQPCvinJJNvGtEwu5DvajtErT0hZRc3BPEPqbTttdgLnLNb0jVve0xQo~38bOIUiHf05HaQFU2CCRuDYpxYiSqE5ZZ7c~pYUXQ2OjZlJWOaVy78iYRAww~OkbjcJY2vMmz~-RyH6CR3TmGqzSPg3TgVIrpfx7EfEhQVqHtPd7SdcPXf10G7p1GCoxTwVTtlaOn0aUpgXwgi1Vhis1~EU012at~mN0WP0j~laqOp5-kslq2ArEmuLO1Mkmtt7Nuvti4D3pJ~egqqmny-xYs9CGJGxg0AbK3oGLE~63wPH3bw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
-  "headline": "Systematics of  Libinhania , a new endemic genus of Gnaphalieae (Asteraceae) from the Socotra archipelago (Yemen), inferred from plastid, low-copy nuclear and nuclear ribosomal DNA loci",
-  "image": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/botlinnean/Issue/183/3/2/m_cover.png?Expires=1641739430&Signature=vUwrFIlcqiYGAU89TV4rsF7g7uaBaEHntSHsnv~zg5fgQPCvinJJNvGtEwu5DvajtErT0hZRc3BPEPqbTttdgLnLNb0jVve0xQo~38bOIUiHf05HaQFU2CCRuDYpxYiSqE5ZZ7c~pYUXQ2OjZlJWOaVy78iYRAww~OkbjcJY2vMmz~-RyH6CR3TmGqzSPg3TgVIrpfx7EfEhQVqHtPd7SdcPXf10G7p1GCoxTwVTtlaOn0aUpgXwgi1Vhis1~EU012at~mN0WP0j~laqOp5-kslq2ArEmuLO1Mkmtt7Nuvti4D3pJ~egqqmny-xYs9CGJGxg0AbK3oGLE~63wPH3bw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+  "thumbnailURL": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/botlinnean/Issue/183/3/2/m_cover.jpeg?Expires=1693078539&Signature=yTEaF50jlovutk2hTbTPGXMMOXwNdLPjSu4~cVx4jgX1HJKM2mJbFnInOILp08pNsbCtM9d-dJliWX4oP94FcFYIOauK7Aa5soOcgU5eihKPFTvSIgGGYyIiz-IWPlvWyF6ZOQv4T884bGPujueT2pybcXHqBiEqLVFpF3SYbJxDbGnPyxGFsk23vhfmbdxup4Y5AV~meKeumSYFzNetiZeOXp1xLSYzFb3SeUWNlr~jpzl32xheIekDxtTueD1dBKdd2Lh69p8UUD2rm-g6UGaprmZsXuimn30ZFDXS5Duf6QoXUFfb0PLPEn5D4502L-7to5FOzsy4w7SUdIkr3Q__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+  "headline": "Systematics of Libinhania, a new endemic genus of Gnaphalieae (Asteraceae) from the Socotra archipelago (Yemen), inferred from plastid, low-copy nuclear and nuclear ribosomal DNA loci",
+  "image": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/botlinnean/Issue/183/3/2/m_cover.jpeg?Expires=1693078539&Signature=yTEaF50jlovutk2hTbTPGXMMOXwNdLPjSu4~cVx4jgX1HJKM2mJbFnInOILp08pNsbCtM9d-dJliWX4oP94FcFYIOauK7Aa5soOcgU5eihKPFTvSIgGGYyIiz-IWPlvWyF6ZOQv4T884bGPujueT2pybcXHqBiEqLVFpF3SYbJxDbGnPyxGFsk23vhfmbdxup4Y5AV~meKeumSYFzNetiZeOXp1xLSYzFb3SeUWNlr~jpzl32xheIekDxtTueD1dBKdd2Lh69p8UUD2rm-g6UGaprmZsXuimn30ZFDXS5Duf6QoXUFfb0PLPEn5D4502L-7to5FOzsy4w7SUdIkr3Q__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
 }
