@@ -1,0 +1,136 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "identified": "http://rs.tdwg.org/dwc/iri/identifiedBy",
+    "recorded": "http://rs.tdwg.org/dwc/iri/recordedBy",
+    "associatedReferences": "http://rs.tdwg.org/dwc/terms/associatedReferences",
+    "PreservedSpecimen": "http://rs.tdwg.org/dwc/terms/PreservedSpecimen",
+    "creator": "http://purl.org/dc/terms/creator",
+    "created": "http://purl.org/dc/terms/created",
+    "modified": "http://purl.org/dc/terms/modified",
+    "datasetKey": "http://rs.tdwg.org/dwc/terms/datasetKey",
+    "occurrenceID": "http://rs.tdwg.org/dwc/terms/occurrenceID",
+    "basisOfRecord": "http://rs.tdwg.org/dwc/terms/basisOfRecord",
+    "dateIdentified": "http://rs.tdwg.org/dwc/terms/dateIdentified",
+    "decimalLatitude": "http://rs.tdwg.org/dwc/terms/decimalLatitude",
+    "decimalLongitude": "http://rs.tdwg.org/dwc/terms/decimalLongitude",
+    "country": "http://rs.tdwg.org/dwc/terms/country",
+    "countryCode": "http://rs.tdwg.org/dwc/terms/countryCode",
+    "eventDate": "http://rs.tdwg.org/dwc/terms/eventDate",
+    "year": "http://rs.tdwg.org/dwc/terms/year",
+    "kingdom": "http://rs.tdwg.org/dwc/terms/kingdom",
+    "family": "http://rs.tdwg.org/dwc/terms/family",
+    "identifiedBy": "http://rs.tdwg.org/dwc/terms/identifiedBy",
+    "institutionCode": "http://rs.tdwg.org/dwc/terms/institutionCode",
+    "collectionCode": "http://rs.tdwg.org/dwc/terms/collectionCode",
+    "catalogNumber": "http://rs.tdwg.org/dwc/terms/catalogNumber",
+    "recordedBy": "http://rs.tdwg.org/dwc/terms/recordedBy",
+    "scientificName": "http://rs.tdwg.org/dwc/terms/scientificName",
+    "typeStatus": "http://rs.tdwg.org/dwc/terms/typeStatus",
+    "recordedByID": "http://rs.tdwg.org/dwc/terms/recordedByID",
+    "identifiedByID": "http://rs.tdwg.org/dwc/terms/identifiedByID"
+  },
+  "@type": "PreservedSpecimen",
+  "@id": "https://bionomia.net/occurrence/477976412",
+  "sameAs": "https://gbif.org/occurrence/477976412",
+  "datasetKey": "4bfac3ea-8763-4f4b-a71a-76a6f5f243d3",
+  "occurrenceID": "MCZ:IZ:56126",
+  "basisOfRecord": "PRESERVED_SPECIMEN",
+  "dateIdentified": null,
+  "decimalLatitude": "1.0922660027",
+  "decimalLongitude": "11.2080719601",
+  "country": "Equatorial Guinea",
+  "countryCode": "GQ",
+  "eventDate": "2010-03-09",
+  "year": "2010",
+  "kingdom": "Animalia",
+  "family": "Corinnidae",
+  "identifiedBy": "Charles Haddad",
+  "institutionCode": "MCZ",
+  "collectionCode": "IZ",
+  "catalogNumber": "56126",
+  "recordedBy": "Gonzalo Giribet, Carlos Prieto",
+  "scientificName": "Medmassa",
+  "typeStatus": null,
+  "recordedByID": null,
+  "identifiedByID": null,
+  "recorded": [
+    {
+      "@type": "Person",
+      "@id": "https://bionomia.net/0000-0002-5467-8429",
+      "sameAs": "https://orcid.org/0000-0002-5467-8429",
+      "givenName": "Gonzalo",
+      "familyName": "Giribet",
+      "name": "Gonzalo Giribet",
+      "alternateName": [
+        "Gonzalo Giribet de Sebastian"
+      ],
+      "creator": {
+      },
+      "created": "2018-10-20T14:30:53+00:00",
+      "modified": null
+    },
+    {
+      "@type": "Person",
+      "@id": "https://bionomia.net/0000-0003-2064-4842",
+      "sameAs": "https://orcid.org/0000-0003-2064-4842",
+      "givenName": "Carlos",
+      "familyName": "Prieto",
+      "name": "Carlos Prieto",
+      "alternateName": [
+
+      ],
+      "creator": {
+        "@type": "Person",
+        "@id": "https://bionomia.net/0000-0001-7618-5230",
+        "sameAs": "https://orcid.org/0000-0001-7618-5230",
+        "givenName": "David Peter",
+        "familyName": "Shorthouse",
+        "name": "David Peter Shorthouse",
+        "alternateName": [
+          "David P. Shorthouse",
+          "David Shorthouse",
+          "David Peter Shorthouse"
+        ]
+      },
+      "created": "2018-10-20T14:30:53+00:00",
+      "modified": null
+    }
+  ],
+  "identified": [
+    {
+      "@type": "Person",
+      "@id": "https://bionomia.net/0000-0002-2317-7760",
+      "sameAs": "https://orcid.org/0000-0002-2317-7760",
+      "givenName": "Charles",
+      "familyName": "Haddad",
+      "name": "Charles Haddad",
+      "alternateName": [
+
+      ],
+      "creator": {
+        "@type": "Person",
+        "@id": "https://bionomia.net/0000-0001-7618-5230",
+        "sameAs": "https://orcid.org/0000-0001-7618-5230",
+        "givenName": "David Peter",
+        "familyName": "Shorthouse",
+        "name": "David Peter Shorthouse",
+        "alternateName": [
+          "David P. Shorthouse",
+          "David Shorthouse",
+          "David Peter Shorthouse"
+        ]
+      },
+      "created": "2018-10-20T14:30:53+00:00",
+      "modified": null
+    }
+  ],
+  "associatedReferences": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1111/jbi.13387",
+      "sameAs": "https://doi.org/10.1111/jbi.13387",
+      "description": "Piel, W. H. (2018). The global latitudinal diversity gradient pattern in spiders. Journal of Biogeography, 45(8), 1896–1904. doi:10.1111/jbi.13387\n"
+    }
+  ]
+}
