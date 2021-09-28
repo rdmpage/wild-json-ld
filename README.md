@@ -2,13 +2,13 @@
 
 Real world JSON-LD examples we can use for inspiration. Some of these examples may no longer be available, or have changed. The JSON displayed here may be truncated to keep the page readable, click on the link to get the complete JSON document. Note that some of the JSON-LD is not valid RDF, much of it has probably never been used by RDF clients such as triple stores.
 
-I’ve highlight some interesting features, such as use of the `@reverse` keyword, and ordering items in a list.
+I’ve highlighted some interesting features, such as use of the `@reverse` keyword, and ordering items in a list.
 
 ## Bionomia
 
 JSON-LD for [https://bionomia.net/occurrence/477976412](477976412), see https://twitter.com/dpsSpiders/status/1431258387145179148?s=20
 
-:x: Note that `recorded` includes attributes of the record (e.g., `created`) that apply to the person, not the record itself. 
+- :x: Note that `recorded` includes attributes of the record (e.g., `created`) that apply to the person, not the record itself. 
 
 [bionomia.json](bionomia.json)
 
@@ -157,7 +157,7 @@ Based on TaxonName DRAFT Profile [0.1-DRAFT](https://bioschemas.org/profiles/Tax
 
 Embedded in HTML using `<script type="application/ld+json"></script>` tags, e.g. https://www.catalogueoflife.org/data/taxon/5TVFG
 
-:x: No `@id` for the taxon, so the JSON-LD below is not explicitly connected to https://www.catalogueoflife.org/data/taxon/5TVFG
+- :x: No `@id` for the taxon, so the JSON-LD below is not explicitly connected to https://www.catalogueoflife.org/data/taxon/5TVFG
 
 [col.json](col.json)
 
@@ -237,7 +237,7 @@ Embedded in HTML using `<script type="application/ld+json"></script>` tags, e.g.
 
 An earlier version of EOL supported JSON-LD via their API (trait bank). They had JSON-LD for taxa, and for “collections” (user-created lists of species).
 
-:x: This JSON-LD is not valid, see https://github.com/EOL/deprecated_eol/issues/139
+- :x: This JSON-LD is not valid, see https://github.com/EOL/deprecated_eol/issues/139
 
 [116394-unsorted.json](116394-unsorted.json)
 
@@ -417,7 +417,7 @@ ORCID supports JSON-LD via content negotiation, e.g.
 
 ```curl -L -H 'Accept: application/ld+json' https://orcid.org/0000-0002-2168-0514```
 
-:warning: Note the use of `@reverse` to associate person with publications. There is no notion of order of authorship, and any other authors are not listed (even if they have ORCID’s).
+- :warning: Note the use of `@reverse` to associate person with publications. There is no notion of order of authorship, and any other authors are not listed (even if they have ORCID’s).
 
 [orcid](orcid.json)
 
@@ -475,8 +475,8 @@ ORCID supports JSON-LD via content negotiation, e.g.
 
 OUP embeds JSON-LD in their web pages, e.g. https://academic.oup.com/botlinnean/article/183/3/373/3092408
 
-:warning: Note the horrible image URLs that include timestamps and other ephemeral parameters.
-::warning: Note the nested `schema:isPartOf` relationships to model a `ScholarlyArticle` within a `PublicationIssue` within a `Periodical`.
+- :warning: Note the horrible image URLs that include timestamps and other ephemeral parameters.
+- :warning: Note the nested `schema:isPartOf` relationships to model a `ScholarlyArticle` within a `PublicationIssue` within a `Periodical`.
 
 [oup.json](oup.json)
 
@@ -548,7 +548,7 @@ OUP embeds JSON-LD in their web pages, e.g. https://academic.oup.com/botlinnean/
 
 At one point ResearchGate embedded [schema.org](http://schema.org) in their web pages, but they seemed to have stopped doing this(?).
 
-:warning: Note the lack of `@id`, and using `schema:mainEntityOfPage` (with a relative URL) to link person and web page.
+- :warning: Note the lack of `@id`, and using `schema:mainEntityOfPage` (with a relative URL) to link person and web page.
 
 [researchgate.json](researchgate.json)
 
@@ -629,9 +629,8 @@ SciGraph uses JSON-LD as the canonical representation of their data. It can be r
 ```curl -L http://scigraph.springernature.com/pub.10.1007/s00606-016-1316-4.json```
 
 
-:warning: Unlike, say, OUP, SciGraph doesn’t nest `schema:isPartOf` relations when linking an article to the issue, volume, and periodical.
-
-:warning: The SciGraph JSON-LD treats authors as an ordered list, which you can see from their context:
+- :warning: Unlike, say, OUP, SciGraph doesn’t nest `schema:isPartOf` relations when linking an article to the issue, volume, and periodical.
+- :warning: The SciGraph JSON-LD treats authors as an ordered list, which you can see from their context:
 
 ```json
         "author": {
@@ -644,7 +643,7 @@ RDF has no built-in notion of order, so this is achieved using `rdfs:lists`. See
 
 ![alt text](list.png)
 
-So to store an ordered list of authors we create a [singly-linked list[(https://en.wikipedia.org/wiki/Linked_list#Singly_linked_list) in RDF.
+So to store an ordered list of authors we create a [singly-linked list](https://en.wikipedia.org/wiki/Linked_list#Singly_linked_list) in RDF.
 
 [s00606-016-1316-4.json](s00606-016-1316-4.json)
 
@@ -787,11 +786,11 @@ So to store an ordered list of authors we create a [singly-linked list[(https://
 
 ## Zenodo
 
-Zenodo supports JSON by content negotiation.
+Zenodo supports JSON-LD by content negotiation.
 
 ```curl -H 'Accept: application/ld+json' https://zenodo.org/api/records/3538376```
 
-:warning: Note that if the Zenodo item has a non-Zenodo DOI then `@id` uses that DOI, hence the statements below are linked to the CrossRef DOI for the article.
+- :warning: Note that if the Zenodo item has a non-Zenodo DOI then `@id` uses that DOI, hence the statements below are linked to the CrossRef DOI for the article `10.3897/phytokeys.36.7386` not the Zenodo record id `576210`.
 
 ```json
 {
