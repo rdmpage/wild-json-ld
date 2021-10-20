@@ -8,6 +8,8 @@ I’ve highlighted some interesting features, such as use of the `@reverse` keyw
 
 JSON-LD for [https://bionomia.net/occurrence/477976412](477976412), see https://twitter.com/dpsSpiders/status/1431258387145179148?s=20
 
+See also the discussion in https://github.com/bionomia/bionomia/issues/160 on JSON-LD, roles, and provenance, see "A Scalable Approach to Incrementally Building Knowledge Graphs" [10.1007/978-3-319-43997-6_15](https://doi.org/10.1007/978-3-319-43997-6_15) [PDF here](https://usc-isi-i2.github.io/papers/gleb16-tpdl.pdf).
+
 - :x: Note that `recorded` includes attributes of the record (e.g., `created`) that apply to the person, not the record itself. 
 
 [bionomia.json](bionomia.json)
