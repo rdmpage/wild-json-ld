@@ -413,6 +413,145 @@ An earlier version of EOL supported JSON-LD via their API (trait bank). They had
 }
 ```
 
+## ISSN
+
+The [ISSN Portal supports linked data](https://portal.issn.org), for example `https://portal.issn.org/resource/ISSN/2589-3831?format=json` returns JSON-LD.
+
+- :warning: The JSON-LD is broken as there is no URI for the actual ISSN. The RDF/XML and Turtle formats declare `@base <http://issn.org/>` so the URI becomes, for example, `http://issn.org/resource/ISSN/2589-3831`.
+
+```json
+{
+  "@graph" : [ {
+    "@id" : "http://id.loc.gov/vocabulary/countries/ne",
+    "label" : "Netherlands"
+  }, {
+    "@id" : "organization/ISSNCenter#_j",
+    "@type" : "http://schema.org/Organization"
+  }, {
+    "@id" : "resource/ISSN-L/2589-3823",
+    "identifiedBy" : "resource/ISSN/2589-3831#ISSN-L"
+  }, {
+    "@id" : "resource/ISSN/2589-3831",
+    "@type" : [ "http://id.loc.gov/ontologies/bibframe/Work", "http://id.loc.gov/ontologies/bibframe/Instance", "http://schema.org/Periodical" ],
+    "identifiedBy" : [ "resource/ISSN/2589-3831#ISSN-L", "resource/ISSN/2589-3831#KeyTitle", "resource/ISSN/2589-3831#ISSN" ],
+    "mainTitle" : "Fungal systematics and evolution.",
+    "otherPhysicalFormat" : "resource/ISSN/2589-3823",
+    "title" : "resource/ISSN/2589-3831#KeyTitle",
+    "format" : "vocabularies/medium#Online",
+    "identifier" : "2589-3831",
+    "isFormatOf" : "resource/ISSN/2589-3823",
+    "type" : "http://marc21rdf.info/terms/formofmaterial#a",
+    "issn" : "2589-3831",
+    "isPartOf" : "resource/ISSN-L/2589-3823",
+    "http://schema.org/issn" : "2589-3831",
+    "name" : [ "Fungal systematics and evolution.", "Fungal systematics and evolution (Online)" ],
+    "publication" : "resource/ISSN/2589-3831#ReferencePublicationEvent",
+    "url" : "http://www.fuse-journal.org/index.php/code-of-ethics"
+  }, {
+    "@id" : "resource/ISSN/2589-3831#ISSN",
+    "@type" : "http://id.loc.gov/ontologies/bibframe/Issn",
+    "status" : "vocabularies/IdentifierStatus#Valid",
+    "value" : "2589-3831"
+  }, {
+    "@id" : "resource/ISSN/2589-3831#ISSN-L",
+    "@type" : "http://id.loc.gov/ontologies/bibframe/IssnL",
+    "status" : "vocabularies/IdentifierStatus#Valid",
+    "value" : "2589-3823"
+  }, {
+    "@id" : "resource/ISSN/2589-3831#KeyTitle",
+    "@type" : [ "http://id.loc.gov/ontologies/bibframe/Identifier", "http://id.loc.gov/ontologies/bibframe/KeyTitle" ],
+    "value" : "Fungal systematics and evolution (Online)"
+  }, {
+    "@id" : "resource/ISSN/2589-3831#Record",
+    "@type" : "http://schema.org/CreativeWork",
+    "status" : "vocabularies/RecordStatus#Register",
+    "modified" : "20210206220800.0",
+    "mainEntity" : "resource/ISSN/2589-3831",
+    "wasAttributedTo" : "organization/ISSNCenter#_j"
+  }, {
+    "@id" : "resource/ISSN/2589-3831#ReferencePublicationEvent",
+    "@type" : "http://schema.org/PublicationEvent",
+    "location" : "http://id.loc.gov/vocabulary/countries/ne"
+  } ],
+  "@context" : {
+    "status" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/status",
+      "@type" : "@id"
+    },
+    "value" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+    },
+    "name" : {
+      "@id" : "http://schema.org/name"
+    },
+    "title" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/title",
+      "@type" : "@id"
+    },
+    "identifiedBy" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/identifiedBy",
+      "@type" : "@id"
+    },
+    "otherPhysicalFormat" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/otherPhysicalFormat",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "issn" : {
+      "@id" : "http://purl.org/ontology/bibo/issn"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "publication" : {
+      "@id" : "http://schema.org/publication",
+      "@type" : "@id"
+    },
+    "isFormatOf" : {
+      "@id" : "http://purl.org/dc/terms/isFormatOf",
+      "@type" : "@id"
+    },
+    "isPartOf" : {
+      "@id" : "http://schema.org/isPartOf",
+      "@type" : "@id"
+    },
+    "format" : {
+      "@id" : "http://purl.org/dc/elements/1.1/format",
+      "@type" : "@id"
+    },
+    "mainTitle" : {
+      "@id" : "http://id.loc.gov/ontologies/bibframe/mainTitle"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/terms/type",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "wasAttributedTo" : {
+      "@id" : "http://www.w3.org/ns/prov#wasAttributedTo",
+      "@type" : "@id"
+    },
+    "mainEntity" : {
+      "@id" : "http://schema.org/mainEntity",
+      "@type" : "@id"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "location" : {
+      "@id" : "http://schema.org/location",
+      "@type" : "@id"
+    }
+  }
+}
+```
+
+
 ## ORCID
 
 ORCID supports JSON-LD via content negotiation, e.g.
