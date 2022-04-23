@@ -1,0 +1,12 @@
+{
+    "name": "rpage/wild-json-ld",
+    "require": {
+        "ml/json-ld": "^1.2"
+    },
+    "authors": [
+        {
+            "name": "Roderic Page",
+            "email": "rdmpage@gmail.com"
+        }
+    ]
+}

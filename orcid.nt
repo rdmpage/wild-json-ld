@@ -1,0 +1,325 @@
+<https://orcid.org/0000-0002-2168-0514> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://orcid.org/0000-0002-2168-0514> <http://schema.org/affiliation> _:b46 .
+<https://orcid.org/0000-0002-2168-0514> <http://schema.org/familyName> "Hughes" .
+<https://orcid.org/0000-0002-2168-0514> <http://schema.org/givenName> "Mark" .
+<https://orcid.org/0000-0002-2168-0514> <http://schema.org/identifier> _:b48 .
+<https://orcid.org/0000-0002-2168-0514> <http://schema.org/identifier> _:b49 .
+<https://orcid.org/0000-0002-2168-0514> <http://schema.org/mainEntityOfPage> <https://orcid.org/0000-0002-2168-0514> .
+<https://orcid.org/0000-0002-2168-0514> <http://schema.org/url> <https://www.rbge.org.uk/about-us/organisational-structure/staff/tropical-diversity/dr-mark-hughes/> .
+<https://orcid.org/0000-0002-2168-0514> <http://schema.org/url> <https://www.mendeley.com/profiles/mark-hughes/> .
+<https://doi.org/10.1017/s0960428619000283> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1017/s0960428619000283> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1017/s0960428619000283> <http://schema.org/identifier> _:b0 .
+<https://doi.org/10.1017/s0960428619000283> <http://schema.org/name> "BEGONIA MAGUNIANA (BEGONIACEAE, BEGONIA SECT. OLIGANDRAE), A NEW SPECIES FROM NEW GUINEA" .
+_:b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b0 <http://schema.org/propertyID> "doi" .
+_:b0 <http://schema.org/value> "10.1017/s0960428619000283" .
+<https://doi.org/10.11646/phytotaxa.407.1.11> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.11646/phytotaxa.407.1.11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.11646/phytotaxa.407.1.11> <http://schema.org/identifier> _:b1 .
+<https://doi.org/10.11646/phytotaxa.407.1.11> <http://schema.org/name> "A revision of Begonia sect. Petermannia on Sumatra, Indonesia" .
+_:b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b1 <http://schema.org/propertyID> "doi" .
+_:b1 <http://schema.org/value> "10.11646/phytotaxa.407.1.11" .
+<https://doi.org/10.11646/phytotaxa.407.1.4> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.11646/phytotaxa.407.1.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.11646/phytotaxa.407.1.4> <http://schema.org/identifier> _:b2 .
+<https://doi.org/10.11646/phytotaxa.407.1.4> <http://schema.org/name> "Two new species of Begonia (Begoniaceae) from Borneo" .
+_:b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b2 <http://schema.org/propertyID> "doi" .
+_:b2 <http://schema.org/value> "10.11646/phytotaxa.407.1.4" .
+<https://doi.org/10.1017/s0960428619000052> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1017/s0960428619000052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1017/s0960428619000052> <http://schema.org/identifier> _:b3 .
+<https://doi.org/10.1017/s0960428619000052> <http://schema.org/name> "AN UPDATED CHECKLIST AND A NEW SPECIES OF BEGONIA (B. RHEOPHYTICA) FROM MYANMAR" .
+_:b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b3 <http://schema.org/propertyID> "doi" .
+_:b3 <http://schema.org/value> "10.1017/s0960428619000052" .
+<https://doi.org/10.1371/journal.pone.0194877> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1371/journal.pone.0194877> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1371/journal.pone.0194877> <http://schema.org/identifier> _:b4 .
+<https://doi.org/10.1371/journal.pone.0194877> <http://schema.org/identifier> _:b5 .
+<https://doi.org/10.1371/journal.pone.0194877> <http://schema.org/identifier> _:b6 .
+<https://doi.org/10.1371/journal.pone.0194877> <http://schema.org/name> "Chloroplast and nuclear DNA exchanges among Begonia sect. Baryandra species (Begoniaceae) from Palawan Island, Philippines, and descriptions of five new species." .
+<https://doi.org/10.1371/journal.pone.0194877> <http://schema.org/sameAs> <https://europepmc.org/articles/PMC5931476> .
+<https://doi.org/10.1371/journal.pone.0194877> <http://schema.org/sameAs> <https://www.ncbi.nlm.nih.gov/pubmed/29718922> .
+_:b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b4 <http://schema.org/propertyID> "doi" .
+_:b4 <http://schema.org/value> "10.1371/journal.pone.0194877" .
+_:b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b5 <http://schema.org/propertyID> "pmc" .
+_:b5 <http://schema.org/value> "PMC5931476" .
+_:b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b6 <http://schema.org/propertyID> "pmid" .
+_:b6 <http://schema.org/value> "29718922" .
+<https://doi.org/10.1017/s0960428618000136> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1017/s0960428618000136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1017/s0960428618000136> <http://schema.org/identifier> _:b7 .
+<https://doi.org/10.1017/s0960428618000136> <http://schema.org/name> "TWO NEW SPECIES OF BEGONIA FROM SUMATRA" .
+_:b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b7 <http://schema.org/propertyID> "doi" .
+_:b7 <http://schema.org/value> "10.1017/s0960428618000136" .
+<https://doi.org/10.1017/s096042861800001x> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1017/s096042861800001x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1017/s096042861800001x> <http://schema.org/identifier> _:b8 .
+<https://doi.org/10.1017/s096042861800001x> <http://schema.org/name> "A REVISION OF BEGONIA SECT. SYMBEGONIA ON NEW GUINEA" .
+_:b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b8 <http://schema.org/propertyID> "doi" .
+_:b8 <http://schema.org/value> "10.1017/s096042861800001x" .
+<https://doi.org/10.5852/ejt.2018.396> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.5852/ejt.2018.396> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.5852/ejt.2018.396> <http://schema.org/identifier> _:b9 .
+<https://doi.org/10.5852/ejt.2018.396> <http://schema.org/name> "A revision and one new species of Begonia L. (Begoniaceae, Cucurbitales) in Northeast India" .
+_:b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b9 <http://schema.org/propertyID> "doi" .
+_:b9 <http://schema.org/value> "10.5852/ejt.2018.396" .
+<https://doi.org/10.1002/tax.606013> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1002/tax.606013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1002/tax.606013> <http://schema.org/identifier> _:b10 .
+<https://doi.org/10.1002/tax.606013> <http://schema.org/name> "Pliocene intercontinental dispersal from Africa to Southeast Asia highlighted by the new species Begonia afromigrata (Begoniaceae)" .
+_:b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b10 <http://schema.org/propertyID> "doi" .
+_:b10 <http://schema.org/value> "10.1002/tax.606013" .
+<https://doi.org/10.11646/phytotaxa.381.1.16> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.11646/phytotaxa.381.1.16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.11646/phytotaxa.381.1.16> <http://schema.org/identifier> _:b11 .
+<https://doi.org/10.11646/phytotaxa.381.1.16> <http://schema.org/name> "Taxonomic notes on the Philippine endemic Begonia colorata (Begoniaceae, section Petermannia)" .
+_:b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b11 <http://schema.org/propertyID> "doi" .
+_:b11 <http://schema.org/value> "10.11646/phytotaxa.381.1.16" .
+<https://doi.org/10.1186/s40529-017-0182-x> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1186/s40529-017-0182-x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1186/s40529-017-0182-x> <http://schema.org/identifier> _:b12 .
+<https://doi.org/10.1186/s40529-017-0182-x> <http://schema.org/identifier> _:b13 .
+<https://doi.org/10.1186/s40529-017-0182-x> <http://schema.org/identifier> _:b14 .
+<https://doi.org/10.1186/s40529-017-0182-x> <http://schema.org/name> "Three new species of Begonia sect. Baryandra from Panay Island, Philippines." .
+<https://doi.org/10.1186/s40529-017-0182-x> <http://schema.org/sameAs> <https://www.ncbi.nlm.nih.gov/pubmed/28664395> .
+<https://doi.org/10.1186/s40529-017-0182-x> <http://schema.org/sameAs> <https://europepmc.org/articles/PMC5491425> .
+_:b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b12 <http://schema.org/propertyID> "pmid" .
+_:b12 <http://schema.org/value> "28664395" .
+_:b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b13 <http://schema.org/propertyID> "doi" .
+_:b13 <http://schema.org/value> "10.1186/s40529-017-0182-x" .
+_:b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b14 <http://schema.org/propertyID> "pmc" .
+_:b14 <http://schema.org/value> "PMC5491425" .
+<https://doi.org/10.3767/000651917x695083> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.3767/000651917x695083> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.3767/000651917x695083> <http://schema.org/identifier> _:b15 .
+<https://doi.org/10.3767/000651917x695083> <http://schema.org/name> "A new species of Begonia section Parvibegonia (Begoniaceae) from Thailand and Myanmar" .
+_:b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b15 <http://schema.org/propertyID> "doi" .
+_:b15 <http://schema.org/value> "10.3767/000651917x695083" .
+<https://doi.org/10.1017/s0960428617000075> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1017/s0960428617000075> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1017/s0960428617000075> <http://schema.org/identifier> _:b16 .
+<https://doi.org/10.1017/s0960428617000075> <http://schema.org/name> "TAXONOMY OF BEGONIA ALBOMACULATA AND DESCRIPTION OF TWO NEW SPECIES ENDEMIC TO PERU" .
+_:b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b16 <http://schema.org/propertyID> "doi" .
+_:b16 <http://schema.org/value> "10.1017/s0960428617000075" .
+<https://doi.org/10.1017/s0960428617000051> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1017/s0960428617000051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1017/s0960428617000051> <http://schema.org/identifier> _:b17 .
+<https://doi.org/10.1017/s0960428617000051> <http://schema.org/name> "FOUR NEW SPECIES OF BEGONIA (BEGONIACEAE) FROM THAILAND" .
+_:b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b17 <http://schema.org/propertyID> "doi" .
+_:b17 <http://schema.org/value> "10.1017/s0960428617000051" .
+<https://doi.org/10.3850/s2382581216000077> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.3850/s2382581216000077> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.3850/s2382581216000077> <http://schema.org/identifier> _:b18 .
+<https://doi.org/10.3850/s2382581216000077> <http://schema.org/name> "A new species and a new record in Begonia sect. Platycentrum (Begoniaceae) from Thailand" .
+_:b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b18 <http://schema.org/propertyID> "doi" .
+_:b18 <http://schema.org/value> "10.3850/s2382581216000077" .
+<https://doi.org/10.5852/ejt.2015.119> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.5852/ejt.2015.119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.5852/ejt.2015.119> <http://schema.org/identifier> _:b19 .
+<https://doi.org/10.5852/ejt.2015.119> <http://schema.org/name> "Begonia yapenensis (sect. Symbegonia, Begoniaceae), a new species from Papua, Indonesia" .
+_:b19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b19 <http://schema.org/propertyID> "doi" .
+_:b19 <http://schema.org/value> "10.5852/ejt.2015.119" .
+<https://doi.org/10.11646/phytotaxa.197.1.4> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.11646/phytotaxa.197.1.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.11646/phytotaxa.197.1.4> <http://schema.org/identifier> _:b20 .
+<https://doi.org/10.11646/phytotaxa.197.1.4> <http://schema.org/name> "A new section (Begonia sect. Oligandrae sect. nov.) and a new species (Begonia pentandra sp. nov.) in Begoniaceae from New Guinea" .
+_:b20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b20 <http://schema.org/propertyID> "doi" .
+_:b20 <http://schema.org/value> "10.11646/phytotaxa.197.1.4" .
+<https://doi.org/10.5852/ejt.2015.167> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.5852/ejt.2015.167> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.5852/ejt.2015.167> <http://schema.org/identifier> _:b21 .
+<https://doi.org/10.5852/ejt.2015.167> <http://schema.org/name> "Further discoveries in the ever-expanding genus Begonia (Begoniaceae): fifteen new species from Sumatra" .
+_:b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b21 <http://schema.org/propertyID> "doi" .
+_:b21 <http://schema.org/value> "10.5852/ejt.2015.167" .
+<https://doi.org/10.1186/s40529-015-0099-1> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1186/s40529-015-0099-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1186/s40529-015-0099-1> <http://schema.org/identifier> _:b22 .
+<https://doi.org/10.1186/s40529-015-0099-1> <http://schema.org/identifier> _:b23 .
+<https://doi.org/10.1186/s40529-015-0099-1> <http://schema.org/name> "Three New Species of Begonia Endemic to the Puerto Princesa Subterranean River National Park, Palawan" .
+<https://doi.org/10.1186/s40529-015-0099-1> <http://schema.org/sameAs> <http://www.airitilibrary.com/Publication/alDetailedMesh?DocID=1817406X-201507-201507290029-201507290029-c1-14> .
+_:b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b22 <http://schema.org/propertyID> "other-id" .
+_:b22 <http://schema.org/value> "al:1817406x-201507-201507290029-201507290029-c1-14" .
+_:b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b23 <http://schema.org/propertyID> "doi" .
+_:b23 <http://schema.org/value> "10.1186/s40529-015-0099-1" .
+<https://doi.org/10.5852/ejt.2013.56> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.5852/ejt.2013.56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.5852/ejt.2013.56> <http://schema.org/identifier> _:b24 .
+<https://doi.org/10.5852/ejt.2013.56> <http://schema.org/name> "Memecylon pseudomegacarpum M.Hughes (Melastomataceae), a new species of tree from Peninsular Malaysia" .
+_:b24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b24 <http://schema.org/propertyID> "doi" .
+_:b24 <http://schema.org/value> "10.5852/ejt.2013.56" .
+<https://doi.org/10.1186/1999-3110-54-38> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1186/1999-3110-54-38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1186/1999-3110-54-38> <http://schema.org/identifier> _:b25 .
+<https://doi.org/10.1186/1999-3110-54-38> <http://schema.org/identifier> _:b26 .
+<https://doi.org/10.1186/1999-3110-54-38> <http://schema.org/name> "Recircumscription of Begonia sect. Baryandra (Begoniaceae): evidence from molecular data" .
+<https://doi.org/10.1186/1999-3110-54-38> <http://schema.org/sameAs> <http://www.airitilibrary.com/Publication/alDetailedMesh?DocID=1817406X-201309-201401170003-201401170003-70-74> .
+_:b25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b25 <http://schema.org/propertyID> "other-id" .
+_:b25 <http://schema.org/value> "al:1817406x-201309-201401170003-201401170003-70-74" .
+_:b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b26 <http://schema.org/propertyID> "doi" .
+_:b26 <http://schema.org/value> "10.1186/1999-3110-54-38" .
+<https://doi.org/10.11646/phytotaxa.66.1.2> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.11646/phytotaxa.66.1.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.11646/phytotaxa.66.1.2> <http://schema.org/identifier> _:b27 .
+<https://doi.org/10.11646/phytotaxa.66.1.2> <http://schema.org/name> "A new species and new combinations of Memecylon in Thailand and Peninsular Malaysia" .
+_:b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b27 <http://schema.org/propertyID> "doi" .
+_:b27 <http://schema.org/value> "10.11646/phytotaxa.66.1.2" .
+<https://doi.org/10.1017/s0960428612000078> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1017/s0960428612000078> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1017/s0960428612000078> <http://schema.org/identifier> _:b28 .
+<https://doi.org/10.1017/s0960428612000078> <http://schema.org/name> "A NEW SPECIES OF BEGONIA (BEGONIACEAE) FROM PENINSULAR THAILAND" .
+_:b28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b28 <http://schema.org/propertyID> "doi" .
+_:b28 <http://schema.org/value> "10.1017/s0960428612000078" .
+<https://doi.org/10.3329/bjpt.v19i2.13134> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.3329/bjpt.v19i2.13134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.3329/bjpt.v19i2.13134> <http://schema.org/identifier> _:b29 .
+<https://doi.org/10.3329/bjpt.v19i2.13134> <http://schema.org/name> "Pollen morphology of Begonia L. (Begoniaceae) in Nepal" .
+_:b29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b29 <http://schema.org/propertyID> "doi" .
+_:b29 <http://schema.org/value> "10.3329/bjpt.v19i2.13134" .
+<https://doi.org/10.1111/j.1365-2699.2011.02596.x> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1111/j.1365-2699.2011.02596.x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1111/j.1365-2699.2011.02596.x> <http://schema.org/identifier> _:b30 .
+<https://doi.org/10.1111/j.1365-2699.2011.02596.x> <http://schema.org/name> "West to east dispersal and subsequent rapid diversification of the mega-diverse genus Begonia (Begoniaceae) in the Malesian archipelago" .
+_:b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b30 <http://schema.org/propertyID> "doi" .
+_:b30 <http://schema.org/value> "10.1111/j.1365-2699.2011.02596.x" .
+<https://doi.org/10.1017/s0960428611000072> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1017/s0960428611000072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1017/s0960428611000072> <http://schema.org/identifier> _:b31 .
+<https://doi.org/10.1017/s0960428611000072> <http://schema.org/name> "NINE NEW SPECIES OF BEGONIA (BEGONIACEAE) FROM SOUTH AND WEST SULAWESI, INDONESIA" .
+_:b31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b31 <http://schema.org/propertyID> "doi" .
+_:b31 <http://schema.org/value> "10.1017/s0960428611000072" .
+_:b32 <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+_:b32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:b32 <http://schema.org/identifier> _:b33 .
+_:b32 <http://schema.org/name> "Begonia blancii (sect. Diploclinium, Begoniaceae), A New Species Endemic to the Philippine Island of Palawan" .
+_:b32 <http://schema.org/sameAs> <http://www.airitilibrary.com/Publication/alDetailedMesh?DocID=1817406X-201104-201106150032-201106150032-203-209> .
+_:b33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b33 <http://schema.org/propertyID> "other-id" .
+_:b33 <http://schema.org/value> "al:1817406x-201104-201106150032-201106150032-203-209" .
+<https://doi.org/10.1017/s0960428609005307> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1017/s0960428609005307> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1017/s0960428609005307> <http://schema.org/identifier> _:b34 .
+<https://doi.org/10.1017/s0960428609005307> <http://schema.org/name> "BEGONIA SECTION PETERMANNIA (BEGONIACEAE) ON PALAWAN (PHILIPPINES), INCLUDING TWO NEW SPECIES" .
+_:b34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b34 <http://schema.org/propertyID> "doi" .
+_:b34 <http://schema.org/value> "10.1017/s0960428609005307" .
+<https://doi.org/10.1017/s0960428609005484> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1017/s0960428609005484> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1017/s0960428609005484> <http://schema.org/identifier> _:b35 .
+<https://doi.org/10.1017/s0960428609005484> <http://schema.org/name> "TWO NEW SPECIES OF BEGONIA (BEGONIACEAE) FROM SOUTH SULAWESI, INDONESIA" .
+_:b35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b35 <http://schema.org/propertyID> "doi" .
+_:b35 <http://schema.org/value> "10.1017/s0960428609005484" .
+<https://doi.org/10.1017/s0960428609005320> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1017/s0960428609005320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1017/s0960428609005320> <http://schema.org/identifier> _:b36 .
+<https://doi.org/10.1017/s0960428609005320> <http://schema.org/name> "TWO NEW SPECIES OF BEGONIA (BEGONIACEAE) FROM CENTRAL SULAWESI, INDONESIA" .
+_:b36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b36 <http://schema.org/propertyID> "doi" .
+_:b36 <http://schema.org/value> "10.1017/s0960428609005320" .
+<https://doi.org/10.1017/s096042860800509x> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1017/s096042860800509x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1017/s096042860800509x> <http://schema.org/identifier> _:b37 .
+<https://doi.org/10.1017/s096042860800509x> <http://schema.org/name> "BEGONIA VARIPELTATA(BEGONIACEAE): A NEW PELTATE SPECIES FROM SULAWESI, INDONESIA" .
+_:b37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b37 <http://schema.org/propertyID> "doi" .
+_:b37 <http://schema.org/value> "10.1017/s096042860800509x" .
+<https://doi.org/10.1017/s0960428607000777> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1017/s0960428607000777> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1017/s0960428607000777> <http://schema.org/identifier> _:b38 .
+<https://doi.org/10.1017/s0960428607000777> <http://schema.org/name> "BEGONIA CLADOTRICHA (BEGONIACEAE): A NEW SPECIES FROM LAOS" .
+_:b38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b38 <http://schema.org/propertyID> "doi" .
+_:b38 <http://schema.org/value> "10.1017/s0960428607000777" .
+<https://doi.org/10.1017/s0960428606000588> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1017/s0960428606000588> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1017/s0960428606000588> <http://schema.org/identifier> _:b39 .
+<https://doi.org/10.1017/s0960428606000588> <http://schema.org/name> "FOUR NEW SPECIES OF BEGONIA (BEGONIACEAE) FROM SULAWESI" .
+_:b39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b39 <http://schema.org/propertyID> "doi" .
+_:b39 <http://schema.org/value> "10.1017/s0960428606000588" .
+<https://doi.org/10.1600/0363644054782297> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1600/0363644054782297> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1600/0363644054782297> <http://schema.org/identifier> _:b40 .
+<https://doi.org/10.1600/0363644054782297> <http://schema.org/name> "A Phylogeny of Begonia Using Nuclear Ribosomal Sequence Data and Morphological Characters" .
+_:b40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b40 <http://schema.org/propertyID> "doi" .
+_:b40 <http://schema.org/value> "10.1600/0363644054782297" .
+<https://doi.org/10.1016/s0006-3207(02)00375-0> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1016/s0006-3207(02)00375-0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/s0006-3207(02)00375-0> <http://schema.org/identifier> _:b41 .
+<https://doi.org/10.1016/s0006-3207(02)00375-0> <http://schema.org/name> "Population genetic structure in the endemic Begonia of the Socotra archipelago" .
+_:b41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b41 <http://schema.org/propertyID> "doi" .
+_:b41 <http://schema.org/value> "10.1016/s0006-3207(02)00375-0" .
+<https://doi.org/10.1017/s0960428602000082> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1017/s0960428602000082> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1017/s0960428602000082> <http://schema.org/identifier> _:b42 .
+<https://doi.org/10.1017/s0960428602000082> <http://schema.org/name> "A NEW ENDEMIC SPECIES OF BEGONIA (BEGONIACEAE) FROM THE SOCOTRA ARCHIPELAGO" .
+_:b42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b42 <http://schema.org/propertyID> "doi" .
+_:b42 <http://schema.org/value> "10.1017/s0960428602000082" .
+<https://doi.org/10.1046/j.1471-8286.2002.00201.x> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1046/j.1471-8286.2002.00201.x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1046/j.1471-8286.2002.00201.x> <http://schema.org/identifier> _:b43 .
+<https://doi.org/10.1046/j.1471-8286.2002.00201.x> <http://schema.org/name> "Isolation of polymorphic microsatellite markers for Begonia sutherlandii Hook. f." .
+_:b43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b43 <http://schema.org/propertyID> "doi" .
+_:b43 <http://schema.org/value> "10.1046/j.1471-8286.2002.00201.x" .
+<https://doi.org/10.1046/j.1471-8286.2002.00185.x> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.1046/j.1471-8286.2002.00185.x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1046/j.1471-8286.2002.00185.x> <http://schema.org/identifier> _:b44 .
+<https://doi.org/10.1046/j.1471-8286.2002.00185.x> <http://schema.org/name> "Polymorphic microsatellite markers for the Socotran endemic herb Begonia socotrana" .
+_:b44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b44 <http://schema.org/propertyID> "doi" .
+_:b44 <http://schema.org/value> "10.1046/j.1471-8286.2002.00185.x" .
+<https://doi.org/10.3126/botor.v7i0.4386> <http://schema.org/creator> <https://orcid.org/0000-0002-2168-0514> .
+<https://doi.org/10.3126/botor.v7i0.4386> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.3126/botor.v7i0.4386> <http://schema.org/identifier> _:b45 .
+<https://doi.org/10.3126/botor.v7i0.4386> <http://schema.org/name> "Distribution Patterns of Begonia species in the Nepal Himalaya" .
+_:b45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b45 <http://schema.org/propertyID> "doi" .
+_:b45 <http://schema.org/value> "10.3126/botor.v7i0.4386" .
+_:b46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+_:b46 <http://schema.org/identifier> _:b47 .
+_:b46 <http://schema.org/name> "Royal Botanic Garden Edinburgh" .
+_:b47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b47 <http://schema.org/propertyID> "RINGGOLD" .
+_:b47 <http://schema.org/value> "41803" .
+_:b48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b48 <http://schema.org/propertyID> "Loop profile" .
+_:b48 <http://schema.org/value> "845425" .
+_:b49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:b49 <http://schema.org/propertyID> "Loop profile" .
+_:b49 <http://schema.org/value> "826408" .
