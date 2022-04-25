@@ -413,6 +413,45 @@ An earlier version of EOL supported JSON-LD via their API (trait bank). They had
 }
 ```
 
+## Google Knowledge Graph query
+
+Search result from Google’s API `https://kgsearch.googleapis.com/v1/entities:search?query=Gerald%20R.%20Allen&key=<apikey>&indent=true&limit=10`, results presented as a `schema:ItemList` with each hit as an element of `itemListElement`.
+
+```json
+{
+  "@context": {
+    "goog": "http://schema.googleapis.com/",
+    "resultScore": "goog:resultScore",
+    "detailedDescription": "goog:detailedDescription",
+    "@vocab": "http://schema.org/",
+    "kg": "http://g.co/kg",
+    "EntitySearchResult": "goog:EntitySearchResult"
+  },
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+      "result": {
+        "@id": "kg:/m/05vfnbs",
+        "@type": [
+          "Thing",
+          "Person"
+        ],
+        "name": "Gerald R. Allen",
+        "detailedDescription": {
+          "url": "https://en.wikipedia.org/wiki/Gerald_R._Allen",
+          "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+          "articleBody": "Gerald Robert \"Gerry\" Allen is an American-born Australian ichthyologist. His career began in 1963, when he spent a semester at the University of Hawaii, where he also received a PhD in marine zoology in 1971. "
+        },
+        "description": "Australian ichthyologist"
+      },
+      "@type": "EntitySearchResult",
+      "resultScore": 74.39900970458984
+    }
+  ]
+}
+```
+
+
 ## ISSN
 
 The [ISSN Portal supports linked data](https://portal.issn.org), for example `https://portal.issn.org/resource/ISSN/2589-3831?format=json` returns JSON-LD.
