@@ -1,0 +1,24 @@
+{
+  "@context": "http://schema.org",
+  "@graph": [{
+    "@type": "ScholarlyArticle",
+    "name": "A Revision of the Genus Stenolechia MEYRICK from Japan (Lepidoptera, Gelechiidae)",
+    "description": "Six Japanese species of the genus Stenolechia excluding issikiella are treated. Three new species, S. robusta, squamifera and rectivalva are described and figured. The male genitalia of S. notomochla are described for the first time. Keys to the species are provided.",
+    "author": "KANAZAWA Itaru",
+    "publisher": {
+      "@type": "Organization",
+      "name": "THE LEPIDOPTEROLOGICAL SOCIETY OF JAPAN"
+    },
+    "publication": "Lepidoptera Science",
+    "datePublished": "1984",
+    "pageStart": "93",
+    "pageEnd": "120",
+    "identifier": {
+      "@type": "DOI",
+      "text": "10.18984/lepid.35.3_93"
+    },
+    "keywords": "",
+    "inLanguage": "en",
+    "url": "https://cir.nii.ac.jp/crid/1390282680241132288"
+  }]
+}

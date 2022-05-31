@@ -1,0 +1,187 @@
+{
+    "@context": {
+        "@vocab": "https://cir.nii.ac.jp/schema/1.0/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+        "cinii": "http://ci.nii.ac.jp/ns/1.0/",
+        "datacite": "https://schema.datacite.org/meta/kernel-4/",
+        "ndl": "http://ndl.go.jp/dcndl/terms/",
+        "jpcoar": "https://github.com/JPCOAR/schema/blob/master/1.0/"
+    },
+    "@id": "https://cir.nii.ac.jp/crid/1390282680241132288.json",
+    "@type": "Article",
+    "productIdentifier": [
+        {
+            "identifier": {
+                "@type": "DOI",
+                "@value": "10.18984/lepid.35.3_93"
+            }
+        },
+        {
+            "identifier": {
+                "@type": "NAID",
+                "@value": "110007707553"
+            }
+        },
+        {
+            "identifier": {
+                "@type": "NDL_BIB_ID",
+                "@value": "3022597"
+            }
+        },
+        {
+            "identifier": {
+                "@type": "URI",
+                "@value": "http://id.ndl.go.jp/bib/3022597"
+            }
+        }
+    ],
+    "dc:title": [
+        {
+            "@language": "ja",
+            "@value": "日本産Stenolechia属キバガの再検討"
+        },
+        {
+            "@language": "en",
+            "@value": "A Revision of the Genus Stenolechia MEYRICK from Japan (Lepidoptera, Gelechiidae)"
+        },
+        {
+            "@value": "日本産Stenolechia属キバガの再検討〔英文〕"
+        },
+        {
+            "@language": "ja-Kana",
+            "@value": "ニホンサンStenolechiaゾク キバガ ノ サイケントウ エイブン"
+        }
+    ],
+    "dc:language": "en",
+    "description": [
+        {
+            "type": "abstract",
+            "notation": [
+                {
+                    "@language": "en",
+                    "@value": "Six Japanese species of the genus Stenolechia excluding issikiella are treated. Three new species, S. robusta, squamifera and rectivalva are described and figured. The male genitalia of S. notomochla are described for the first time. Keys to the species are provided."
+                },
+                {
+                    "@language": "ja",
+                    "@value": "Stenolechia属は,旧北区および東洋区から14種知られ,前翅の脈R_4,R_5,M_1の共通柄の存在とM_3とCulbの消失で特徴づけられる.我国から4種が記載されているが,いずれも白っぽい地色の前翅に数個の黒点を持つ小型のキバガで,これら日本産全種に共通する雄交尾器のsaccusとaedeagusの融合は・他の鱗翅類にみられないまれな共有新形質である.ところが,この中でS.issikiellaは,他の3種とは翅脈相と雄交尾器において大きく異なるので,この研究の対象から除外した.また,既知種S.notomochlaの雄交尾器を初めて記載し,以下の3新種を記載した.Stenolechia robusta KANAZAWA ツシマチビキバガ 日本産Stenolechia属の中では前翅が最も灰色がかった種で,大きさと雄交尾器形態はS.notomochlaに似る.notomochlaとは,頭胸部の地色が白色で雄交尾器のanellusに突起を持たないことで区別される.雄交尾器では,強い骨化,腹方に腕曲した長いaedeagus,そして中央が強くくびれたtegumenにより,雌交尾器では,細長くへら状の第8腹節腹板の存在により同定できる.対馬で10月に採集されている. Stenolechia squamifera KANAZAWA ウロコホソハネキバガ 外観はS>rectivalvaに似ており,後翅が台形でなく徐々に細くなること,雄交尾器のvinculumの消失と短いaedeagusという点において共通しているが,雄の触角に密な微感覚毛を持つことで区別される.雄交尾器では,uncus腹面の変形した鱗粉と強く腹方に腕曲したaedeagusのsubzonal sheathにより,雌交尾器では,2つの大きな板状のsignaにより同定できる.九州と対馬に分布する.なお本文中には述べていないが,これらの産地のものとは雄交尾器に小さな違いが認められる個体が,本州と西表島で採集されている. Stenolechia rectivalva KANAZAWA シロホソハネキバガ 雄交尾器では,ほぼまっすぐなcostal armと少し骨化したgnathal lobeにより,雌交尾器では,帯状のsignumにより容易に同定できる.岐阜県上宝村新穂高温泉で6月に採集されている。岡田(1962)のコメツガチビキバガという不明種があるいはこの種かもしれない.参考のために,以下に外部形態に基づく日本産Stenolechia属6種の検索表を示す.1.後翅は先端に向って徐々に細くなり,肛(臀)角が不明瞭である…2-後翅はキバガ科の種で通常見られるように台形に近く,肛角が明瞭である…3 2.頭部の地色は白色がかったオーカー色(黄土色)で,暗色の小斑点を散在し,背面の多くの鱗粉は茶色の横帯を先端近くに持つ;中胸背板は前方に一対の暗色小斑を,後方に1個の大斑を有する;雄触角の鞭節は太く,全体に密な微小で直立した感覚毛を具える…squamifera KANAZAWA-頭部は白色で暗色の小斑点を欠き,背面の鱗粉は純白である;中胸背板は背面中央に1個の暗色大斑を持つのみである;雄触角の鞭節は多少細く,前述のような直立した感覚毛を欠く…recrivalva KANAZAWA 3.小型の種で,前翅長は2.9-3.7mm;雄触角の鞭節は太く,まばらな微小で直立した感覚毛を具える…4-大型の種で,前翅長は4.2-5.9mm;雄触角の鞭節は細く,直立した感覚毛を欠く …5 4.前翅は黄色鱗粉を散布する;頭部背面は白色がかったオーカー色で,明瞭な斑点を欠く…bathrodyas MEYRICK-前翅は黄色鱗粉を欠く;頭部背面の地色は白色がかったオーカー色だが,明瞭な暗色小斑を持つ…Kodamai OKADA 5.頭部は白色で,数個の明瞭な暗色小斑を持つ;前翅の地色は灰色で,長さは4.5-5.9mm…robusta KANAZAWA-頭部はオーカー色で,多くは不明瞭な枯葉色の小斑を持つ;前翅の地色は灰色がかったオーカー色で,長さは4.2-5.0mm…notmochla MEYRICK"
+                }
+            ]
+        }
+    ],
+    "creator": [
+        {
+            "@id": "https://cir.nii.ac.jp/crid/1410001205410563840",
+            "@type": "Researcher",
+            "personIdentifier": [
+                {
+                    "@type": "NRID",
+                    "@value": "1000004760041"
+                }
+            ],
+            "foaf:name": [
+                {
+                    "@language": "ja",
+                    "@value": "金沢 至"
+                },
+                {
+                    "@language": "en",
+                    "@value": "KANAZAWA Itaru"
+                }
+            ],
+            "jpcoar:affiliationName": [
+                {
+                    "@language": "en",
+                    "@value": "Entomological Laboratory, Faculty of Agriculture, Kyushu University"
+                }
+            ]
+        }
+    ],
+    "publication": {
+        "publicationIdentifier": [
+            {
+                "@type": "PISSN",
+                "@value": "0024-0974"
+            },
+            {
+                "@type": "EISSN",
+                "@value": "1880-8077"
+            },
+            {
+                "@type": "NDL_BIB_ID",
+                "@value": "000000015264"
+            },
+            {
+                "@type": "NCID",
+                "@value": "AN0040888X"
+            }
+        ],
+        "prism:publicationName": [
+            {
+                "@language": "ja",
+                "@value": "蝶と蛾"
+            },
+            {
+                "@language": "en",
+                "@value": "Lepidoptera Science"
+            },
+            {
+                "@language": "en",
+                "@value": "Cho to Ga"
+            },
+            {
+                "@language": "en",
+                "@value": "Trans. lepid. Soc. Japan"
+            },
+            {
+                "@language": "en",
+                "@value": "Tyo to Ga"
+            },
+            {
+                "@language": "ja",
+                "@value": "蝶と蛾"
+            },
+            {
+                "@language": "en",
+                "@value": "Transaction of the Lepidopterological Society of Japan"
+            }
+        ],
+        "dc:publisher": [
+            {
+                "@language": "en",
+                "@value": "THE LEPIDOPTEROLOGICAL SOCIETY OF JAPAN"
+            },
+            {
+                "@language": "ja",
+                "@value": "日本鱗翅学会"
+            }
+        ],
+        "prism:publicationDate": "1984",
+        "prism:volume": "35",
+        "prism:number": "3",
+        "prism:startingPage": "93",
+        "prism:endingPage": "120"
+    },
+    "url": [
+        {
+            "@id": "http://id.ndl.go.jp/bib/3022597"
+        }
+    ],
+    "dataSourceIdentifier": [
+        {
+            "@type": "JALC",
+            "@value": "oai:japanlinkcenter.org:2003075338"
+        },
+        {
+            "@type": "CIA",
+            "@value": "110007707553"
+        },
+        {
+            "@type": "NDL",
+            "@value": "oai:iss.ndl.go.jp:R000000004-I3022597-00"
+        }
+    ]
+}
