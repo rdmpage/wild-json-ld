@@ -1,0 +1,89 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://hollowlands.com/books/the-chained-adept/mistress-of-animals/",
+      "url": "https://hollowlands.com/books/the-chained-adept/mistress-of-animals/",
+      "name": "Book - Mistress of Animals - Karen Myers | HollowLands",
+      "isPartOf": {
+        "@id": "https://hollowlands.com/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hollowlands.com/books/the-chained-adept/mistress-of-animals/#primaryimage"
+      },
+      "image": {
+        "@id": "https://hollowlands.com/books/the-chained-adept/mistress-of-animals/#primaryimage"
+      },
+      "thumbnailUrl": "https://hollowlands.com/wp-content/uploads/2018/10/Mistress-of-Animals-Full-Front-Cover-297x459.jpg",
+      "datePublished": "2016-01-31T21:43:28+00:00",
+      "dateModified": "2020-01-22T02:48:44+00:00",
+      "breadcrumb": {
+        "@id": "https://hollowlands.com/books/the-chained-adept/mistress-of-animals/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://hollowlands.com/books/the-chained-adept/mistress-of-animals/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://hollowlands.com/books/the-chained-adept/mistress-of-animals/#primaryimage",
+      "url": "https://hollowlands.com/wp-content/uploads/2018/10/Mistress-of-Animals-Full-Front-Cover-297x459.jpg",
+      "contentUrl": "https://hollowlands.com/wp-content/uploads/2018/10/Mistress-of-Animals-Full-Front-Cover-297x459.jpg"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hollowlands.com/books/the-chained-adept/mistress-of-animals/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hollowlands.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Books",
+          "item": "https://hollowlands.com/books/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "The Chained Adept",
+          "item": "https://hollowlands.com/books/the-chained-adept/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Mistress of Animals"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://hollowlands.com/#website",
+      "url": "https://hollowlands.com/",
+      "name": "HollowLands",
+      "description": "A Writer&#039;s Blog",
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://hollowlands.com/?s={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      ],
+      "inLanguage": "en-US"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+    "@graph": [
+        {
+            "@id": "http://dewey.info/class/813.6/e23/",
+            "@type": "schema:Intangible"
+        },
+        {
+            "@id": "http://experiment.worldcat.org/entity/work/data/3805473256#Person/myers_karen_1953",
+            "@type": "schema:Person",
+            "birthDate": "1953",
+            "familyName": "Myers",
+            "givenName": "Karen",
+            "name": "Karen Myers"
+        },
+        {
+            "@id": "http://experiment.worldcat.org/entity/work/data/3805473256#Series/the_chained_adept",
+            "@type": "bgn:PublicationSeries",
+            "hasPart": "http://www.worldcat.org/oclc/957077876",
+            "name": "The chained adept ;"
+        },
+        {
+            "@id": "http://id.loc.gov/vocabulary/countries/pau",
+            "@type": "schema:Place",
+            "identifier": "pau"
+        },
+        {
+            "@id": "http://worldcat.org/isbn/9781629620329",
+            "@type": "schema:ProductModel",
+            "isbn": [
+                "9781629620329",
+                "1629620327"
+            ]
+        },
+        {
+            "@id": "http://www.worldcat.org/oclc/957077876",
+            "@type": [
+                "schema:CreativeWork",
+                "schema:Book"
+            ],
+            "oclcnum": "957077876",
+            "placeOfPublication": "http://id.loc.gov/vocabulary/countries/pau",
+            "about": "http://dewey.info/class/813.6/e23/",
+            "author": "http://experiment.worldcat.org/entity/work/data/3805473256#Person/myers_karen_1953",
+            "bookEdition": "First edition.",
+            "bookFormat": "bgn:PrintBook",
+            "datePublished": "2016",
+            "exampleOfWork": "http://worldcat.org/entity/work/id/3805473256",
+            "genre": [
+                {
+                    "@language": "en",
+                    "@value": "Fantasy fiction"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Fiction"
+                }
+            ],
+            "inLanguage": "en",
+            "isPartOf": "http://experiment.worldcat.org/entity/work/data/3805473256#Series/the_chained_adept",
+            "name": {
+                "@language": "en",
+                "@value": "Mistress of animals"
+            },
+            "productID": "957077876",
+            "workExample": "http://worldcat.org/isbn/9781629620329",
+            "describedby": "http://www.worldcat.org/title/-/oclc/957077876"
+        },
+        {
+            "@id": "http://www.worldcat.org/title/-/oclc/957077876",
+            "@type": [
+                "genont:ContentTypeGenericResource",
+                "genont:InformationResource"
+            ],
+            "inDataset": "http://purl.oclc.org/dataset/WorldCat",
+            "about": "http://www.worldcat.org/oclc/957077876",
+            "dateModified": "2022-01-04"
+        }
+    ],
+    "@context": {
+        "author": {
+            "@id": "http://schema.org/author",
+            "@type": "@id"
+        },
+        "name": {
+            "@id": "http://schema.org/name"
+        },
+        "genre": {
+            "@id": "http://schema.org/genre"
+        },
+        "inLanguage": {
+            "@id": "http://schema.org/inLanguage"
+        },
+        "productID": {
+            "@id": "http://schema.org/productID"
+        },
+        "bookFormat": {
+            "@id": "http://schema.org/bookFormat",
+            "@type": "@id"
+        },
+        "workExample": {
+            "@id": "http://schema.org/workExample",
+            "@type": "@id"
+        },
+        "datePublished": {
+            "@id": "http://schema.org/datePublished"
+        },
+        "describedby": {
+            "@id": "http://www.w3.org/2007/05/powder-s#describedby",
+            "@type": "@id"
+        },
+        "oclcnum": {
+            "@id": "http://purl.org/library/oclcnum"
+        },
+        "exampleOfWork": {
+            "@id": "http://schema.org/exampleOfWork",
+            "@type": "@id"
+        },
+        "bookEdition": {
+            "@id": "http://schema.org/bookEdition"
+        },
+        "about": {
+            "@id": "http://schema.org/about",
+            "@type": "@id"
+        },
+        "isPartOf": {
+            "@id": "http://schema.org/isPartOf",
+            "@type": "@id"
+        },
+        "placeOfPublication": {
+            "@id": "http://purl.org/library/placeOfPublication",
+            "@type": "@id"
+        },
+        "familyName": {
+            "@id": "http://schema.org/familyName"
+        },
+        "givenName": {
+            "@id": "http://schema.org/givenName"
+        },
+        "birthDate": {
+            "@id": "http://schema.org/birthDate"
+        },
+        "identifier": {
+            "@id": "http://purl.org/dc/terms/identifier"
+        },
+        "hasPart": {
+            "@id": "http://schema.org/hasPart",
+            "@type": "@id"
+        },
+        "dateModified": {
+            "@id": "http://schema.org/dateModified"
+        },
+        "inDataset": {
+            "@id": "http://rdfs.org/ns/void#inDataset",
+            "@type": "@id"
+        },
+        "isbn": {
+            "@id": "http://schema.org/isbn"
+        },
+        "schema": "http://schema.org/",
+        "library": "http://purl.org/library/",
+        "genont": "http://www.w3.org/2006/gen/ont#",
+        "void": "http://rdfs.org/ns/void#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "bgn": "http://bibliograph.net/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "wdrs": "http://www.w3.org/2007/05/powder-s#",
+        "pto": "http://www.productontology.org/id/"
+    }
+}

@@ -4,6 +4,8 @@ Real world JSON-LD examples we can use for inspiration. Some of these examples m
 
 I’ve highlighted some interesting features, such as use of the `@reverse` keyword, and ordering items in a list.
 
+See also [mhausenblas/schema-org-rdf](https://github.com/mhausenblas/schema-org-rdf/tree/master/examples).
+
 ## Bionomia
 
 JSON-LD for [https://bionomia.net/occurrence/477976412](477976412), see https://twitter.com/dpsSpiders/status/1431258387145179148?s=20
@@ -692,6 +694,48 @@ Search result from Google’s API `https://kgsearch.googleapis.com/v1/entities:s
 }
 ```
 
+## Hollow Lands book
+
+Embedded markup for a book from [Mistress of Animals](https://hollowlands.com/books/the-chained-adept/mistress-of-animals/), see [Using Schema.org for books – an example](https://hollowlands.com/2018/02/using-schema-org-for-books-an-example/) for description of approach. 
+
+- :x: Web page has two sets of embedded JSON-LD, one to describe the web page and associated images, one to describe the book. 
+
+- :x: Note use of `https://www.worldcat.org/oclc/957077876` as `@id`, and `workExample` to link to different ISBNs.
+
+```json
+{
+  "@context": "http://schema.org",
+  "@type": "Book",
+  "@id": "https://www.worldcat.org/oclc/957077876",
+  "name": "Mistress of Animals",
+  "author": {
+    "@type": "Person",
+    "name": "Karen Myers",
+    "sameas": "http://isni.org/isni/0000000036263292"
+  },
+  "publisher": {
+     "@type": "Organization",
+     "name": "Perkunas Press"
+  },
+  "url": "https://hollowlands.com/books/the-chained-adept/mistress-of-animals/",
+  "image": "https://hollowlands.com/wp-content/uploads/2018/10/Mistress-of-Animals-Full-Front-Cover-297x459.jpg",
+  "description": "Book 2 of The Chained Adept, a heroic fantasy series",
+  "workExample": [{
+    "@type": "Book",
+    "isbn": "9781629620329",
+    "numberofpages": "344",
+    "bookFormat": "http://schema.org/Paperback",
+    "exampleofwork": "http://worldcat.org/isbn/9781629620299"
+    },{
+    "@type": "Book",
+    "isbn": "9781629620336",
+    "numberofpages": "344",
+    "bookFormat": "http://schema.org/EBook",
+    "exampleofwork": "http://worldcat.org/isbn/9781629620336"
+    }]
+}
+```
+
 
 ## ISSN
 
@@ -1204,6 +1248,184 @@ So to store an ordered list of authors we create a [singly-linked list](https://
 }
 ```
 
+## WorldCat
+
+WorldCat uses content-negotiation, see [Content-Negotiation for WorldCat](https://www.dataliberate.com/2013/06/03/content-negotiation-for-worldcat/) as well as extensions, e.g. https://www.worldcat.org/oclc/957077876.jsonld.
+
+The example below is the WorldCat record for the Hollow Lands book example discussed above.
+
+```json
+{
+    "@graph": [
+        {
+            "@id": "http://dewey.info/class/813.6/e23/",
+            "@type": "schema:Intangible"
+        },
+        {
+            "@id": "http://experiment.worldcat.org/entity/work/data/3805473256#Person/myers_karen_1953",
+            "@type": "schema:Person",
+            "birthDate": "1953",
+            "familyName": "Myers",
+            "givenName": "Karen",
+            "name": "Karen Myers"
+        },
+        {
+            "@id": "http://experiment.worldcat.org/entity/work/data/3805473256#Series/the_chained_adept",
+            "@type": "bgn:PublicationSeries",
+            "hasPart": "http://www.worldcat.org/oclc/957077876",
+            "name": "The chained adept ;"
+        },
+        {
+            "@id": "http://id.loc.gov/vocabulary/countries/pau",
+            "@type": "schema:Place",
+            "identifier": "pau"
+        },
+        {
+            "@id": "http://worldcat.org/isbn/9781629620329",
+            "@type": "schema:ProductModel",
+            "isbn": [
+                "9781629620329",
+                "1629620327"
+            ]
+        },
+        {
+            "@id": "http://www.worldcat.org/oclc/957077876",
+            "@type": [
+                "schema:CreativeWork",
+                "schema:Book"
+            ],
+            "oclcnum": "957077876",
+            "placeOfPublication": "http://id.loc.gov/vocabulary/countries/pau",
+            "about": "http://dewey.info/class/813.6/e23/",
+            "author": "http://experiment.worldcat.org/entity/work/data/3805473256#Person/myers_karen_1953",
+            "bookEdition": "First edition.",
+            "bookFormat": "bgn:PrintBook",
+            "datePublished": "2016",
+            "exampleOfWork": "http://worldcat.org/entity/work/id/3805473256",
+            "genre": [
+                {
+                    "@language": "en",
+                    "@value": "Fantasy fiction"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Fiction"
+                }
+            ],
+            "inLanguage": "en",
+            "isPartOf": "http://experiment.worldcat.org/entity/work/data/3805473256#Series/the_chained_adept",
+            "name": {
+                "@language": "en",
+                "@value": "Mistress of animals"
+            },
+            "productID": "957077876",
+            "workExample": "http://worldcat.org/isbn/9781629620329",
+            "describedby": "http://www.worldcat.org/title/-/oclc/957077876"
+        },
+        {
+            "@id": "http://www.worldcat.org/title/-/oclc/957077876",
+            "@type": [
+                "genont:ContentTypeGenericResource",
+                "genont:InformationResource"
+            ],
+            "inDataset": "http://purl.oclc.org/dataset/WorldCat",
+            "about": "http://www.worldcat.org/oclc/957077876",
+            "dateModified": "2022-01-04"
+        }
+    ],
+    "@context": {
+        "author": {
+            "@id": "http://schema.org/author",
+            "@type": "@id"
+        },
+        "name": {
+            "@id": "http://schema.org/name"
+        },
+        "genre": {
+            "@id": "http://schema.org/genre"
+        },
+        "inLanguage": {
+            "@id": "http://schema.org/inLanguage"
+        },
+        "productID": {
+            "@id": "http://schema.org/productID"
+        },
+        "bookFormat": {
+            "@id": "http://schema.org/bookFormat",
+            "@type": "@id"
+        },
+        "workExample": {
+            "@id": "http://schema.org/workExample",
+            "@type": "@id"
+        },
+        "datePublished": {
+            "@id": "http://schema.org/datePublished"
+        },
+        "describedby": {
+            "@id": "http://www.w3.org/2007/05/powder-s#describedby",
+            "@type": "@id"
+        },
+        "oclcnum": {
+            "@id": "http://purl.org/library/oclcnum"
+        },
+        "exampleOfWork": {
+            "@id": "http://schema.org/exampleOfWork",
+            "@type": "@id"
+        },
+        "bookEdition": {
+            "@id": "http://schema.org/bookEdition"
+        },
+        "about": {
+            "@id": "http://schema.org/about",
+            "@type": "@id"
+        },
+        "isPartOf": {
+            "@id": "http://schema.org/isPartOf",
+            "@type": "@id"
+        },
+        "placeOfPublication": {
+            "@id": "http://purl.org/library/placeOfPublication",
+            "@type": "@id"
+        },
+        "familyName": {
+            "@id": "http://schema.org/familyName"
+        },
+        "givenName": {
+            "@id": "http://schema.org/givenName"
+        },
+        "birthDate": {
+            "@id": "http://schema.org/birthDate"
+        },
+        "identifier": {
+            "@id": "http://purl.org/dc/terms/identifier"
+        },
+        "hasPart": {
+            "@id": "http://schema.org/hasPart",
+            "@type": "@id"
+        },
+        "dateModified": {
+            "@id": "http://schema.org/dateModified"
+        },
+        "inDataset": {
+            "@id": "http://rdfs.org/ns/void#inDataset",
+            "@type": "@id"
+        },
+        "isbn": {
+            "@id": "http://schema.org/isbn"
+        },
+        "schema": "http://schema.org/",
+        "library": "http://purl.org/library/",
+        "genont": "http://www.w3.org/2006/gen/ont#",
+        "void": "http://rdfs.org/ns/void#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "bgn": "http://bibliograph.net/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "wdrs": "http://www.w3.org/2007/05/powder-s#",
+        "pto": "http://www.productontology.org/id/"
+    }
+}
+```
 
 ## Zenodo
 

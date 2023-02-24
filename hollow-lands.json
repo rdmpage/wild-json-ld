@@ -1,0 +1,34 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Book",
+  "@id": "https://www.worldcat.org/oclc/957077876",
+  "name": "Mistress of Animals",
+  "author": {
+    "@type": "Person",
+    "name": "Karen Myers",
+    "sameas": "http://isni.org/isni/0000000036263292"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Perkunas Press"
+  },
+  "url": "https://hollowlands.com/books/the-chained-adept/mistress-of-animals/",
+  "image": "https://hollowlands.com/wp-content/uploads/2018/10/Mistress-of-Animals-Full-Front-Cover-297x459.jpg",
+  "description": "Book 2 of The Chained Adept, a heroic fantasy series",
+  "workExample": [
+    {
+      "@type": "Book",
+      "isbn": "9781629620329",
+      "numberofpages": "344",
+      "bookFormat": "http://schema.org/Paperback",
+      "exampleofwork": "http://worldcat.org/isbn/9781629620299"
+    },
+    {
+      "@type": "Book",
+      "isbn": "9781629620336",
+      "numberofpages": "344",
+      "bookFormat": "http://schema.org/EBook",
+      "exampleofwork": "http://worldcat.org/isbn/9781629620336"
+    }
+  ]
+}
