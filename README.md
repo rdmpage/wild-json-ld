@@ -877,7 +877,7 @@ The [ISSN Portal supports linked data](https://portal.issn.org), for example `ht
 
 ## NC State University Libraries
 
-For items with IIIF manifests NC State has links to JSON-LD in that uses schema.org. For example, for [A Taxonomic Study of the Leafhopper Genus Empoasca (Homoptera: Cicadellidae) in Eastern Peru, (Technical Bulletin 272), Jul. 1982](https://d.lib.ncsu.edu/collections/catalog/ua101_001_301483_20220606_35533) the IIIF manifest for the viewer is https://d.lib.ncsu.edu/collections/catalog/ua101_001_301497_20220613_35703/manifest. At the end of the manifest is:
+JSON-LD is embedded in the `<body>` of the web page using `<script type=“application/ld+json”>`, and also there is a link in the IIIF manifest. For example, for [A Taxonomic Study of the Leafhopper Genus Empoasca (Homoptera: Cicadellidae) in Eastern Peru, (Technical Bulletin 272), Jul. 1982](https://d.lib.ncsu.edu/collections/catalog/ua101_001_301483_20220606_35533) the IIIF manifest for the viewer is https://d.lib.ncsu.edu/collections/catalog/ua101_001_301497_20220613_35703/manifest. At the end of the manifest is:
 
 ```
     "seeAlso": [
