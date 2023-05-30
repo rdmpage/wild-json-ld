@@ -875,6 +875,86 @@ The [ISSN Portal supports linked data](https://portal.issn.org), for example `ht
 }
 ```
 
+## NC State University Libraries
+
+For items with IIIF manifests NC State has links to JSON-LD in that uses schema.org. For example, for [A Taxonomic Study of the Leafhopper Genus Empoasca (Homoptera: Cicadellidae) in Eastern Peru, (Technical Bulletin 272), Jul. 1982](https://d.lib.ncsu.edu/collections/catalog/ua101_001_301483_20220606_35533) the IIIF manifest for the viewer is https://d.lib.ncsu.edu/collections/catalog/ua101_001_301497_20220613_35703/manifest. At the end of the manifest is:
+
+```
+    "seeAlso": [
+        {
+            "@id": "https://d.lib.ncsu.edu/collections/catalog/oai?identifier=ncsul%2Fua101_001_301497_20220613_35703&metadataPrefix=oai_dc&verb=GetRecord",
+            "format": "text/xml",
+            "label": "Dublin Core XML via OAI-PMH"
+        },
+        {
+            "@id": "https://d.lib.ncsu.edu/collections/catalog/ua101_001_301497_20220613_35703/schemaorg.json",
+            "format": "application/ld+json",
+            "profile": "https://schema.org",
+            "label": "Schema.org metadata as JSON-LD"
+        }
+    ]
+```
+
+The URL https://d.lib.ncsu.edu/collections/catalog/ua101_001_301483_20220606_35533/schemaorg.json resolves to the JSON-LD below. It is “typical” library metadata, that is, lacks the author so the creator is the institution, the keywords are generic, there is no volume or pagination, etc.
+
+```json
+{
+    "@context": "http://schema.org",
+    "@type": "CreativeWork",
+    "@id": "https://d.lib.ncsu.edu/collections/catalog/ua101_001_301483_20220606_35533",
+    "url": "https://d.lib.ncsu.edu/collections/catalog/ua101_001_301483_20220606_35533",
+    "name": "A Taxonomic Study of the Leafhopper Genus Empoasca (Homoptera: Cicadellidae) in Eastern Peru, (Technical Bulletin 272), Jul. 1982",
+    "thumbnailUrl": "https://iiif.lib.ncsu.edu/iiif/ua101_001_301483_20220606_35533_0001/full/350,/0/default.jpg",
+    "image": "https://iiif.lib.ncsu.edu/iiif/ua101_001_301483_20220606_35533_0001/full/350,/0/default.jpg",
+    "creator": [
+        {
+            "name": "North Carolina Cooperative Extension Service",
+            "description": "North Carolina Agricultural Extension Service is a cooperative service between North Carolina State University, North Carolina Agricultural and Technical University, and the U.S. Dept. of Agriculture; located on campus of N.C. State University.",
+            "@type": "Organization",
+            "sameAs": "http://id.loc.gov/authorities/names/no92011129"
+        }
+    ],
+    "dateCreated": "1982-06",
+    "about": [
+        {
+            "@type": "Thing",
+            "name": "Agriculture"
+        },
+        {
+            "@type": "Thing",
+            "name": "Community and Extension"
+        },
+        {
+            "@type": "Thing",
+            "name": "Insects",
+            "sameAs": "http://id.loc.gov/authorities/subjects/sh85066670"
+        }
+    ],
+    "keywords": [
+        "Agriculture",
+        "Community and Extension"
+    ],
+    "genre": [
+        "Agricultural literature"
+    ],
+    "isPartOf": [
+        "https://d.lib.ncsu.edu/collections/catalog?f%5Bispartof_facet%5D%5B%5D=Project+CERES",
+        "https://d.lib.ncsu.edu/collections/catalog?f%5Bispartof_facet%5D%5B%5D=NC+Agricultural+Research+Service+Technical+Bulletin"
+    ],
+    "contentLocation": [
+        {
+            "@type": "Place",
+            "name": "North Carolina",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "35.50069",
+                "longitude": "-80.00032"
+            }
+        }
+    ]
+}
+```
+
 
 ## ORCID
 

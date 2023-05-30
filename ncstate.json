@@ -1,0 +1,55 @@
+{
+    "@context": "http://schema.org",
+    "@type": "CreativeWork",
+    "@id": "https://d.lib.ncsu.edu/collections/catalog/ua101_001_301483_20220606_35533",
+    "url": "https://d.lib.ncsu.edu/collections/catalog/ua101_001_301483_20220606_35533",
+    "name": "A Taxonomic Study of the Leafhopper Genus Empoasca (Homoptera: Cicadellidae) in Eastern Peru, (Technical Bulletin 272), Jul. 1982",
+    "thumbnailUrl": "https://iiif.lib.ncsu.edu/iiif/ua101_001_301483_20220606_35533_0001/full/350,/0/default.jpg",
+    "image": "https://iiif.lib.ncsu.edu/iiif/ua101_001_301483_20220606_35533_0001/full/350,/0/default.jpg",
+    "creator": [
+        {
+            "name": "North Carolina Cooperative Extension Service",
+            "description": "North Carolina Agricultural Extension Service is a cooperative service between North Carolina State University, North Carolina Agricultural and Technical University, and the U.S. Dept. of Agriculture; located on campus of N.C. State University.",
+            "@type": "Organization",
+            "sameAs": "http://id.loc.gov/authorities/names/no92011129"
+        }
+    ],
+    "dateCreated": "1982-06",
+    "about": [
+        {
+            "@type": "Thing",
+            "name": "Agriculture"
+        },
+        {
+            "@type": "Thing",
+            "name": "Community and Extension"
+        },
+        {
+            "@type": "Thing",
+            "name": "Insects",
+            "sameAs": "http://id.loc.gov/authorities/subjects/sh85066670"
+        }
+    ],
+    "keywords": [
+        "Agriculture",
+        "Community and Extension"
+    ],
+    "genre": [
+        "Agricultural literature"
+    ],
+    "isPartOf": [
+        "https://d.lib.ncsu.edu/collections/catalog?f%5Bispartof_facet%5D%5B%5D=Project+CERES",
+        "https://d.lib.ncsu.edu/collections/catalog?f%5Bispartof_facet%5D%5B%5D=NC+Agricultural+Research+Service+Technical+Bulletin"
+    ],
+    "contentLocation": [
+        {
+            "@type": "Place",
+            "name": "North Carolina",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "35.50069",
+                "longitude": "-80.00032"
+            }
+        }
+    ]
+}
