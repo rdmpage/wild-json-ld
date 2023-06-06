@@ -1328,6 +1328,60 @@ So to store an ordered list of authors we create a [singly-linked list](https://
 }
 ```
 
+## Taylor and Francis
+
+Taylor and Francis embeds JSON-LD in their web pages, e.g. https://www.tandfonline.com/doi/abs/10.1080/12265071.1998.9647387 but this only describes the `BreadcrumbList` for the web page, not the article.
+
+- :warning: Describes web page breadcrumbs, not the article.
+
+
+[tandf.json](tandf.json)
+
+
+```json
+[
+
+    {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement":
+    [{
+    "@type": "ListItem",
+    "position": "1",
+    "name": "Home"
+    ,"item": "https://www.tandfonline.com/"
+    },{
+    "@type": "ListItem",
+    "position": "2",
+    "name": "All Journals"
+    ,"item": "https://www.tandfonline.com/action/showPublications?pubType=journal"
+    },{
+    "@type": "ListItem",
+    "position": "3",
+    "name": "Korean Journal of Biological Sciences"
+    ,"item": "https://www.tandfonline.com/tacs18"
+    },{
+    "@type": "ListItem",
+    "position": "4",
+    "name": "List of Issues"
+    ,"item": "https://www.tandfonline.com/loi/tacs18"
+    },{
+    "@type": "ListItem",
+    "position": "5",
+    "name": "Volume 2, Issue 1"
+    ,"item": "https://www.tandfonline.com/toc/tacs18/2/1"
+    },{
+    "@type": "ListItem",
+    "position": "6",
+    "name": "Acheilognathus majusculus, a new bitterl .... "
+    
+    }]
+    }
+
+]
+```
+
+
 ## WorldCat
 
 WorldCat uses content-negotiation, see [Content-Negotiation for WorldCat](https://www.dataliberate.com/2013/06/03/content-negotiation-for-worldcat/) as well as extensions, e.g. https://www.worldcat.org/oclc/957077876.jsonld.
