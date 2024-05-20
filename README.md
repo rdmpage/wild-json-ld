@@ -694,6 +694,54 @@ Search result from Google’s API `https://kgsearch.googleapis.com/v1/entities:s
 }
 ```
 
+## HUSCAP
+
+The Hokkaido University Collection of Scholarly and Academic Papers (HUSCAP) has JSON-LP embeded in repository items. For example, https://eprints.lib.hokudai.ac.jp/dspace/handle/2115/9222 [hdl:2115/9222](https://hdl.handle.net/2115/9222) looks like this: 
+
+- :x: Note nested `isPartOf` to represent relationship between article, issue, volume, and journal. 
+
+```json
+{
+  "@context": "http://schema.org",
+  "@type": "ScholarlyArticle",
+  "image": "https://eprints.lib.hokudai.ac.jp/image/noimage.png",
+  "author": {
+    "@type": "Person",
+    "name": ["Shiraki, Tokuichi"]
+  },
+  "headline": "Orthoptera of the Japanese Empire 2 (Blattidae)",
+  "name": "Orthoptera of the Japanese Empire 2 (Blattidae)",
+  "datePublished": "1931-07",
+  "publisher": {
+    "@type": "Organization",
+    "name": "松村　松年",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://eprints.lib.hokudai.ac.jp/image/noimage.png"
+    }
+  },
+  "isPartof": {
+    "@type": "PublicationIssue",
+    "issueNumber": "4",
+    "datePublished": "1931-07",
+    "isPartOf": {
+      "@type": "PublicationVolume",
+      "volumeNumber": "5",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "Insecta matsumurana",
+        "issn": "0020-1804",
+        "publisher": "松村　松年"
+      }
+    }
+  },
+  "pageStart": "171",
+  "pageEnd": "209",
+  "identifier": "http://hdl.handle.net/2115/9222"
+}
+```
+
+
 ## Hollow Lands book
 
 Embedded markup for a book from [Mistress of Animals](https://hollowlands.com/books/the-chained-adept/mistress-of-animals/), see [Using Schema.org for books – an example](https://hollowlands.com/2018/02/using-schema-org-for-books-an-example/) for description of approach. 

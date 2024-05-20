@@ -1,0 +1,38 @@
+{
+  "@context": "http://schema.org",
+  "@type": "ScholarlyArticle",
+  "image": "https://eprints.lib.hokudai.ac.jp/image/noimage.png",
+  "author": {
+    "@type": "Person",
+    "name": ["Shiraki, Tokuichi"]
+  },
+  "headline": "Orthoptera of the Japanese Empire 2 (Blattidae)",
+  "name": "Orthoptera of the Japanese Empire 2 (Blattidae)",
+  "datePublished": "1931-07",
+  "publisher": {
+    "@type": "Organization",
+    "name": "松村　松年",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://eprints.lib.hokudai.ac.jp/image/noimage.png"
+    }
+  },
+  "isPartof": {
+    "@type": "PublicationIssue",
+    "issueNumber": "4",
+    "datePublished": "1931-07",
+    "isPartOf": {
+      "@type": "PublicationVolume",
+      "volumeNumber": "5",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "Insecta matsumurana",
+        "issn": "0020-1804",
+        "publisher": "松村　松年"
+      }
+    }
+  },
+  "pageStart": "171",
+  "pageEnd": "209",
+  "identifier": "http://hdl.handle.net/2115/9222"
+}
