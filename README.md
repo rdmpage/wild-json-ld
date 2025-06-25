@@ -925,7 +925,7 @@ The [ISSN Portal supports linked data](https://portal.issn.org), for example `ht
 
 ## NC State University Libraries
 
-JSON-LD is embedded in the `<body>` of the web page using `<script type=“application/ld+json”>`, and also there is a link in the IIIF manifest. For example, for [A Taxonomic Study of the Leafhopper Genus Empoasca (Homoptera: Cicadellidae) in Eastern Peru, (Technical Bulletin 272), Jul. 1982](https://d.lib.ncsu.edu/collections/catalog/ua101_001_301483_20220606_35533) the IIIF manifest for the viewer is https://d.lib.ncsu.edu/collections/catalog/ua101_001_301497_20220613_35703/manifest. At the end of the manifest is:
+JSON-LD is embedded in the `<body>` of the web page using `<script type="application/ld+json">`, and also there is a link in the IIIF manifest. For example, for [A Taxonomic Study of the Leafhopper Genus Empoasca (Homoptera: Cicadellidae) in Eastern Peru, (Technical Bulletin 272), Jul. 1982](https://d.lib.ncsu.edu/collections/catalog/ua101_001_301483_20220606_35533) the IIIF manifest for the viewer is https://d.lib.ncsu.edu/collections/catalog/ua101_001_301497_20220613_35703/manifest. At the end of the manifest is:
 
 ```
     "seeAlso": [
@@ -1003,6 +1003,62 @@ The URL https://d.lib.ncsu.edu/collections/catalog/ua101_001_301483_20220606_355
 }
 ```
 
+## OCLC
+
+JSON-LD is embedded in the `<body>` of the web page using `<script type="application/ld+json">`.
+
+- :warning: Note the use of `https://schema.org` (the HTTPS version of the schema.org URL) for the context.
+
+[oclc](oclc.json)
+
+```
+{
+  "@context": "https://schema.org",
+  "@type": "DataFeed",
+  "dataFeedElement": [{
+    "@context": "https://schema.org",
+    "@id": "https://search.worldcat.org/title/794348397",
+    "@type": "Book",
+    "author": {
+      "@type": "Person",
+      "name": ["Hester Stanhope", "Charles Lewis Meryon"]
+    },
+    "name": "Memoirs of the Lady Hester Stanhope",
+    "url": "https://search.worldcat.org/title/794348397",
+    "workExample": [{
+      "@id": "https://search.worldcat.org/title/794348397",
+      "@type": "Book",
+      "bookFormat": "https://schema.org/EBook",
+      "inLanguage": "eng",
+      "isbn": "",
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "http://example.com/store/9787543321724",
+          "actionPlatform": ["https://schema.org/DesktopWebPlatform", "https://schema.org/AndroidPlatform", "https://schema.org/IOSPlatform"]
+        },
+        "expectsAcceptanceOf": [{
+          "@type": "Offer",
+          "category": "nologinrequired",
+          "eligibleRegion": {
+            "@type": "Country",
+            "name": "US"
+          }
+        }]
+      },
+      "bookEdition": "2d ed",
+      "datePublished": "1846",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "OCLC_NUMBER",
+        "value": "794348397"
+      },
+      "url": "https://search.worldcat.org/title/794348397"
+    }]
+  }]
+}
+```
 
 ## ORCID
 

@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DataFeed",
+  "dataFeedElement": [{
+    "@context": "https://schema.org",
+    "@id": "https://search.worldcat.org/title/794348397",
+    "@type": "Book",
+    "author": {
+      "@type": "Person",
+      "name": ["Hester Stanhope", "Charles Lewis Meryon"]
+    },
+    "name": "Memoirs of the Lady Hester Stanhope",
+    "url": "https://search.worldcat.org/title/794348397",
+    "workExample": [{
+      "@id": "https://search.worldcat.org/title/794348397",
+      "@type": "Book",
+      "bookFormat": "https://schema.org/EBook",
+      "inLanguage": "eng",
+      "isbn": "",
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "http://example.com/store/9787543321724",
+          "actionPlatform": ["https://schema.org/DesktopWebPlatform", "https://schema.org/AndroidPlatform", "https://schema.org/IOSPlatform"]
+        },
+        "expectsAcceptanceOf": [{
+          "@type": "Offer",
+          "category": "nologinrequired",
+          "eligibleRegion": {
+            "@type": "Country",
+            "name": "US"
+          }
+        }]
+      },
+      "bookEdition": "2d ed",
+      "datePublished": "1846",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "OCLC_NUMBER",
+        "value": "794348397"
+      },
+      "url": "https://search.worldcat.org/title/794348397"
+    }]
+  }]
+}
