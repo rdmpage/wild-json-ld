@@ -1,0 +1,75 @@
+
+  {
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.h3g63",
+  "name": "Known knowns, known unknowns, unknown unknowns and unknown knowns in DNA barcoding: a comment on Dowton et al.",
+  "description": [
+    "In a recent commentary, Dowton et al. (2014) propose a framework for \"next-generation\" DNA barcoding, whereby multi-locus datasets are coupled with coalescent-based species delimitation methods to make specimen identifications. They claim single-locus DNA barcoding is outdated, and a multilocus approach superior, with their assertions supported by an analysis of 33 species of Sarcophaga flesh flies. Here, we reanalyse their data and show that a standard DNA barcode analysis is in fact capable of identifying 99.8% (all but one) of their Sarcophaga specimens, and that their conclusions misrepresent their data. We also discuss the benefits and drawbacks to their vision of \"next-gen\" barcoding.",
+    "R script for Sarcophaga reanalysisR script detailing the reanalysis of COI data of Sarcophaga species from Dowton et al. (2014; http://dx.doi.org/10.1093/sysbio/syu028).dowton-reply.RCOI_correctedFasta file of corrected COI sequences from Dowton et al.",
+    ""
+  ],
+  "url": "http://datadryad.org/dataset/doi%253A10.5061%252Fdryad.h3g63",
+  "contentUrl": [
+    "http://datadryad.org/downloads/file_stream/30732",
+    "http://datadryad.org/downloads/file_stream/30733"
+  ],
+  "identifier": "https://doi.org/10.5061/dryad.h3g63",
+  "version": 1,
+  "isAccessibleForFree": true,
+  "keywords": [
+    "multi-species coalescent",
+    "Identification success",
+    "Threshold optimisation"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Rupert A. Collins",
+      "givenName": "Rupert A.",
+      "familyName": "Collins",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/02263ky35",
+        "name": "Universidade Federal do Amazonas"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Robert H. Cruickshank",
+      "givenName": "Robert H.",
+      "familyName": "Cruickshank",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/02263ky35",
+        "name": "Universidade Federal do Amazonas"
+      }
+    }
+  ],
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "application/zip",
+    "contentUrl": "http://datadryad.org/api/v2/datasets/doi%253A10.5061%252Fdryad.h3g63/download"
+  },
+  "temporalCoverage": [
+    "2014",
+    "2014-08-07T14:06:08Z"
+  ],
+  "spatialCoverage": [],
+  "citation": "http://doi.org/10.1093/sysbio/syu060",
+  "license": {
+    "@type": "CreativeWork",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "license": "https://spdx.org/licenses/CC0-1.0.html"
+  },
+  "publisher": {
+    "@id": "https://datadryad.org",
+    "@type": "Organization",
+    "legalName": "Dryad Data Platform",
+    "name": "Dryad",
+    "url": "https://datadryad.org"
+  },
+  "provider": {
+    "@id": "https://datadryad.org"
+  }
+}
