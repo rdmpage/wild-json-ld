@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "3912d2e4328e9a1d11c0a813d28c9662",
@@ -51,20 +51,24 @@
                 "uri",
                 "url"
             ],
+            "support": {
+                "issues": "https://github.com/lanthaler/IRI/issues",
+                "source": "https://github.com/lanthaler/IRI/tree/master"
+            },
             "time": "2014-01-21T13:43:39+00:00"
         },
         {
             "name": "ml/json-ld",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lanthaler/JsonLD.git",
-                "reference": "c74a1aed5979ed1cfb1be35a55a305fd30e30b93"
+                "reference": "537e68e87a6bce23e57c575cd5dcac1f67ce25d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lanthaler/JsonLD/zipball/c74a1aed5979ed1cfb1be35a55a305fd30e30b93",
-                "reference": "c74a1aed5979ed1cfb1be35a55a305fd30e30b93",
+                "url": "https://api.github.com/repos/lanthaler/JsonLD/zipball/537e68e87a6bce23e57c575cd5dcac1f67ce25d8",
+                "reference": "537e68e87a6bce23e57c575cd5dcac1f67ce25d8",
                 "shasum": ""
             },
             "require": {
@@ -100,15 +104,20 @@
                 "JSON-LD",
                 "jsonld"
             ],
-            "time": "2020-06-16T17:45:06+00:00"
+            "support": {
+                "issues": "https://github.com/lanthaler/JsonLD/issues",
+                "source": "https://github.com/lanthaler/JsonLD/tree/1.2.1"
+            },
+            "time": "2022-09-29T08:45:17+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": []
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }

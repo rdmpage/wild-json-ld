@@ -1,0 +1,47 @@
+{
+  "name": "Identifiers.org",
+  "description": "The Identifiers.org registry contains registered namespace and provider prefixes with associated access URIs for a large number of high quality data collections. These prefixes are used in web resolution of compact identifiers of the form PREFIX:ACCESSION commonly used to specify bioinformatics and other data resources.",
+  "url": "https://identifiers.org/",
+  "keywords": "registry,life sciences,compact identifier",
+  "provider": {
+    "name": "The European Bioinformatics Institute (EMBL-EBI)",
+    "url": "http://www.ebi.ac.uk/",
+    "contactPoint": {
+      "contactType": "customer support",
+      "email": "identifiers-org@ebi.ac.uk",
+      "url": "https://github.com/identifiers-org/identifiers-org.github.io/issues/new",
+      "@type": "ContactPoint"
+    },
+    "@type": "Organization"
+  },
+  "license": {
+    "name": "Creative Commons CC4 Attribution",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "@type": "CreativeWork"
+  },
+  "publication": [
+    {
+      "name": "Uniform Resolution of Compact Identifiers for Biomedical Data",
+      "url": "http://biorxiv.org/content/early/2017/01/18/101279",
+      "@type": "PublicationEvent"
+    },
+    {
+      "name": "Identifiers.org and MIRIAM Registry: community resources to provide persistent identification.",
+      "url": "https://identifiers.org/pubmed:22140103",
+      "@type": "PublicationEvent"
+    }
+  ],
+  "alternateName": [
+    "Identifiers.org Central Registry"
+  ],
+  "dataset": {
+    "name": "DOI",
+    "description": "The Digital Object Identifier System is for identifying content objects in the digital environment.",
+    "url": "https://registry.identifiers.org/registry/doi#!",
+    "keywords": "registry,life sciences,compact identifier, doi",
+    "@type": "Dataset",
+    "@id": "https://registry.identifiers.org/registry/doi#!"
+  },
+  "@context": "http://schema.org",
+  "@type": "DataCatalog"
+}

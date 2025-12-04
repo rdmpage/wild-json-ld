@@ -1,0 +1,118 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://dataone.org/datasets/doi%3A10.5063%2FF11J9874",
+    "datePublished": "2024-08-28T16:02:54.840Z",
+    "dateModified": "2024-08-28T16:02:56.823Z",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Knowledge Network for Biocomplexity"
+    },
+    "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.5063/F11J9874",
+        "url": "https://doi.org/10.5063/F11J9874"
+    },
+    "url": "https://dataone.org/datasets/doi%3A10.5063%2FF11J9874",
+    "schemaVersion": "https://eml.ecoinformatics.org/eml-2.2.0",
+    "isAccessibleForFree": true,
+    "sameAs": "https://doi.org/10.5063/F11J9874",
+    "name": "Aquatic invertebrates of epiphytic tank bromeliads on the island of Trinidad: An illustrated checklist",
+    "creator": [
+        {
+            "@type": "Person",
+            "name": "Pierre Rogy"
+        },
+        {
+            "@type": "Person",
+            "name": "Diane S. Srivastava"
+        },
+        {
+            "@type": "Person",
+            "name": "Amy E. Deacon"
+        },
+        {
+            "@type": "Person",
+            "name": "Renoir J. Auguste"
+        },
+        {
+            "@type": "Person",
+            "name": "Rachel R. Leong"
+        },
+        {
+            "@type": "Person",
+            "name": "Sinead Stewart"
+        },
+        {
+            "@type": "Person",
+            "name": "Jillon Lewis"
+        },
+        {
+            "@type": "Person",
+            "name": "Nadia Páez-Rosales"
+        },
+        {
+            "@type": "Person",
+            "name": "Pablo Sandoval-Acuña"
+        },
+        {
+            "@type": "Person",
+            "name": "Llevan Ramharrack"
+        }
+    ],
+    "spatialCoverage": {
+        "@type": "Place",
+        "additionalProperty": [
+            {
+                "@type": "PropertyValue",
+                "additionalType": "http://dbpedia.org/resource/Coordinate_reference_system",
+                "name": "Coordinate Reference System",
+                "value": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+            }
+        ],
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.69251,
+            "longitude": -61.28937
+        },
+        "subjectOf": {
+            "@type": "CreativeWork",
+            "fileFormat": "application/vnd.geo+json",
+            "text": "{\"type\":\"Point\",\"coordinates\":[-61.28937,10.69251]}"
+        }
+    },
+    "temporalCoverage": "2022-09-19T00:00:00Z/2022-10-25T00:00:00Z",
+    "variableMeasured": [
+        "site",
+        "date_collected",
+        "bromeliad_id",
+        "genus",
+        "distance_from_ground_cm",
+        "height_mm",
+        "width_mm",
+        "actual_volume_mL",
+        "water_holding_capacity_mL",
+        "longest_leaf_length_mm",
+        "detritus_g_coarse",
+        "detritus_g_fine",
+        "detritus_g_loose",
+        "Class",
+        "Order",
+        "Family",
+        "Subfamily",
+        "Genus",
+        "Species",
+        "n",
+        "stage",
+        "elevation_m",
+        "lon",
+        "lat",
+        "name_clean",
+        "type"
+    ],
+    "description": "Tank bromeliads are common epiphytes throughout the Neotropics. Their leaf rosette stores rainwater and debris, forming the base of aquatic ecosystems with a rich fauna. In this paper, we provide the first illustrated checklist of aquatic bromeliad invertebrates of Trinidad, based on a sample of ~150 plants from the Northern Range. Using a combination of morphological identification and DNA barcoding, we found 44 different invertebrates, distributed across 20 families from four classes, with many rare species. We also include the complete dataset associated with this species guide, in hopes to support future bromeliad research aiming to resolve important biogeographical and ecological questions.",
+    "keywords": "phytotelmata, bromeliads, aquatic invertebrates, checklist, biogeography"
+}

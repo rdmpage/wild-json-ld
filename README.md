@@ -869,6 +869,68 @@ Embedded markup for a book from [Mistress of Animals](https://hollowlands.com/bo
 }
 ```
 
+## Identifiers.org registry
+
+The Identifiers.org registry embeds detailed JSON-LD for an identifier, for example [DOIs](https://registry.identifiers.org/registry/doi).
+
+- :warning: The JSON-LD is embedded `<script id="schemaorg-metadata" type="application/ld+json"></script>` tags.
+
+- :warning: the subject of the JSON-LD is the Identifiers.org `DataCatalog`, with information on DOIs being a `DataSet` in that catalogue.
+
+- :warning: Note use of `publication` to link to keys papers about  Identifiers.org.
+
+[registry.json](registry.json)
+
+```json
+{
+  "name": "Identifiers.org",
+  "description": "The Identifiers.org registry contains registered namespace and provider prefixes with associated access URIs for a large number of high quality data collections. These prefixes are used in web resolution of compact identifiers of the form PREFIX:ACCESSION commonly used to specify bioinformatics and other data resources.",
+  "url": "https://identifiers.org/",
+  "keywords": "registry,life sciences,compact identifier",
+  "provider": {
+    "name": "The European Bioinformatics Institute (EMBL-EBI)",
+    "url": "http://www.ebi.ac.uk/",
+    "contactPoint": {
+      "contactType": "customer support",
+      "email": "identifiers-org@ebi.ac.uk",
+      "url": "https://github.com/identifiers-org/identifiers-org.github.io/issues/new",
+      "@type": "ContactPoint"
+    },
+    "@type": "Organization"
+  },
+  "license": {
+    "name": "Creative Commons CC4 Attribution",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "@type": "CreativeWork"
+  },
+  "publication": [
+    {
+      "name": "Uniform Resolution of Compact Identifiers for Biomedical Data",
+      "url": "http://biorxiv.org/content/early/2017/01/18/101279",
+      "@type": "PublicationEvent"
+    },
+    {
+      "name": "Identifiers.org and MIRIAM Registry: community resources to provide persistent identification.",
+      "url": "https://identifiers.org/pubmed:22140103",
+      "@type": "PublicationEvent"
+    }
+  ],
+  "alternateName": [
+    "Identifiers.org Central Registry"
+  ],
+  "dataset": {
+    "name": "DOI",
+    "description": "The Digital Object Identifier System is for identifying content objects in the digital environment.",
+    "url": "https://registry.identifiers.org/registry/doi#!",
+    "keywords": "registry,life sciences,compact identifier, doi",
+    "@type": "Dataset",
+    "@id": "https://registry.identifiers.org/registry/doi#!"
+  },
+  "@context": "http://schema.org",
+  "@type": "DataCatalog"
+}
+```
+
 
 ## ISSN
 
@@ -1005,6 +1067,139 @@ The [ISSN Portal supports linked data](https://portal.issn.org), for example `ht
       "@type" : "@id"
     }
   }
+}
+```
+
+## KNB The Knowledge Network for Biocomplexity
+
+JSON-LD for https://doi.org/10.5063/F11J9874 (note that the DOI is a `sameAs` link, the actual `@id` is a DataOne URL. Embedded in HTML using <script type="application/ld+json"></script>.
+
+- :warning: Note the use of `https://schema.org` (the HTTPS version of the schema.org URL) for the context.
+
+- :warning: Note the embedded GeoJSON with MIME type `application/vnd.geo+json`: `{"type":"Point","coordinates":[-61.28937,10.69251]}`
+
+- :warning: Note the use of `https://registry.identifiers.org/registry/doi` as the value for `propertyID` for the DOI. 
+
+[knb.json](knb.json)
+
+```json
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "@id": "https://dataone.org/datasets/doi%3A10.5063%2FF11J9874",
+    "datePublished": "2024-08-28T16:02:54.840Z",
+    "dateModified": "2024-08-28T16:02:56.823Z",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Knowledge Network for Biocomplexity"
+    },
+    "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.5063/F11J9874",
+        "url": "https://doi.org/10.5063/F11J9874"
+    },
+    "url": "https://dataone.org/datasets/doi%3A10.5063%2FF11J9874",
+    "schemaVersion": "https://eml.ecoinformatics.org/eml-2.2.0",
+    "isAccessibleForFree": true,
+    "sameAs": "https://doi.org/10.5063/F11J9874",
+    "name": "Aquatic invertebrates of epiphytic tank bromeliads on the island of Trinidad: An illustrated checklist",
+    "creator": [
+        {
+            "@type": "Person",
+            "name": "Pierre Rogy"
+        },
+        {
+            "@type": "Person",
+            "name": "Diane S. Srivastava"
+        },
+        {
+            "@type": "Person",
+            "name": "Amy E. Deacon"
+        },
+        {
+            "@type": "Person",
+            "name": "Renoir J. Auguste"
+        },
+        {
+            "@type": "Person",
+            "name": "Rachel R. Leong"
+        },
+        {
+            "@type": "Person",
+            "name": "Sinead Stewart"
+        },
+        {
+            "@type": "Person",
+            "name": "Jillon Lewis"
+        },
+        {
+            "@type": "Person",
+            "name": "Nadia Páez-Rosales"
+        },
+        {
+            "@type": "Person",
+            "name": "Pablo Sandoval-Acuña"
+        },
+        {
+            "@type": "Person",
+            "name": "Llevan Ramharrack"
+        }
+    ],
+    "spatialCoverage": {
+        "@type": "Place",
+        "additionalProperty": [
+            {
+                "@type": "PropertyValue",
+                "additionalType": "http://dbpedia.org/resource/Coordinate_reference_system",
+                "name": "Coordinate Reference System",
+                "value": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+            }
+        ],
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.69251,
+            "longitude": -61.28937
+        },
+        "subjectOf": {
+            "@type": "CreativeWork",
+            "fileFormat": "application/vnd.geo+json",
+            "text": "{\"type\":\"Point\",\"coordinates\":[-61.28937,10.69251]}"
+        }
+    },
+    "temporalCoverage": "2022-09-19T00:00:00Z/2022-10-25T00:00:00Z",
+    "variableMeasured": [
+        "site",
+        "date_collected",
+        "bromeliad_id",
+        "genus",
+        "distance_from_ground_cm",
+        "height_mm",
+        "width_mm",
+        "actual_volume_mL",
+        "water_holding_capacity_mL",
+        "longest_leaf_length_mm",
+        "detritus_g_coarse",
+        "detritus_g_fine",
+        "detritus_g_loose",
+        "Class",
+        "Order",
+        "Family",
+        "Subfamily",
+        "Genus",
+        "Species",
+        "n",
+        "stage",
+        "elevation_m",
+        "lon",
+        "lat",
+        "name_clean",
+        "type"
+    ],
+    "description": "Tank bromeliads are common epiphytes throughout the Neotropics. Their leaf rosette stores rainwater and debris, forming the base of aquatic ecosystems with a rich fauna. In this paper, we provide the first illustrated checklist of aquatic bromeliad invertebrates of Trinidad, based on a sample of ~150 plants from the Northern Range. Using a combination of morphological identification and DNA barcoding, we found 44 different invertebrates, distributed across 20 families from four classes, with many rare species. We also include the complete dataset associated with this species guide, in hopes to support future bromeliad research aiming to resolve important biogeographical and ecological questions.",
+    "keywords": "phytotelmata, bromeliads, aquatic invertebrates, checklist, biogeography"
 }
 ```
 
@@ -1277,6 +1472,7 @@ OUP embeds JSON-LD in their web pages, e.g. https://academic.oup.com/botlinnean/
   "image": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/botlinnean/Issue/183/3/2/m_cover.jpeg?Expires=1693078539&Signature=yTEaF50jlovutk2hTbTPGXMMOXwNdLPjSu4~cVx4jgX1HJKM2mJbFnInOILp08pNsbCtM9d-dJliWX4oP94FcFYIOauK7Aa5soOcgU5eihKPFTvSIgGGYyIiz-IWPlvWyF6ZOQv4T884bGPujueT2pybcXHqBiEqLVFpF3SYbJxDbGnPyxGFsk23vhfmbdxup4Y5AV~meKeumSYFzNetiZeOXp1xLSYzFb3SeUWNlr~jpzl32xheIekDxtTueD1dBKdd2Lh69p8UUD2rm-g6UGaprmZsXuimn30ZFDXS5Duf6QoXUFfb0PLPEn5D4502L-7to5FOzsy4w7SUdIkr3Q__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
 }
 ```
+
 
 ## ResearchGate
 

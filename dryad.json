@@ -1,5 +1,4 @@
-
-  {
+{
   "@context": "http://schema.org",
   "@type": "Dataset",
   "@id": "https://doi.org/10.5061/dryad.h3g63",
@@ -22,8 +21,7 @@
     "Identification success",
     "Threshold optimisation"
   ],
-  "creator": [
-    {
+  "creator": [{
       "@type": "Person",
       "name": "Rupert A. Collins",
       "givenName": "Rupert A.",

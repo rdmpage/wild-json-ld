@@ -8,12 +8,12 @@ use ML\JsonLD\JsonLD;
 use ML\JsonLD\NQuads;
 
 $filename = 'orcid.json';
+$filename = 'knb.json';
 
 $quads = JsonLD::toRdf($filename);
 
 $nquads = new NQuads();
 $serialized = $nquads->serialize($quads);
 print $serialized;
-
 
 ?>
