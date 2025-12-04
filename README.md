@@ -1,5 +1,7 @@
 # JSON-LD in the wild
 
+[![DOI](https://zenodo.org/badge/400476076.svg)](https://doi.org/10.5281/zenodo.17816273)
+
 Real world JSON-LD examples we can use for inspiration. Some of these examples may no longer be available, or have changed. The JSON displayed here may be truncated to keep the page readable, click on the link to get the complete JSON document. Note that some of the JSON-LD is not valid RDF, much of it has probably never been used by RDF clients such as triple stores.
 
 I’ve highlighted some interesting features, such as use of the `@reverse` keyword, and ordering items in a list.
